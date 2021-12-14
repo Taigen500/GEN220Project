@@ -1,0 +1,160 @@
+# fasta36 A0A1D5RLM8_mouse.fa humanproteome.fa
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8h May, 2020
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: A0A1D5RLM8_mouse.fa
+  1>>>tr|A0A1D5RLM8|A0A1D5RLM8_MOUSE Predicted gene 11639 OS=Mus musculus OX=10090 GN=Gm11639 PE=1 SV=1 - 5808 aa
+Library: humanproteome.fa
+  11394277 residues in 20588 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 11.6227+/-0.00395; mu= 1.3688+/- 0.222
+ mean_var=107.4436+/-20.418, 0's: 0 Z-trim(80.3): 188  B-trim: 7 in 1/49
+ Lambda= 0.123733
+ statistics sampled from 1257 (1339) to 1257 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -10/-2
+ ktup: 2, E-join: 1 (0.226), E-opt: 0.2 (0.065), width:  16
+ Scan time:  5.220
+
+The best scores are:                                      opt bits E(20588)
+sp|Q8N7B9|EFCB3_HUMAN EF-hand calcium-binding doma ( 438) 2072 383.1 2.6e-105
+sp|Q8IY85|EFC13_HUMAN EF-hand calcium-binding doma ( 973) 1197 226.4 8.4e-58
+sp|Q9NZW4|DSPP_HUMAN Dentin sialophosphoprotein OS (1301)  400 83.9 8.6e-15
+sp|Q7Z572|SPT21_HUMAN Spermatogenesis-associated p ( 469)  305 67.6 2.5e-10
+sp|B3KS81|SRRM5_HUMAN Serine/arginine repetitive m ( 715)  260 59.3 1.2e-07
+sp|Q08170|SRSF4_HUMAN Serine/arginine-rich splicin ( 494)  244 56.7 5.2e-07
+sp|P35663|CYLC1_HUMAN Cylicin-1 OS=Homo sapiens OX ( 651)  221 52.4 1.3e-05
+sp|Q17RH7|TPRXL_HUMAN Putative protein TPRXL OS=Ho ( 258)  208 50.7 1.7e-05
+sp|Q7Z6E9|RBBP6_HUMAN E3 ubiquitin-protein ligase  (1792)  228 53.0 2.4e-05
+sp|Q02224|CENPE_HUMAN Centromere-associated protei (2701)  230 53.1 3.4e-05
+sp|Q96GE6|CALL4_HUMAN Calmodulin-like protein 4 OS ( 196)  193 48.2 7.5e-05
+sp|O95218|ZRAB2_HUMAN Zinc finger Ran-binding doma ( 330)  196 48.4 0.00011
+sp|Q5VTL8|PR38B_HUMAN Pre-mRNA-splicing factor 38B ( 546)  199 48.6 0.00016
+sp|Q96QF7|ACRC_HUMAN Acidic repeat-containing prot ( 691)  197 48.1 0.00028
+sp|Q9UKJ3|GPTC8_HUMAN G patch domain-containing pr (1502)  204 48.8 0.00036
+sp|Q15648|MED1_HUMAN Mediator of RNA polymerase II (1581)  201 48.3 0.00056
+sp|Q14978|NOLC1_HUMAN Nucleolar and coiled-body ph ( 699)  187 46.3 0.00098
+sp|Q05519|SRS11_HUMAN Serine/arginine-rich splicin ( 484)  181 45.4  0.0012
+sp|Q8N9E0|F133A_HUMAN Protein FAM133A OS=Homo sapi ( 248)  171 44.1  0.0016
+sp|O95232|LC7L3_HUMAN Luc7-like protein 3 OS=Homo  ( 432)  177 44.8  0.0017
+sp|Q15643|TRIPB_HUMAN Thyroid receptor-interacting (1979)  194 46.9  0.0018
+sp|Q6KC79|NIPBL_HUMAN Nipped-B-like protein OS=Hom (2804)  197 47.2  0.0021
+sp|Q13247|SRSF6_HUMAN Serine/arginine-rich splicin ( 344)  169 43.5  0.0033
+sp|P27482|CALL3_HUMAN Calmodulin-like protein 3 OS ( 149)  155 41.5  0.0056
+sp|Q13523|PRP4B_HUMAN Serine/threonine-protein kin (1007)  177 44.3  0.0057
+sp|P29536|LMOD1_HUMAN Leiomodin-1 OS=Homo sapiens  ( 600)  170 43.3  0.0065
+sp|Q86UP2|KTN1_HUMAN Kinectin OS=Homo sapiens OX=9 (1357)  177 44.1  0.0088
+sp|Q9BXX3|AN30A_HUMAN Ankyrin repeat domain-contai (1397)  177 44.1  0.0092
+sp|O75151|PHF2_HUMAN Lysine-specific demethylase P (1096)  172 43.3   0.012
+sp|Q8WXF0|SRS12_HUMAN Serine/arginine-rich splicin ( 261)  154 41.0   0.014
+sp|Q5BKY9|F133B_HUMAN Protein FAM133B OS=Homo sapi ( 247)  152 40.7   0.017
+sp|Q8NB25|F184A_HUMAN Protein FAM184A OS=Homo sapi (1140)  169 42.8   0.018
+sp|Q15287|RNPS1_HUMAN RNA-binding protein with ser ( 305)  153 40.7    0.02
+sp|Q9HCG8|CWC22_HUMAN Pre-mRNA-splicing factor CWC ( 908)  165 42.2   0.022
+sp|Q8NAV1|PR38A_HUMAN Pre-mRNA-splicing factor 38A ( 312)  152 40.5   0.023
+sp|P0DP23|CALM1_HUMAN Calmodulin-1 OS=Homo sapiens ( 149)  143 39.4   0.025
+sp|P0DP24|CALM2_HUMAN Calmodulin-2 OS=Homo sapiens ( 149)  143 39.4   0.025
+sp|P0DP25|CALM3_HUMAN Calmodulin-3 OS=Homo sapiens ( 149)  143 39.4   0.025
+sp|Q8N1G1|REXO1_HUMAN RNA exonuclease 1 homolog OS (1221)  167 42.4   0.026
+sp|Q9NWH9|SLTM_HUMAN SAFB-like transcription modul (1034)  163 41.7   0.034
+sp|Q9HC44|GPBL1_HUMAN Vasculin-like protein 1 OS=H ( 474)  151 40.1   0.048
+sp|P41208|CETN2_HUMAN Centrin-2 OS=Homo sapiens OX ( 172)  138 38.4   0.056
+sp|Q14244|MAP7_HUMAN Ensconsin OS=Homo sapiens OX= ( 749)  154 40.3   0.064
+sp|Q8TC71|MIEAP_HUMAN Mitochondria-eating protein  ( 538)  150 39.8   0.066
+sp|Q9NYV4|CDK12_HUMAN Cyclin-dependent kinase 12 O (1490)  161 41.2   0.073
+sp|Q8WXA9|SREK1_HUMAN Splicing regulatory glutamin ( 508)  148 39.5   0.077
+sp|P18583|SON_HUMAN Protein SON OS=Homo sapiens OX (2426)  166 41.7   0.079
+sp|Q6NUK1|SCMC1_HUMAN Calcium-binding mitochondria ( 477)  147 39.4    0.08
+sp|Q9Y383|LC7L2_HUMAN Putative RNA-binding protein ( 392)  144 39.0   0.087
+sp|O60828|PQBP1_HUMAN Polyglutamine-binding protei ( 265)  139 38.3   0.092
+sp|Q14157|UBP2L_HUMAN Ubiquitin-associated protein (1087)  152 39.7    0.14
+sp|Q01484|ANK2_HUMAN Ankyrin-2 OS=Homo sapiens OX= (3957)  167 41.6    0.14
+sp|Q7L4I2|RSRC2_HUMAN Arginine/serine-rich coiled- ( 434)  141 38.4    0.15
+sp|Q9NZT1|CALL5_HUMAN Calmodulin-like protein 5 OS ( 146)  127 36.6    0.17
+sp|Q5THR3|EFCB6_HUMAN EF-hand calcium-binding doma (1501)  154 39.9    0.17
+sp|Q8IYB3|SRRM1_HUMAN Serine/arginine repetitive m ( 904)  147 39.0     0.2
+sp|Q9BXU1|STK31_HUMAN Serine/threonine-protein kin (1019)  148 39.1    0.21
+sp|P43304|GPDM_HUMAN Glycerol-3-phosphate dehydrog ( 727)  144 38.6    0.21
+sp|Q6UB98|ANR12_HUMAN Ankyrin repeat domain-contai (2062)  156 40.1    0.22
+sp|Q9BRD0|BUD13_HUMAN BUD13 homolog OS=Homo sapien ( 619)  141 38.1    0.24
+sp|Q70CQ4|UBP31_HUMAN Ubiquitin carboxyl-terminal  (1352)  150 39.3    0.25
+sp|Q9ULD2|MTUS1_HUMAN Microtubule-associated tumor (1270)  149 39.1    0.25
+sp|Q99549|MPP8_HUMAN M-phase phosphoprotein 8 OS=H ( 860)  144 38.5    0.27
+sp|Q9NYF8|BCLF1_HUMAN Bcl-2-associated transcripti ( 920)  144 38.4     0.3
+sp|O15182|CETN3_HUMAN Centrin-3 OS=Homo sapiens OX ( 167)  124 35.9     0.3
+sp|A7MD48|SRRM4_HUMAN Serine/arginine repetitive m ( 611)  139 37.8    0.31
+sp|Q96RS0|TGS1_HUMAN Trimethylguanosine synthase O ( 853)  141 37.9    0.39
+sp|Q9ULK2|AT7L1_HUMAN Ataxin-7-like protein 1 OS=H ( 861)  141 37.9    0.39
+sp|Q8N5F7|NKAP_HUMAN NF-kappa-B-activating protein ( 415)  129 36.3    0.61
+sp|Q6IMN6|CAPR2_HUMAN Caprin-2 OS=Homo sapiens OX= (1127)  140 37.6    0.65
+sp|P35659|DEK_HUMAN Protein DEK OS=Homo sapiens OX ( 375)  127 36.0    0.67
+sp|O15042|SR140_HUMAN U2 snRNP-associated SURP mot (1029)  138 37.3    0.73
+sp|Q15696|U2AFM_HUMAN U2 small nuclear ribonucleop ( 482)  129 36.2    0.75
+sp|Q12798|CETN1_HUMAN Centrin-1 OS=Homo sapiens OX ( 172)  117 34.7    0.75
+sp|Q9BVI0|PHF20_HUMAN PHD finger protein 20 OS=Hom (1012)  137 37.1    0.81
+sp|Q3L8U1|CHD9_HUMAN Chromodomain-helicase-DNA-bin (2897)  149 38.6    0.83
+sp|O76021|RL1D1_HUMAN Ribosomal L1 domain-containi ( 490)  128 36.0    0.87
+sp|Q9H307|PININ_HUMAN Pinin OS=Homo sapiens OX=960 ( 717)  132 36.4    0.92
+sp|Q9BQF6|SENP7_HUMAN Sentrin-specific protease 7  (1050)  136 36.9    0.97
+sp|Q5XKK7|F219B_HUMAN Protein FAM219B OS=Homo sapi ( 198)  116 34.4       1
+sp|Q96T37|RBM15_HUMAN RNA-binding protein 15 OS=Ho ( 977)  134 36.6     1.1
+sp|Q96JQ2|CLMN_HUMAN Calmin OS=Homo sapiens OX=960 (1002)  133 36.4     1.3
+sp|P19835|CEL_HUMAN Bile salt-activated lipase OS= ( 753)  129 35.9     1.4
+sp|Q14444|CAPR1_HUMAN Caprin-1 OS=Homo sapiens OX= ( 709)  128 35.7     1.5
+sp|Q9BRQ6|MIC25_HUMAN MICOS complex subunit MIC25  ( 235)  115 34.1     1.5
+sp|Q8TBK6|ZCH10_HUMAN Zinc finger CCHC domain-cont ( 192)  112 33.7     1.6
+sp|Q96N46|TTC14_HUMAN Tetratricopeptide repeat pro ( 770)  128 35.7     1.7
+sp|Q5T8P6|RBM26_HUMAN RNA-binding protein 26 OS=Ho (1007)  131 36.0     1.7
+sp|Q9UIF3|TEKT2_HUMAN Tektin-2 OS=Homo sapiens OX= ( 430)  121 34.8     1.7
+sp|Q8N2M8|CLASR_HUMAN CLK4-associating serine/argi ( 674)  126 35.4     1.8
+sp|Q9BUQ8|DDX23_HUMAN Probable ATP-dependent RNA h ( 820)  128 35.6     1.8
+sp|Q3KQU3|MA7D1_HUMAN MAP7 domain-containing prote ( 841)  128 35.6     1.9
+sp|Q9NYZ3|GTSE1_HUMAN G2 and S phase-expressed pro ( 720)  126 35.4     1.9
+sp|Q9UQ35|SRRM2_HUMAN Serine/arginine repetitive m (2752)  141 37.2     2.1
+sp|P60660|MYL6_HUMAN Myosin light polypeptide 6 OS ( 151)  107 33.0     2.2
+sp|O75665|OFD1_HUMAN Oral-facial-digital syndrome  (1012)  129 35.7     2.2
+sp|Q9Y520|PRC2C_HUMAN Protein PRRC2C OS=Homo sapie (2896)  141 37.2     2.2
+sp|Q5M9Q1|NKAPL_HUMAN NKAP-like protein OS=Homo sa ( 402)  118 34.3     2.3
+sp|Q9UK58|CCNL1_HUMAN Cyclin-L1 OS=Homo sapiens OX ( 526)  121 34.7     2.3
+sp|P24844|MYL9_HUMAN Myosin regulatory light polyp ( 172)  108 33.1     2.3
+sp|Q96LB3|IFT74_HUMAN Intraflagellar transport pro ( 600)  122 34.8     2.4
+sp|Q9NYF3|FA53C_HUMAN Protein FAM53C OS=Homo sapie ( 392)  117 34.1     2.5
+sp|Q9UBY0|SL9A2_HUMAN Sodium/hydrogen exchanger 2  ( 812)  125 35.1     2.6
+sp|Q9UIG0|BAZ1B_HUMAN Tyrosine-protein kinase BAZ1 (1483)  132 36.0     2.6
+sp|Q96MR6|CFA57_HUMAN Cilia- and flagella-associat (1250)  130 35.7     2.6
+sp|A0A1B0GWK0|PVLEF_HUMAN Parvalbumin-like EF-hand ( 134)  104 32.5     2.6
+sp|O15417|TNC18_HUMAN Trinucleotide repeat-contain (2968)  140 37.0     2.6
+sp|Q9BZL4|PP12C_HUMAN Protein phosphatase 1 regula ( 782)  124 35.0     2.8
+sp|Q9BQI0|AIF1L_HUMAN Allograft inflammatory facto ( 150)  104 32.4     3.1
+sp|P19105|ML12A_HUMAN Myosin regulatory light chai ( 171)  105 32.5     3.3
+sp|Q96Q77|CIB3_HUMAN Calcium and integrin-binding  ( 187)  106 32.7     3.3
+sp|O14950|ML12B_HUMAN Myosin regulatory light chai ( 172)  105 32.5     3.3
+sp|Q8N9Q2|SR1IP_HUMAN Protein SREK1IP1 OS=Homo sap ( 155)  103 32.2     3.7
+sp|P30414|NKTR_HUMAN NK-tumor recognition protein  (1462)  129 35.5     3.7
+sp|O75400|PR40A_HUMAN Pre-mRNA-processing factor 4 ( 957)  123 34.7     4.2
+sp|Q13243|SRSF5_HUMAN Serine/arginine-rich splicin ( 272)  108 32.8     4.4
+sp|Q76M96|CCD80_HUMAN Coiled-coil domain-containin ( 950)  122 34.5     4.7
+sp|P63098|CANB1_HUMAN Calcineurin subunit B type 1 ( 170)  102 32.0     4.7
+sp|P55008|AIF1_HUMAN Allograft inflammatory factor ( 147)  100 31.7     4.9
+sp|Q8IWZ8|SUGP1_HUMAN SURP and G-patch domain-cont ( 645)  117 33.8       5
+sp|Q9H0G5|NSRP1_HUMAN Nuclear speckle splicing reg ( 558)  115 33.6     5.2
+sp|Q9BRL6|SRSF8_HUMAN Serine/arginine-rich splicin ( 282)  106 32.4       6
+sp|Q9H8M5|CNNM2_HUMAN Metal transporter CNNM2 OS=H ( 875)  119 34.0     6.1
+sp|P12829|MYL4_HUMAN Myosin light chain 4 OS=Homo  ( 197)  101 31.7     6.6
+sp|Q8TF01|PNISR_HUMAN Arginine/serine-rich protein ( 805)  117 33.7     6.9
+sp|Q9UI08|EVL_HUMAN Ena/VASP-like protein OS=Homo  ( 416)  109 32.7     7.2
+sp|O75663|TIPRL_HUMAN TIP41-like protein OS=Homo s ( 272)  104 32.1     7.3
+sp|Q8NA70|FA47B_HUMAN Protein FAM47B OS=Homo sapie ( 645)  114 33.3     7.3
+sp|P08590|MYL3_HUMAN Myosin light chain 3 OS=Homo  ( 195)  100 31.6     7.4
+sp|Q13061|TRDN_HUMAN Triadin OS=Homo sapiens OX=96 ( 729)  115 33.4     7.7
+sp|Q14651|PLSI_HUMAN Plastin-1 OS=Homo sapiens OX= ( 629)  113 33.1       8
+sp|P14649|MYL6B_HUMAN Myosin light chain 6B OS=Hom ( 208)  100 31.5     8.1
+sp|Q96GN5|CDA7L_HUMAN Cell division cycle-associat ( 454)  109 32.6     8.2
+sp|Q8NHQ1|CEP70_HUMAN Centrosomal protein of 70 kD ( 597)  112 33.0     8.4
+sp|P09493|TPM1_HUMAN Tropomyosin alpha-1 chain OS= ( 284)  103 31.9     8.8
+sp|Q567U6|CCD93_HUMAN Coiled-coil domain-containin ( 631)  112 33.0     9.1
+sp|Q5VTR2|BRE1A_HUMAN E3 ubiquitin-protein ligase  ( 975)  117 33.6     9.1
+sp|Q6P4Q7|CNNM4_HUMAN Metal transporter CNNM4 OS=H ( 775)  114 33.2     9.5
+sp|Q9NPB3|CABP2_HUMAN Calcium-binding protein 2 OS ( 220)   99 31.3      10

@@ -1,0 +1,817 @@
+# phmmer :: search a protein sequence against a protein database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             UBR4_Q5T4S7.fasta
+# target sequence database:        flymouseproteomes.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       sp|Q5T4S7|UBR4_HUMAN  [L=5183]
+Description: E3 ubiquitin-protein ligase UBR4 OS=Homo sapiens OX=9606 GN=UBR4 PE=1 SV=1
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+          0 11478.4  55.9          0 11478.2  55.9    1.0  1  sp|A2AN08|UBR4_MOUSE            E3 ubiquitin-protein ligase UBR4
+          0 3577.0  52.5          0 3225.8  19.8    4.7  4  sp|Q9VLT5|POE_DROME             Protein purity of essence OS=Dro
+    1.1e-09   35.9   3.3    1.1e-09   35.9   3.3    2.1  1  sp|Q7TPD1|FBX11_MOUSE           F-box only protein 11 OS=Mus mus
+    2.9e-08   31.2   3.9    2.9e-08   31.2   3.9    2.8  1  tr|Q9VH60|Q9VH60_DROME          F-box protein 11, isoform A OS=D
+    5.8e-07   26.9  11.3    1.1e-06   26.0  11.3    1.3  1  sp|Q80TP3|UBR5_MOUSE            E3 ubiquitin-protein ligase UBR5
+      1e-06   26.0   7.9    1.6e-06   25.4   7.9    1.1  1  sp|P51592|HYD_DROME             E3 ubiquitin-protein ligase hyd 
+  ------ inclusion threshold ------
+      0.085    9.7   3.1       0.11    9.4   3.1    1.0  1  tr|Q9VJE3|Q9VJE3_DROME          LD24839p OS=Drosophila melanogas
+       0.21    8.4   0.1       0.28    8.0   0.1    1.0  1  sp|Q9WUH7|SEM4G_MOUSE           Semaphorin-4G OS=Mus musculus OX
+       0.23    8.3   0.6        0.3    7.9   0.6    1.0  1  tr|A0A0B4K7V4|A0A0B4K7V4_DROME  Transporter OS=Drosophila melano
+        1.1    6.1   2.8        1.4    5.7   2.8    1.0  1  sp|Q9ER60|SCN4A_MOUSE           Sodium channel protein type 4 su
+        3.6    4.3   9.3        4.8    3.9   9.3    1.1  1  tr|Q9VMD4|Q9VMD4_DROME          FI03607p OS=Drosophila melanogas
+        6.9    3.4   7.7         12    2.6   7.7    1.3  1  tr|F2FB81|F2FB81_DROME          Wiskott-Aldrich syndrome protein
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|A2AN08|UBR4_MOUSE  E3 ubiquitin-protein ligase UBR4 OS=Mus musculus OX=10090 GN=Ubr4 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 11478.2  55.9         0         0       1    5183 []       1    5180 []       1    5180 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 11478.2 bits;  conditional E-value: 0
+  sp|Q5T4S7|UBR4_HUMAN    1 matsggeeaaaaapapgtpatgadttpgwevavrpllsasysafemkelpqlvasvieseseilhhekqyepfyssfvalsthyitt 87  
+                            matsggeeaaaaapapg patg dttpgwevavrpllsasysafemkelpqlvasvieseseilhhekqyepfyssfvalsthyitt
+  sp|A2AN08|UBR4_MOUSE    1 MATSGGEEAAAAAPAPGAPATGQDTTPGWEVAVRPLLSASYSAFEMKELPQLVASVIESESEILHHEKQYEPFYSSFVALSTHYITT 87  
+                            89************************************************************************************* PP
+
+  sp|Q5T4S7|UBR4_HUMAN   88 vcsliprnqlqsvaaackvliefsllrlenpdeacavsqkhlillikglctgcsrldrteiitftammksaklpqtvktlsdvedqk 174 
+                            vcsliprnqlqsvaaackvliefsllrlenpdeacavsqkhlillikglctgcsrldrteiitftammksaklpqtvktlsdvedqk
+  sp|A2AN08|UBR4_MOUSE   88 VCSLIPRNQLQSVAAACKVLIEFSLLRLENPDEACAVSQKHLILLIKGLCTGCSRLDRTEIITFTAMMKSAKLPQTVKTLSDVEDQK 174 
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN  175 elaspvspelrqkevqmnflnqltsvfnprtvasqpistqtlvegendeqsstdqasaiktknvfiaqnvaslqelggsekllrvcl 261 
+                            elaspvspelrqkevqmnflnqltsvfnprtv s pis q lvegendeqss dq sa ktk+vfiaqnvaslqelggsekllrvcl
+  sp|A2AN08|UBR4_MOUSE  175 ELASPVSPELRQKEVQMNFLNQLTSVFNPRTVPSPPISPQALVEGENDEQSSPDQVSAAKTKSVFIAQNVASLQELGGSEKLLRVCL 261 
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN  262 nlpyflryinrfqdavlansffimpatvadatavrngfhslvidvtmaldtlslpvleplnpsrlqdvtvlslsclyagvsvatcma 348 
+                            nlpyflryinrfqdav+ansffimpatvadatavrngfhslvidvtmaldtlslpvleplnpsrlqdvtvlslsclyagvsvatcma
+  sp|A2AN08|UBR4_MOUSE  262 NLPYFLRYINRFQDAVVANSFFIMPATVADATAVRNGFHSLVIDVTMALDTLSLPVLEPLNPSRLQDVTVLSLSCLYAGVSVATCMA 348 
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN  349 ilhvgsaqqvrtgstsskeddyesdaativqkcleiydmigqaisssrraggehyqnfqllgawcllnslflilnlsptaladkgke 435 
+                            ilhvgsaqqvrtgstsskeddyesdaativqkcleiydmigqaisssrraggeh+qnfqllgawcllnslflilnlsptaladkgke
+  sp|A2AN08|UBR4_MOUSE  349 ILHVGSAQQVRTGSTSSKEDDYESDAATIVQKCLEIYDMIGQAISSSRRAGGEHFQNFQLLGAWCLLNSLFLILNLSPTALADKGKE 435 
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN  436 kdplaalrvrdilsrtkegvgspklgpgkghqgfgvlsvilanhaiklltslfqdlqvealhkgwetdgppaalsimaqstsiqriq 522 
+                            kdplaalrvrdilsrtkegvgspklgpgkghqgfgvlsvilanhaikll slfqdlqvealhkgwetdgppa lsimaqsts qriq
+  sp|A2AN08|UBR4_MOUSE  436 KDPLAALRVRDILSRTKEGVGSPKLGPGKGHQGFGVLSVILANHAIKLLASLFQDLQVEALHKGWETDGPPAVLSIMAQSTSTQRIQ 522 
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN  523 rlidsvplmnllltllstsyrkacvlqrqrkgsmssdasastdsntyyeddfssteedssqdddsepilgqwfeetispskekaapp 609 
+                            rlidsvpl nllltllstsyrkacvlqrqrkgsmssdasastdsntyyeddfssteedssqdddsepilgqwfeetispskekaapp
+  sp|A2AN08|UBR4_MOUSE  523 RLIDSVPLTNLLLTLLSTSYRKACVLQRQRKGSMSSDASASTDSNTYYEDDFSSTEEDSSQDDDSEPILGQWFEETISPSKEKAAPP 609 
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN  610 ppppppplessprvkspskqapgekgnilasrkdpelflglasnilnfitssmlnsrnnfirnylsvslsehhmatlasiikevdkd 696 
+                            ppppppplessprvksp+kqa gekgnilasrkdpelf glasnilnfit+smlnsrn+fir+yls slsehhmatlasiikevdkd
+  sp|A2AN08|UBR4_MOUSE  610 PPPPPPPLESSPRVKSPNKQASGEKGNILASRKDPELFSGLASNILNFITTSMLNSRNSFIRSYLSASLSEHHMATLASIIKEVDKD 696 
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN  697 glkgssdeefaaalyhfnhslvtsdlqspnlqntllqqlgvapfsegpwplyihpqslsvlsrllliwqhkasaqgdpdvpeclkvw 783 
+                            glkgssde+faaalyhfnhslvtsdlqspnlqntllqqlgvapfsegpwplyihpq lsvlsrllliwqhka aqgdpdvpeclkvw
+  sp|A2AN08|UBR4_MOUSE  697 GLKGSSDEDFAAALYHFNHSLVTSDLQSPNLQNTLLQQLGVAPFSEGPWPLYIHPQGLSVLSRLLLIWQHKAGAQGDPDVPECLKVW 783 
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN  784 drflstmkqnalqgvvpsetedlnvehlqmlllifhnftetgrrailslfvqiiqelsvnmdaqmrfvplilarlllifdyllhqys 870 
+                            drfl+tmkqnalqgvvpsetedlnvehlq+lllifh+f+e grrail+++vq iqelsvnm+ qmr  plilarlllifdyllhqys
+  sp|A2AN08|UBR4_MOUSE  784 DRFLTTMKQNALQGVVPSETEDLNVEHLQLLLLIFHSFSEKGRRAILTMLVQSIQELSVNMEVQMRTAPLILARLLLIFDYLLHQYS 870 
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN  871 kapvylfeqvqhnllsppfgwasgsqdsnsrrattplyhgfkeveenwskhfssdavphprfycvlspeaseddlnrldsvacdvlf 957 
+                            kapvylfeqvqhnllsppfgwasgsqds+srra tplyhgfkeveenwskhfssda p+prfycvls ease+dlnrlds ac+vlf
+  sp|A2AN08|UBR4_MOUSE  871 KAPVYLFEQVQHNLLSPPFGWASGSQDSSSRRANTPLYHGFKEVEENWSKHFSSDAAPQPRFYCVLSTEASEEDLNRLDSEACEVLF 957 
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN  958 sklvkydelyaaltallaagsqldtvrrkenknvtaleacalqyyflilwrilgilppsktyinqlsmnspemsecdilhtlrwssr 1044
+                            sk vkydely++lt llaagsqldt rrke knvtaleacalqyyflilwrilgilppskty+nql+mnspemsecdilhtlrwssr
+  sp|A2AN08|UBR4_MOUSE  958 SKPVKYDELYSSLTTLLAAGSQLDTTRRKEKKNVTALEACALQYYFLILWRILGILPPSKTYMNQLAMNSPEMSECDILHTLRWSSR 1044
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1045 lrissyvnwikdhlikqgmkaehassllelasttkcssvkydveiveeyfarqissfcsidcttilqlheipslqsiytldaaiskv 1131
+                            lrissyv+wikdhlikqgmk eha sl+ela+ +kcssvkydveiveeyfarqissfcsidct +lqlheipslqsiytldaa+skv
+  sp|A2AN08|UBR4_MOUSE 1045 LRISSYVSWIKDHLIKQGMKPEHAGSLIELAA-SKCSSVKYDVEIVEEYFARQISSFCSIDCTAVLQLHEIPSLQSIYTLDAAVSKV 1130
+                            ******************************97.6***************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1132 qvsldehfskmaaetdphksseitknllpatlqlidtyasftrayllqnfneegttekpskeklqgfaavlaigssrckantlgptl 1218
+                            qvsldehfskmaaetdphksseitknllpatlqlidtyasftrayllqn+neeg+tekps+ekl gfaavlaigssrckantlgptl
+  sp|A2AN08|UBR4_MOUSE 1131 QVSLDEHFSKMAAETDPHKSSEITKNLLPATLQLIDTYASFTRAYLLQNLNEEGSTEKPSQEKLHGFAAVLAIGSSRCKANTLGPTL 1217
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1219 vqnlpssvqtvceswnnintnefpnigswrnafandtipsesyisavqaahlgtlcsqslplaaslkhtllslvrltgdlivwsdem 1305
+                            vqnlpssvq+vceswnnintnefpnigswrnafandtipsesyisavqaahlgtlc qslplaaslkhtllslvrltgdlivwsdem
+  sp|A2AN08|UBR4_MOUSE 1218 VQNLPSSVQSVCESWNNINTNEFPNIGSWRNAFANDTIPSESYISAVQAAHLGTLCGQSLPLAASLKHTLLSLVRLTGDLIVWSDEM 1304
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1306 nppqvirtllplllesstesvaeissnslerilgpaesdeflarvyeklitgcynilanhadpnsgldesileeclqylekqlessq 1392
+                            np qvirtllplllesstes aeissnslerilgpaesdeflarvyeklitgcynilanhadpnsgldesileeclqylekqlessq
+  sp|A2AN08|UBR4_MOUSE 1305 NPAQVIRTLLPLLLESSTESAAEISSNSLERILGPAESDEFLARVYEKLITGCYNILANHADPNSGLDESILEECLQYLEKQLESSQ 1391
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1393 arkameeffsdsgelvqimmatanenlsakfcnrvlkfftklfqltekspnpsllhlcgslaqlacvepvrlqawltrmttsppkds 1479
+                            arkameeffsd gelvqimmatane+lsakfcnrvlkfftklfqltekspnpsllhlcgslaqlacvepvrlqawltrmttsppkds
+  sp|A2AN08|UBR4_MOUSE 1392 ARKAMEEFFSDGGELVQIMMATANEDLSAKFCNRVLKFFTKLFQLTEKSPNPSLLHLCGSLAQLACVEPVRLQAWLTRMTTSPPKDS 1478
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1480 dqldviqenrqllqllttyivrensqvgegvcavllgtltpmatemlangdgtgfpelmvvmatlasagqgaghlqlhnaavdwlsr 1566
+                            dql+viqenrqllqllttyivrensqvgegvcavllgtltpmat+mlangdgtgfpelmvvmatlasagqgaghlqlhnaavdwl r
+  sp|A2AN08|UBR4_MOUSE 1479 DQLEVIQENRQLLQLLTTYIVRENSQVGEGVCAVLLGTLTPMATDMLANGDGTGFPELMVVMATLASAGQGAGHLQLHNAAVDWLGR 1565
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1567 ckkylsqknvveklnanvmhgkhvmilectchimsyladvtnalsqsngqgpshlsvdgeeraievdsdwveelaveeedsqaedsd 1653
+                            ckkylsqknvveklnanvmhgkhvm+lectchimsyladvtnalsqsngqgpshlsvdgeeraievdsdwveelaveeedsqaedsd
+  sp|A2AN08|UBR4_MOUSE 1566 CKKYLSQKNVVEKLNANVMHGKHVMVLECTCHIMSYLADVTNALSQSNGQGPSHLSVDGEERAIEVDSDWVEELAVEEEDSQAEDSD 1652
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1654 edslcnklctftitqkefmnqhwyhchtckmvdgvgvctvcakvchkdheisyakygsffcdcgakedgsclalvkrtpssgmsstm 1740
+                            edslcnklctftitqkefmnqhwyhchtckmvdgvgvctvcakvchkdheisyakygsffcdcgakedgsclalvkrtpssgmsstm
+  sp|A2AN08|UBR4_MOUSE 1653 EDSLCNKLCTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKVCHKDHEISYAKYGSFFCDCGAKEDGSCLALVKRTPSSGMSSTM 1739
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1741 kesafqsepriseslvrhastsspadkakvtisdgkvadeekpkksslcrtvegcreelqnqanfsfaplvldmlnflmdaiqtnfq 1827
+                            kesafqsepr+seslvrhast spadkakvtisdgkv deekpkksslcrtvegcreelqnqanfsfaplvldml+flmdaiqtnfq
+  sp|A2AN08|UBR4_MOUSE 1740 KESAFQSEPRVSESLVRHAST-SPADKAKVTISDGKVTDEEKPKKSSLCRTVEGCREELQNQANFSFAPLVLDMLSFLMDAIQTNFQ 1825
+                            *******************98.6**************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1828 qasavgsssraqqalselhtvekavemtdqlmvptlgsqegafenvrmnysgdqgqtirqlisahvlrrvamcvlssphgrrqhlav 1914
+                            qasavgsssraqqalselhtv+k vemtdqlmvptlgsqegafenvrmnysgdqgqtirqlisahvlrrvamcvlssphgrrqhlav
+  sp|A2AN08|UBR4_MOUSE 1826 QASAVGSSSRAQQALSELHTVDKGVEMTDQLMVPTLGSQEGAFENVRMNYSGDQGQTIRQLISAHVLRRVAMCVLSSPHGRRQHLAV 1912
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1915 shekgkitvlqlsallkqadsskrkltltrlasapvpftvlsltgnpckedylavcglkdchvltfsssgsvsdhlvlhpqlatgnf 2001
+                            shekgkitvlqlsallkqadsskrkltltrlasapvpftvlsltgnpckedylavcglkdchvltfsssgsvsdhlvlhpqlatgnf
+  sp|A2AN08|UBR4_MOUSE 1913 SHEKGKITVLQLSALLKQADSSKRKLTLTRLASAPVPFTVLSLTGNPCKEDYLAVCGLKDCHVLTFSSSGSVSDHLVLHPQLATGNF 1999
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2002 iikavwlpgsqtelaivtadfvkiydlcvdalsptfyfllpsskirdvtflfneegkniivimssagyiytqlmeeassaqqgpfyv 2088
+                            iikavwlpgsqtelaivtadfvkiydl +dalsptfyfllpsskirdvtflfneegkniivimssagy+ytqlmeeassaqqgpfyv
+  sp|A2AN08|UBR4_MOUSE 2000 IIKAVWLPGSQTELAIVTADFVKIYDLSIDALSPTFYFLLPSSKIRDVTFLFNEEGKNIIVIMSSAGYMYTQLMEEASSAQQGPFYV 2086
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2089 tnvleinhedlkdsnsqvagggvsvyyshvlqmlffsycqgksfaatisrttlevlqlfpinikssnggsktspalcqwsevmnhpg 2175
+                            tnvleinhedlkdsnsqvagggvsvyyshvlqmlffsy qg+sfaat+sr+tlevlqlfpinikssnggsktspalcqwsevmnhpg
+  sp|A2AN08|UBR4_MOUSE 2087 TNVLEINHEDLKDSNSQVAGGGVSVYYSHVLQMLFFSYSQGRSFAATVSRSTLEVLQLFPINIKSSNGGSKTSPALCQWSEVMNHPG 2173
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2176 lvccvqqttgvplvvmvkpdtfliqeiktlpakakiqdmvairhtacneqqrttmillcedgslriymanventsywlqpslqpssv 2262
+                            lvccvqqttgvplvvmvkp tfliqeiktlpakakiqdmvairhtacneqqrttmillcedgslriymanventsywlqpslqpssv
+  sp|A2AN08|UBR4_MOUSE 2174 LVCCVQQTTGVPLVVMVKPGTFLIQEIKTLPAKAKIQDMVAIRHTACNEQQRTTMILLCEDGSLRIYMANVENTSYWLQPSLQPSSV 2260
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2263 isimkpvrkrktatittrtssqvtfpidffehnqqltdvefggndllqvynaqqikhrlnstgmyvantkpggftieisnnnstmvm 2349
+                            isimkpvrkrktatit rtssqvtfpidffehnqqltdvefggndllqvynaqqikhrlnstgmyvantkpggftieisnn+stmvm
+  sp|A2AN08|UBR4_MOUSE 2261 ISIMKPVRKRKTATITARTSSQVTFPIDFFEHNQQLTDVEFGGNDLLQVYNAQQIKHRLNSTGMYVANTKPGGFTIEISNNSSTMVM 2347
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2350 tgmriqigtqaierapsyieifgrtmqlnlsrsrwfdfpftreealqadkklnlfigasvdpagvtmidavkiygktkeqfgwpdep 2436
+                            tgmriqigtqaierapsyieifgrtmqlnlsrsrwfdfpftreealqad+kl+lfigasvdpagvtmidavkiygktkeqfgwpdep
+  sp|A2AN08|UBR4_MOUSE 2348 TGMRIQIGTQAIERAPSYIEIFGRTMQLNLSRSRWFDFPFTREEALQADRKLSLFIGASVDPAGVTMIDAVKIYGKTKEQFGWPDEP 2434
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2437 peefpsasvsnicpsnlnqsngtgdsdsaaptttsgtvlerlvvsslealescfavgpiiekernknaaqelatlllslpapasvqq 2523
+                            pe+fpsasvsnicp nlnqsngtg+sdsaap ttsgtvlerlvvsslealescfavgpiiekernk+aaqelatlllslpapasvqq
+  sp|A2AN08|UBR4_MOUSE 2435 PEDFPSASVSNICPPNLNQSNGTGESDSAAPATTSGTVLERLVVSSLEALESCFAVGPIIEKERNKHAAQELATLLLSLPAPASVQQ 2521
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2524 qsksllaslhtsrsayhshkdqallskavqclntsskegkdldpevfqrlvitarsiaimrpnnlvhftesklpqmetegmdegkep 2610
+                            qsksllaslh+srsayhshkdqallskavqclntsskegkdldpevfqrlvitarsia+ rpnnlvhftesklpqmeteg degkep
+  sp|A2AN08|UBR4_MOUSE 2522 QSKSLLASLHSSRSAYHSHKDQALLSKAVQCLNTSSKEGKDLDPEVFQRLVITARSIAVTRPNNLVHFTESKLPQMETEGADEGKEP 2608
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2611 qkqlegdccsfitqlvnhfwklhaskpknaflapaclpglthieatvnalvdiihgyctceldcintaskiymqmllcpdpavsfsc 2697
+                            qkq egd csfitqlvnhfwklhaskpknaflapaclpglthieatvnalvdiihgyctceldcintaskiymqmllcpdpavsfsc
+  sp|A2AN08|UBR4_MOUSE 2609 QKQ-EGDGCSFITQLVNHFWKLHASKPKNAFLAPACLPGLTHIEATVNALVDIIHGYCTCELDCINTASKIYMQMLLCPDPAVSFSC 2694
+                            **9.9********************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2698 kqalirvlrprnkrrhvtlpssprsntpmgdkdddddddadekmqssgipngghirqesqeqsevdhgdfemvsesmvletaenvnn 2784
+                            kqalirvlrprnkrrhvtlpssprsntpmgdkdddddddadekmqssgip+gghirqesqeqsevdhgdfemvsesmvletaenvnn
+  sp|A2AN08|UBR4_MOUSE 2695 KQALIRVLRPRNKRRHVTLPSSPRSNTPMGDKDDDDDDDADEKMQSSGIPDGGHIRQESQEQSEVDHGDFEMVSESMVLETAENVNN 2781
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2785 gnpspleallagaegfppmldippdaddetmvelaialslqqdqqgssssalglqslglsgqapssssldagtlsdttasapasdde 2871
+                            gnpspleallagaegfppmldippdaddetmvelaialslqqdqqgssssalglqslglsgqapssssldagtlsdttasapasdde
+  sp|A2AN08|UBR4_MOUSE 2782 GNPSPLEALLAGAEGFPPMLDIPPDADDETMVELAIALSLQQDQQGSSSSALGLQSLGLSGQAPSSSSLDAGTLSDTTASAPASDDE 2868
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2872 gstaatdgstlrtspadhggsvgsesggsavdsvagehsvsgrssaygdataeghpagpgsvssstgaistttghqegdgsegegeg 2958
+                            gstaatdgstlrtspadhggsvgsesggsavdsvagehsvsgrssaygdataeghpagpgsvssstgaist tghqegdgsegegeg
+  sp|A2AN08|UBR4_MOUSE 2869 GSTAATDGSTLRTSPADHGGSVGSESGGSAVDSVAGEHSVSGRSSAYGDATAEGHPAGPGSVSSSTGAISTATGHQEGDGSEGEGEG 2955
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2959 etegdvhtsnrlhmvrlmllerllqtlpqlrnvggvraipymqvilmlttdldgedekdkgaldnllsqliaelgmdkkdvskkner 3045
+                            e egdvhtsnrlhmvrlmllerllqtlpqlrnvggvraipymqvilmlttdldgedekdkgaldnll+qliaelgmdkkdvskkner
+  sp|A2AN08|UBR4_MOUSE 2956 EAEGDVHTSNRLHMVRLMLLERLLQTLPQLRNVGGVRAIPYMQVILMLTTDLDGEDEKDKGALDNLLAQLIAELGMDKKDVSKKNER 3042
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3046 salnevhlvvmrllsvfmsrtksgskssicessslissataaallssgavdyclhvlkslleywksqqndeepvatsqllkphttss 3132
+                            salnevhlvvmrllsvfmsrtksgskssicessslissataaallssgavdyclhvlkslleywksqq+deepva sqllkphttss
+  sp|A2AN08|UBR4_MOUSE 3043 SALNEVHLVVMRLLSVFMSRTKSGSKSSICESSSLISSATAAALLSSGAVDYCLHVLKSLLEYWKSQQSDEEPVAASQLLKPHTTSS 3129
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3133 ppdmspfflrqyvkghaadvfeaytqlltemvlrlpyqikkitdtnsripppvfdhswfyflseylmiqqtpfvrrqvrklllficg 3219
+                            ppdmspfflrqyvkghaadvfeaytqlltemvlrlpyqikki dt+sripppvfdhswfyflseylmiqqtpfvrrqvrklllficg
+  sp|A2AN08|UBR4_MOUSE 3130 PPDMSPFFLRQYVKGHAADVFEAYTQLLTEMVLRLPYQIKKIADTSSRIPPPVFDHSWFYFLSEYLMIQQTPFVRRQVRKLLLFICG 3216
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3220 skekyrqlrdlhtldshvrgikklleeqgiflrasvvtassgsalqydtlislmehlkacaeiaaqrtinwqkfcikddsvlyfllq 3306
+                            skekyrqlrdlhtldshvrgikklleeqgiflrasvvtassgsalqydtlislmehlkacaeiaaqrtinwqkfcikddsvlyfllq
+  sp|A2AN08|UBR4_MOUSE 3217 SKEKYRQLRDLHTLDSHVRGIKKLLEEQGIFLRASVVTASSGSALQYDTLISLMEHLKACAEIAAQRTINWQKFCIKDDSVLYFLLQ 3303
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3307 vsflvdegvspvllqllscalcgskvlaalaassgsssassssapvaassgqattqsksstkkskkeekekekdgetsgsqedqlct 3393
+                            vsflvdegvspvllqllscalcgskvlaalaas+gsss +sssap aassgqattqsksstkkskkeekekek+ge+sgsqedqlct
+  sp|A2AN08|UBR4_MOUSE 3304 VSFLVDEGVSPVLLQLLSCALCGSKVLAALAASTGSSSVASSSAPPAASSGQATTQSKSSTKKSKKEEKEKEKEGESSGSQEDQLCT 3390
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3394 alvnqlnkfadketliqflrcfllesnsssvrwqahcltlhiyrnssksqqellldlmwsiwpelpaygrkaaqfvdllgyfslktp 3480
+                            alvnqln+fadketliqflrcfllesnsssvrwqahcltlhiyrns+k+qqellldlmwsiwpelpaygrkaaqfvdllgyfslkt 
+  sp|A2AN08|UBR4_MOUSE 3391 ALVNQLNRFADKETLIQFLRCFLLESNSSSVRWQAHCLTLHIYRNSNKAQQELLLDLMWSIWPELPAYGRKAAQFVDLLGYFSLKTA 3477
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3481 qtekklkeysqkaveilrtqnhiltnhpnsniyntlsglvefdgyylesdpclvcnnpevpfcyiklssikvdtrytttqqvvklig 3567
+                            qtekklkeysqkaveilrtqnhiltnhpnsniyntlsglvefdgyylesdpclvcnnpevpfcyiklssikvdtrytttqqvvklig
+  sp|A2AN08|UBR4_MOUSE 3478 QTEKKLKEYSQKAVEILRTQNHILTNHPNSNIYNTLSGLVEFDGYYLESDPCLVCNNPEVPFCYIKLSSIKVDTRYTTTQQVVKLIG 3564
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3568 shtiskvtvkigdlkrtkmvrtinlyynnrtvqaivelknkparwhkakkvqltpgqtevkidlplpivasnlmiefadfyenyqas 3654
+                            shtiskvtvkigdlkrtkmvrtinlyynnrtvqaivelknkparwhkakkvqltpgqtevkidlplpivasnlmiefadfyenyqas
+  sp|A2AN08|UBR4_MOUSE 3565 SHTISKVTVKIGDLKRTKMVRTINLYYNNRTVQAIVELKNKPARWHKAKKVQLTPGQTEVKIDLPLPIVASNLMIEFADFYENYQAS 3651
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3655 tetlqcprcsasvpanpgvcgncgenvyqchkcrsinydekdpflcnacgfckyarfdfmlyakpccavdpieneedrkkavsnint 3741
+                            tetlqcprcsasvpanpgvcgncgenvyqchkcrsinydekdpflcnacgfckyarfdfmlyakpccavdpieneedrkkavsnint
+  sp|A2AN08|UBR4_MOUSE 3652 TETLQCPRCSASVPANPGVCGNCGENVYQCHKCRSINYDEKDPFLCNACGFCKYARFDFMLYAKPCCAVDPIENEEDRKKAVSNINT 3738
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3742 lldkadrvyhqlmghrpqlenllckvneaapekpqddsgtaggisstsasvnryilqlaqeycgdcknsfdelskiiqkvfasrkel 3828
+                            lldkadrvyhqlmghrpqlenllckvneaapekpq+dsgtaggisstsasvnryilqlaqeycgdcknsfdelskiiqkvfasrkel
+  sp|A2AN08|UBR4_MOUSE 3739 LLDKADRVYHQLMGHRPQLENLLCKVNEAAPEKPQEDSGTAGGISSTSASVNRYILQLAQEYCGDCKNSFDELSKIIQKVFASRKEL 3825
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3829 leydlqqreaatkssrtsvqptftasqyralsvlgcghtsstkcygcasavtehcitllralatnpalrhilvsqglirelfdynlr 3915
+                            leydlqqreaatkssrtsvqptftasqyralsvlgcghtsstkcygcasavtehcitllralatnpalrhilvsqglirelfdynlr
+  sp|A2AN08|UBR4_MOUSE 3826 LEYDLQQREAATKSSRTSVQPTFTASQYRALSVLGCGHTSSTKCYGCASAVTEHCITLLRALATNPALRHILVSQGLIRELFDYNLR 3912
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3916 rgaaamreevrqlmclltrdnpeatqqmndliigkvstalkghwanpdlasslqyemllltdsiskedscwelrlrcalslflmavn 4002
+                            rgaaa+reevrqlmclltrdnpeatqqmndliigkvstalkghwanpdlasslqyemllltdsiskedscwelrlrcalslflmavn
+  sp|A2AN08|UBR4_MOUSE 3913 RGAAAIREEVRQLMCLLTRDNPEATQQMNDLIIGKVSTALKGHWANPDLASSLQYEMLLLTDSISKEDSCWELRLRCALSLFLMAVN 3999
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4003 iktpvvvenitlmclrilqklikppaptskknkdvpvealttvkpycneihaqaqlwlkrdpkasydawkkclpirgidgngkapsk 4089
+                            iktpvvvenitlmclrilqklikppaptskknkdvpvealttvkpycneihaqaqlwlkrdpkasy+awkkclpirg+dgngk+psk
+  sp|A2AN08|UBR4_MOUSE 4000 IKTPVVVENITLMCLRILQKLIKPPAPTSKKNKDVPVEALTTVKPYCNEIHAQAQLWLKRDPKASYEAWKKCLPIRGVDGNGKSPSK 4086
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4090 selrhlyltekyvwrwkqflsrrgkrtspldlklghnnwlrqvlftpatqaarqaactivealatipsrkqqvldlltsyldelsia 4176
+                            sel++lyltekyvwrwkqflsrrgkrt+pldlklghnnwlrqvlftpatqaarqaactivealat+psrkqqvldlltsyldels+a
+  sp|A2AN08|UBR4_MOUSE 4087 SELHRLYLTEKYVWRWKQFLSRRGKRTTPLDLKLGHNNWLRQVLFTPATQAARQAACTIVEALATVPSRKQQVLDLLTSYLDELSVA 4173
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4177 gecaaeylalyqklitsahwkvylaargvlpyvgnlitkeiarllaleeatlstdlqqgyalksltgllssfvevesikrhfksrlv 4263
+                            gecaaeylalyqkli s hwkvylaargvlpyvgnlitkeiarllaleeatlstdlqqgyalksltgllssfvevesikrhfksrlv
+  sp|A2AN08|UBR4_MOUSE 4174 GECAAEYLALYQKLIASCHWKVYLAARGVLPYVGNLITKEIARLLALEEATLSTDLQQGYALKSLTGLLSSFVEVESIKRHFKSRLV 4260
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4264 gtvlngylclrklvvqrtklidetqdmllemledmttgtesetkafmavcietakrynlddyrtpvfiferlcsiiypeenevteff 4350
+                            gtvlngylclrklv+qrtklidetqdmllemledmttgtesetkafmavcietakrynlddyrtpvfiferlcsiiypeenevteff
+  sp|A2AN08|UBR4_MOUSE 4261 GTVLNGYLCLRKLVLQRTKLIDETQDMLLEMLEDMTTGTESETKAFMAVCIETAKRYNLDDYRTPVFIFERLCSIIYPEENEVTEFF 4347
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4351 vtlekdpqqedflqgrmpgnpyssnepgigplmrdiknkicqdcdlvalleddsgmellvnnkiisldlpvaevykkvwcttnegep 4437
+                            vtlekdpqqedflqgrmpgnpyssnepgigplmrdiknkicqdcdlvalleddsgmellvnnkiisldlpvaevykkvwc tnegep
+  sp|A2AN08|UBR4_MOUSE 4348 VTLEKDPQQEDFLQGRMPGNPYSSNEPGIGPLMRDIKNKICQDCDLVALLEDDSGMELLVNNKIISLDLPVAEVYKKVWCATNEGEP 4434
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4438 mrivyrmrgllgdateefiesldsttdeeedeeevykmagvmaqcgglecmlnrlagirdfkqgrhlltvllklfsycvkvkvnrqq 4524
+                            mrivyrmrgllgdateefiesldsttdeeedeeevy+magvmaqcggl+cmlnrlag++dfkqgrhlltvllklfsycvkvkvnrqq
+  sp|A2AN08|UBR4_MOUSE 4435 MRIVYRMRGLLGDATEEFIESLDSTTDEEEDEEEVYRMAGVMAQCGGLQCMLNRLAGVKDFKQGRHLLTVLLKLFSYCVKVKVNRQQ 4521
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4525 lvklemntlnvmlgtlnlalvaeqeskdsggaavaeqvlsimeiildesnaeplsedkgnllltgdkdqlvmlldqinstfvrsnps 4611
+                            lvkle ntlnvmlgtlnlalvaeqeskdsggaavaeqvlsimeiildesnaeplsedkgnllltgdkdqlvmlldqinstfvrsnps
+  sp|A2AN08|UBR4_MOUSE 4522 LVKLETNTLNVMLGTLNLALVAEQESKDSGGAAVAEQVLSIMEIILDESNAEPLSEDKGNLLLTGDKDQLVMLLDQINSTFVRSNPS 4608
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4612 vlqgllriipylsfgevekmqilverfkpycnfdkydedhsgddkvfldcfckiaagiknnsnghqlkdlilqkgitqnaldymkkh 4698
+                            vlqgllriipylsfgevekmqilverfkpyc+f+kydedhsgddkvfldcfckiaagiknnsnghqlkdlilqkgitqnaldymkkh
+  sp|A2AN08|UBR4_MOUSE 4609 VLQGLLRIIPYLSFGEVEKMQILVERFKPYCSFEKYDEDHSGDDKVFLDCFCKIAAGIKNNSNGHQLKDLILQKGITQNALDYMKKH 4695
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4699 ipsaknldadiwkkflsrpalpfilrllrglaiqhpgtqvligtdsipnlhkleqvssdegigtlaenllealrehpdvnkkidaar 4785
+                            ipsaknldadiwkkflsrpalpfilrllrgla+qhp+tqvligtdsi +lhkleqvssdegigtlaenllealrehpdvnkkidaar
+  sp|A2AN08|UBR4_MOUSE 4696 IPSAKNLDADIWKKFLSRPALPFILRLLRGLAMQHPATQVLIGTDSITSLHKLEQVSSDEGIGTLAENLLEALREHPDVNKKIDAAR 4782
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4786 retraekkrmamamrqkalgtlgmttnekgqvvtktallkqmeelieepgltccicregykfqptkvlgiytftkrvaleemenkpr 4872
+                            retraekkrmamamrqkalgtlgmttnekgqvvtktallkqmeelieepgltccicregykfqptkvlgiytftkrvaleemenkpr
+  sp|A2AN08|UBR4_MOUSE 4783 RETRAEKKRMAMAMRQKALGTLGMTTNEKGQVVTKTALLKQMEELIEEPGLTCCICREGYKFQPTKVLGIYTFTKRVALEEMENKPR 4869
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4873 kqqgystvshfnivhydchlaavrlargreewesaalqnantkcngllpvwgphvpesafatclarhntylqectgqreptyqlnih 4959
+                            kqqgystvshfnivhydchlaavrlargreewesaalqnantkcngllpvwgphvpesafatclarhntylqectgqreptyqlnih
+  sp|A2AN08|UBR4_MOUSE 4870 KQQGYSTVSHFNIVHYDCHLAAVRLARGREEWESAALQNANTKCNGLLPVWGPHVPESAFATCLARHNTYLQECTGQREPTYQLNIH 4956
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4960 dikllflrfameqsfsadtggggresnihlipyiihtvlyvlnttratsreeknlqgfleqpkekwvesafevdgpyyftvlalhil 5046
+                            dikllflrfameqsfsadtggggresnihlipyiihtvlyvlnttratsreeknlqgfleqpkekw esaf+vdgp+yft+lalh+l
+  sp|A2AN08|UBR4_MOUSE 4957 DIKLLFLRFAMEQSFSADTGGGGRESNIHLIPYIIHTVLYVLNTTRATSREEKNLQGFLEQPKEKWTESAFDVDGPHYFTILALHVL 5043
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 5047 ppeqwratrveilrrllvtsqaravapggatrltdkavkdysayrssllfwalvdliynmfkkvptsnteggwscslaeyirhndmp 5133
+                            ppeqw+a rveilrrllv s aravapggatrltdkavkdysayrssllfwalvdliynmfkkvptsnteggwscslaeyirhndmp
+  sp|A2AN08|UBR4_MOUSE 5044 PPEQWKAIRVEILRRLLVASHARAVAPGGATRLTDKAVKDYSAYRSSLLFWALVDLIYNMFKKVPTSNTEGGWSCSLAEYIRHNDMP 5130
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 5134 iyeaadkalktfqeefmpvetfsefldvagllseitdpesflkdllnsvp 5183
+                            iyeaadkalktfqeefmpvetfsefld agllseitdpesflkdllnsvp
+  sp|A2AN08|UBR4_MOUSE 5131 IYEAADKALKTFQEEFMPVETFSEFLDAAGLLSEITDPESFLKDLLNSVP 5180
+                            *************************************************9 PP
+
+>> sp|Q9VLT5|POE_DROME  Protein purity of essence OS=Drosophila melanogaster OX=7227 GN=poe PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  211.0   4.5   6.8e-66     2e-62      28     705 ..       9     678 ..       3     687 .. 0.80
+   2 !  124.4   5.2   8.4e-40   2.5e-36     705    1073 ..     705    1077 ..     696    1104 .. 0.79
+   3 !   31.3   0.6   8.7e-12   2.6e-08    1238    1484 ..    1265    1535 ..    1246    1577 .. 0.75
+   4 ! 3225.8  19.8         0         0    1485    5183 .]    1635    5316 ..    1604    5316 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 211.0 bits;  conditional E-value: 6.8e-66
+  sp|Q5T4S7|UBR4_HUMAN  28 gwevavrpllsasysafemkelpqlvasvieseseilhhekqyepfyssfvalsthyittvcsliprnqlqsvaaackvliefsllrle 116
+                            w   v+ l+     a+   e+  l+ ++   e +++++e  +  fy++f al+   +  + + i + q+  +  a  vli f + rl 
+   sp|Q9VLT5|POE_DROME   9 DWNSVVKALILNRTGALNKNEVVNLLKAITRCEHDFFEEESNFTQFYTAFAALAADKLMQIKT-ICQTQICQLHDATAVLIRFIIYRLP 96 
+                           59999999999999*****************************************99888765.5678999999999**********96 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 117 npdeacavsqkhlillikglctg..csrldrteiitfta...mmksaklpq.tvktlsdvedqkelaspvspelrqkevqmnflnqlts 199
+                                     k l+  +k lc g  c     + ++ + a   ++ks k p+ t k++          +    e  + e++ +  + l+s
+   sp|Q9VLT5|POE_DROME  97 R---VSVYETKWLLGALKMLCEGreCPASASSSMFDYNAvanVLKSCKHPEsTTKSIMPSSSSSGSGASNDKESPKSEIKRS-RSDLSS 181
+                           5...55678899*********997788888888888877333589*****83456665555555544455556666677654.678999 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 200 vfnprtvasqpistqtlvegendeqsstdqasaiktknvfiaqnvaslqelggsekllrvclnlpyflryinrfqdavlansffimpat 288
+                           v+  + +a       t v    +    t+q         ++a nv  +qe +g + ll vc++lp + ry +++ + +     + +p t
+   sp|Q9VLT5|POE_DROME 182 VILQQLIAPLEPGKMTWVPLSEEVTDCTEQ---------ILAANVEYFQEQNGVDTLLDVCVSLPILNRYRSKYMETINGGKSLYLPLT 261
+                           999999997777777877654443333333.........478899******************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 289 vadatavrngfhslvidvtmaldtlslpvleplnpsrlqdvtvlslsclyagv..svatcmailhvgsaqqvrtgsts........... 364
+                             +atav+++++ ++ d+t+     +l  ++pl psr++ +++  +++ly +v  s+at +  +  +s+ q +t+sts           
+   sp|Q9VLT5|POE_DROME 262 QVEATAVKSSMNHMLTDLTILSQAQALIEMQPLTPSRIERLSMCGIAALYNAVltSIATSVLGMSQASSSQKQTASTSqgsgvggssgg 350
+                           **************************************************998345666665555666677777666422222222222 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 365 ..sk.eddyesdaativqkcleiydmigqaisssrraggehyqnfqllgawcllnslflilnlsptaladkgk.ekdplaalrvrdils 449
+                             +k  dd+e  a +iv k+leiy  ig  + +s r     yqn    g+w l++ +   +  s +  +      k    a +     +
+   sp|Q9VLT5|POE_DROME 351 qsNKdHDDFEDQACSIVNKALEIYSNIGHMFKTSARI--HVYQNHLCYGSWLLISGIQGAMGASGSGGSSSDSaSKSASKATK-SGSEA 436
+                           21332599************************99987..57***************999888876654333220222222222.22233 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 450 rtkegvgspklgpgkghqgfgvlsvilanhaiklltslfqdlqveal.hkgwe.tdgp.paalsimaqstsiqriqrlidsvplmnlll 535
+                            t       +++  k +qgfg l+  +anh+ikll+ l++dl+vea   ++ e t+ p pa + i+   +s++ri r++++  l  l+ 
+   sp|Q9VLT5|POE_DROME 437 GTAPTTPIARVNLFKVQQGFGELNAAIANHSIKLLSELIEDLKVEAAcGQSLEsTELPePAQFDILQNYSSLERIVRVLNTATLHQLFT 525
+                           34444455678889*******************************862455552565558999*******************9999988 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 536 tllstsyrkacvlqrqr.kgsmssdasastdsntyyeddfssteedssqdddsepilgqwfeetispskekaappppppppplessprv 623
+                            l + +yrkac l+r   k     +  + +ds ty+ d +s +  d+s++ddse  lg wf+et+sp                    + 
+   sp|Q9VLT5|POE_DROME 526 FLATVAYRKACTLKRASaKDRTECEPISYSDSTTYFNDSLSCS--DNSEEDDSESYLGHWFKETLSPETHDD---------------NA 597
+                           88889********99752677778888999********99875..8899*****************975432...............22 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 624 kspskqapgekgnilasrkdpelflglasnilnfitssmlnsrnnfirnylsvslsehhmatlasiikevdkdglkgssdee 705
+                            + +++   +k+ ++    +p  +l la++i+ f+   +l +r+ +++ y+   +s+++m  +a+iik+ d+d +++ sd+ 
+   sp|Q9VLT5|POE_DROME 598 NTSTQERAEQKSALVPKLDEPHEYLDLAADIFCFLDQ-FLANRHAYMQRYVKAGVSDQQMLLMANIIKDFDRDVMRNESDQG 678
+                           22233334456667777889**************976.566799**********************************9985 PP
+
+  == domain 2  score: 124.4 bits;  conditional E-value: 8.4e-40
+  sp|Q5T4S7|UBR4_HUMAN  705 efaaalyhfnhslvtsdlqspnlqntllqqlgvapfse..gpwplyihpqslsvlsrllliwqhkasaqgdpdvpeclkvwdrflst 789 
+                             f+ a  ++ h+l+++ l s  lq+ llq l+++p+s   + wpl ++p +lsvl ++ll+     + +       cl vw r+++t
+   sp|Q9VLT5|POE_DROME  705 RFSGAAGRYIHNLISTSLLSEQLQSNLLQHLSISPWSTdtNTWPLQVYPSTLSVLVQILLLKP---TQEK---EAACLSVWHRLINT 785 
+                            6888889999**************************962368****************99853...3332...357*********** PP
+
+  sp|Q5T4S7|UBR4_HUMAN  790 mkqnalqgvv..psetedlnvehlqmlllifhnftetgrrailslfvq.iiq..el..svnmdaqmrfvp.lilarlllifdyllhq 868 
+                            + +    +     s+ edln+eh q+ll++fh++    +++il l    +i+  e+   ++ d  ++    ++l+rlll+++yl+  
+   sp|Q9VLT5|POE_DROME  786 LVEGVCSSNTasDSDYEDLNIEHAQLLLFLFHSLNLMQKKSILLLTAGgVIRcaEVcrGISEDRPVKNSQiMLLSRLLLFLEYLMKH 872 
+                            ***99877551156779*************************998754244311332245667766655416789*********988 PP
+
+  sp|Q5T4S7|UBR4_HUMAN  869 yskapvylfeqvqhnllsppfgwasgsqdsnsrrattply.hgfkeveenwskhfss.davphprfycvl..spease.ddlnrlds 950 
+                               ap  l++qv+ nl+s         + ++  +  t l  +   ++een+ k      +  +p fy ++   pe s      +ld 
+   sp|Q9VLT5|POE_DROME  873 LYNAPPELLDQVRWNLFSVSS-MPDTQKITDLLNCRTKLNsYCRHDIEENFRKSAGEyGSSIRPTFYSLVmgDPEISYwAQEFKLDG 958 
+                            889999**********99754.444444455555556654134568*****99876524556899**87634699886234569*** PP
+
+  sp|Q5T4S7|UBR4_HUMAN  951 vacdvlfs..klvkydelyaaltallaagsqldtvrrkenknvtaleacalqyyflilwrilgilppsktyinqlsmnspemsecdi 1035
+                            +a + ++     +ky  l  alt +l+  + +    ++++k  +    ca+qy f i w++   lpps +++  l            
+   sp|Q9VLT5|POE_DROME  959 LAWNFILCtpDKLKYPLLVDALTDILSI-TDMSMYSKEKDKEASMHNLCAIQYCFTIAWKLNLGLPPSTSHVESLKAE-----RSPN 1039
+                            **99776412578************987.5678888888999999***************98789*******988643.....3346 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1036 lhtlrwssrlrissyvnwikdhlikqgmkaehasslle 1073
+                            lh+l ws rl ++s    +   likqgm  ++a +l  
+   sp|Q9VLT5|POE_DROME 1040 LHSLMWSIRLPLASSHYLVVSSLIKQGMYTQYAETLWT 1077
+                            9***********99999999*************99865 PP
+
+  == domain 3  score: 31.3 bits;  conditional E-value: 8.7e-12
+  sp|Q5T4S7|UBR4_HUMAN 1238 tnefpnigswrn.afandtipsesyisavqaahlgtlcsqs.lplaaslkhtllslvrltgdlivwsdemn...ppqvirtllplll 1319
+                             ne+p     ++ af     p e yi  v  ah+  l   s      +lkh l s+++l   l+      n     q+ + l+  +l
+   sp|Q9VLT5|POE_DROME 1265 ANEWPKCLMVNDfAFNGKQHPVEPYILNVIDAHIIELTRGSnYSTLHTLKHCLKSILQLFELLLPH-RTANaevETQLKQLLISSML 1350
+                            56666654433326667789*********9***999876541677889**********98666654.33331114677888899999 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1320 esstesvaeissnslerilgpaesdeflarvyeklitgcynilanha.d........pnsg..ld.......esileeclqylekql 1388
+                            +  t+ +   s + l +il+    +     +ye ++  cy +l   a d        p+ g  ld       es+l   l+ + k l
+   sp|Q9VLT5|POE_DROME 1351 DMRTDYLQGHSEHCLREILSGLTQEAQKLLLYEHMVGYCYRMLKEFAaDlrqpqsagPSGGapLDqdramfnESMLFAVLKTMFKML 1437
+                            99*****************988888778889**********9976432222211111655555332222222778888899999*** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1389 essqarkameeffsd..sgelvqimmatanenlsakfcnrvlkfftklfqltekspnps.llhlcgslaqlacvepvrlqawltrmt 1472
+                            e   a +am +ff d  sg l  ++++    +l   ++ ++l+f  +lfql+ ++ +      l   +++la v+  rl+ wl ++ 
+   sp|Q9VLT5|POE_DROME 1438 EKPVAVQAMRQFFKDqrSGSLTTLLLSFTGTSLPVSYARKMLQFVNRLFQLSLQADSQFqHEDLVECFSELATVDVARLKQWLGHII 1524
+                            *************99778*********************************98876653134588999****************999 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1473 tsppkdsdqldv 1484
+                              p   +d +  
+   sp|Q9VLT5|POE_DROME 1525 YGPNVSTD-VST 1535
+                            88876555.333 PP
+
+  == domain 4  score: 3225.8 bits;  conditional E-value: 0
+  sp|Q5T4S7|UBR4_HUMAN 1485 iqenrqllqllttyivrensqvgegvcavllgtltpmatemla.ngdgtgfpelmvvmatlasagqgaghlqlhnaavdwlsrckky 1570
+                             + n  ll  +   +v++ s+ ++ ++  l+  l  +   +++   +g  f +++ +m tla a+ + gh+ l n  + wl  +k  
+   sp|Q9VLT5|POE_DROME 1635 SERNGALLLSFVKSLVKDQSKASQ-IAPPLFQALLQLGQTLISpPQEGCDFADVLQIMITLADASPARGHVALFNTTLLWLELAKLQ 1720
+                            234555666666778999998876.6666777777777666651679**********************************999988 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1571 lsqknvveklnanvmhgkhvmilectchimsyladvtnalsqsngqgpshlsvdgeeraievdsdwveelave.eedsqaedsdeds 1656
+                            l  k++         h+++v         + yl+++  ++    g    h     +e   ++d    +ela e e+ds  +dsded+
+   sp|Q9VLT5|POE_DROME 1721 LPDKHL--------KHAENV------SAQLRYLSELLQSIGFR-GSR-QHNPPWDDELQTDIDE-LYDELAEEgEQDSLLDDSDEDT 1790
+                            877653........333333......33467888877776543.332.3444445566677775.457888775789********** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1657 lcnklctftitqkefmnqhwyhchtckmvdgvgvctvcakvchkdheisyakygsffcdcgakedgsclalvkrtpssgmsstmkes 1743
+                            l nklctf+ tqkefmnqhwyhchtc m++ vgvc+vca+vchk h++syakyg+ffcdcgakedgsc al +r  s+ +  +    
+   sp|Q9VLT5|POE_DROME 1791 LNNKLCTFSQTQKEFMNQHWYHCHTCNMINTVGVCSVCARVCHKGHDVSYAKYGNFFCDCGAKEDGSCQALSRRIGSNEVRDSAGIG 1877
+                            **************************************************************************9887776655544 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1744 afqsepriseslvrhastsspadkakvtisdgkvadeekpkksslcrtvegcreelqnqanfsf.aplvldmlnflmdaiqtnfqqa 1829
+                            ++   p     l     +s p  +  +t  d+   +e   + + l + +e  re lq+q  + +    +l+ +++l+ +i  n    
+   sp|Q9VLT5|POE_DROME 1878 SYL--PSHMSLLAGKKRSSLPVGQPVLTRKDSL-TNE---RIAVLTKLLEPYRETLQHQDQWLLvVRCILEYFDLLLPSINENCMLY 1958
+                            443..4444556666777889999999988865.444...45789999***********9987625789****************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1830 savgsssraqqalselhtvekavemtdqlmvptlgsqegafenvrmnysgdqgqtirqlisahvlrrvamcvlssphgrrqhlavsh 1916
+                            s vg   ra  al  lh +e++ ++tdqlm  tlgsqegafenvrmnysgdqgqti+ l+s+ v+rrva+c lssphgrrq+lavsh
+   sp|Q9VLT5|POE_DROME 1959 SIVGCHKRATAALERLHLLEQSFQVTDQLMFATLGSQEGAFENVRMNYSGDQGQTIKHLLSSGVVRRVAFCCLSSPHGRRQQLAVSH 2045
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1917 ekgkitvlqlsallkqadsskrkltltrlasapvpftvlsltgnpckedylavcglkdchvltfsssgsvsdhlvlhpqlatgnfii 2003
+                            ekgk+t+lqlsallkqad+skrkltlt+l+sap+  tv+sl +npc ed lavcglk+ch+ltfsssgs ++h+v++pql  gn+i 
+   sp|Q9VLT5|POE_DROME 2046 EKGKVTILQLSALLKQADASKRKLTLTQLSSAPIACTVISLAANPCNEDCLAVCGLKECHILTFSSSGSTNEHIVVNPQLENGNYIK 2132
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2004 kavwlpgsqtelaivtadfvkiydlcvdalsptfyfllpsskirdvtflfneegkniivimssagyiytqlmeeassaqqgpfyvtn 2090
+                            kavwlpgsqt la+vt+d+vkiydl+vd  sp +y+l+   kird tf++ + + n++  ++s+gyiytq +++ s a  g fyvtn
+   sp|Q9VLT5|POE_DROME 2133 KAVWLPGSQTLLAVVTSDYVKIYDLAVDTYSPKYYYLVAVGKIRDCTFVYQDGNYNMLT-FASSGYIYTQQLDQQSLAVHGDFYVTN 2218
+                            **************************************************988888766.6778*********************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2091 vleinhedlkdsnsqvagggvsvyyshvlqmlffsycqgksfaatisrttlevlqlfpinikssnggsktsp..alcqwsevmnhpg 2175
+                             le++h+ +kd    + gggvs+yysh lq+lf+sy  g+sf + +++ +  v  ++ ++  s++ ++   p   l qw+ev  hpg
+   sp|Q9VLT5|POE_DROME 2219 TLELSHQHIKDIAGHIGGGGVSIYYSHTLQLLFYSYSCGRSFFSPLTNVSEGVKGIYHLDTNSASKSASKGPlqPLVQWTEVTGHPG 2305
+                            *********************************************************9999887766666663369*********** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2176 lvccvqqttgvplvvmvkpdtfliqeiktlpakakiqdmvairhtacneqqrttmillcedgslriymanventsywlqpslqp... 2259
+                            lv +  qt++ p+++m+ p+ + +qeik   ak++i d+v irh  +   ++tt++llcedgslri+ a  e ts+wl p +qp   
+   sp|Q9VLT5|POE_DROME 2306 LVYASMQTSNNPIILMITPERIYLQEIKAQSAKSRIMDVVGIRHAVAGV-EKTTLLLLCEDGSLRIFSAQPEYTSFWLSPQVQPfgn 2391
+                            ********************************************98875.689*******************************553 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2260 ...ssvisim.k.....pvrkrk..tat..ittrtssq..........vtfpidffehnqqltdvefggndllqvynaqqikhrlns 2323
+                               ss   +m k        k k  ta+  +t+r +sq            fpidffeh   l dvefggndllq+yn q++k rl s
+   sp|Q9VLT5|POE_DROME 2392 qlySST--LMaKgggsgSTSKSKsnTASgkMTSRKASQqqkqptaggqPVFPIDFFEHCNMLADVEFGGNDLLQIYNKQKLKTRLFS 2476
+                            333222..221212222233444113323367776654222222222157************************************* PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2324 tgmyvantkpggftieisnnnstmvmtgmriqigtqaierapsyieifgrtmqlnlsrsrwfdfpftreealqadkklnlfigasvd 2410
+                            tgm+va+t+ +gft+e+ nn+  +v+ g+r+ igtq ++rap  + i+grt+   + r+rwfd+p+tree lq+dk l + ++ + d
+   sp|Q9VLT5|POE_DROME 2477 TGMFVASTRSNGFTLEVINNDPNVVIVGIRVLIGTQDVQRAPQSVTILGRTIPTPVRRARWFDIPLTREEMLQSDKLLKVVFAKAPD 2563
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2411 pagvtmidavkiygktkeqfgwpdeppe.efpsasvsnicpsnlnqsngtgdsdsaaptttsgtvlerlvvsslealescf.avgpi 2495
+                            p  vt++d +++ygk+ke  gwpde  +   p +s   +  s  + +n  g+           t l+r+    le ++ ++  +g  
+   sp|Q9VLT5|POE_DROME 2564 PEHVTLLDCIEVYGKSKELVGWPDESEDvTVPGSSAPAVSSSQASSAN-FGEGF------NCITQLDRMANHLLEVMDCALhLLGSG 2643
+                            *************************87724677777777666655544.34443......345789999999999999765267888 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2496 iekernknaaqelatlllslpapasvqqqsksllaslhtsrsayhshkdqalls...kavqclntssk...egkdldpevfqrlvit 2576
+                            +     + a  + a+ ll lp p  vq q++ +la+l+ +r+ yh++kd  ll    + +q +    +     +++dpe f rlv+ 
+   sp|Q9VLT5|POE_DROME 2644 VPASMRQKAV-KTASALLLLPTPNPVQTQARYVLATLYGTRALYHNYKDGVLLQfvnRELQSMQPKLEkleTLREIDPEAFYRLVLM 2729
+                            8877766665.56777788*******************************99852225667666544311145899*********** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2577 arsiaimrpnnlvhftesklpqmetegmdegkepqkqlegdccsfitqlvnhfwklhaskpknaflapaclpglthieatvnalvdi 2663
+                             r ia  rp +l  +        e      +             ++  l+    +lh   p           gl + e  v+ lv+i
+   sp|Q9VLT5|POE_DROME 2730 VRGIANARPQSLAKICV------EN-----NY-----------DIVPTLMGIVLELHKVTPTLDEPVNIVKRGLCQPETIVHCLVEI 2794
+                            **********9976532......11.....11...........1233333333444444444444444455677777999******* PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2664 ihgyctceldcintaskiymqmllcpdpavsfsckqalirvlrprnkrrhvtlpssprsntpmgdkdddddddadekmqssgipngg 2750
+                            ++g++ ++   +   +k ++ +l      +s s+k+ali +l pr krr v + + p  +tp           a     +s      
+   sp|Q9VLT5|POE_DROME 2795 MYGFALADPGQVGRMTKYFIDLLKHDASVISHSAKEALILLLSPRMKRRKVAIVTPPACSTPTPSTSTMQALQAAASSAAS------ 2875
+                            *********************999999999********************************9876655444443333333...... PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2751 hirqesq...eqsevdhgdfemv...sesmvletaenvnngnpspleallagaegfppmldippdaddetmvelaialslqqdqqgs 2831
+                             i +e+        v  g +      +e   +     v       lea++ g  gfp +l +p dadde ++++aialslqq   g 
+   sp|Q9VLT5|POE_DROME 2876 DIIEEAAgvvVDGSVGGGGLPEPnadAEGAAV-GVGGVGQQQMLNLEAFMGG--GFPRLLGLPEDADDEAIMDIAIALSLQQH--GG 2957
+                            33333321112233333333222000222222.2345666667778999887..9*************************974..55 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2832 sssalglqslgls...gqapssssldagtl.sdttasapasddegstaatdgstlrtspadhggsvgsesggsavdsvagehsvsgr 2914
+                             ++al     gl+   g   ++ ++ a+   +   +   + ddegs  atdgstlrtspa+ +gs gsesggs v+s+ g    s+r
+   sp|Q9VLT5|POE_DROME 2958 DANALQSLQQGLAnlqGIRQAT-AMAAAVNaAANVSLGGSDDDEGSNVATDGSTLRTSPAEPAGSGGSESGGSGVESIGG---TSAR 3040
+                            5555543333444100444333.44444440444445566789***********************************99...5789 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2915 ssaygdataeghpagpgsvssst...g..aistttghqegdgsegegegetegdvhtsnrlhmvrlmllerllqtlpqlrnvggvra 2996
+                            ss +gd  a + p   gs        g   ++ + g     +  +  ++e   d    ++lh +r+ +le ++q l  +   +g++a
+   sp|Q9VLT5|POE_DROME 3041 SSNFGDH-ANASPPRQGSTKDDQeqpGpsGVAGSGGVAVLSAMSSSEDNEANED-DKLSKLHDLRIAVLESIIQHLGTFDLCNGLQA 3125
+                            9999996.4556666777654431112112333333333333333333444333.45679*************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 2997 ipymqvilmlttdldgedekdkgaldnllsqliaelgmdkkdvskkne.rsalnevhlvvmrllsvfmsrtks...gsks...sice 3076
+                            ip +qvilmlttdl+g +e+d+  l +ll+ l+  + + k+  + + e +   nev+l ++ l+ v+m +tks   g+ s    + +
+   sp|Q9VLT5|POE_DROME 3126 IPLIQVILMLTTDLNGNNERDQQVLHDLLTALVDYVEIGKRGAAARMEtKCPGNEVRLALLSLFGVLMGKTKSkqtGTTSpphQFKD 3212
+                            **********************************9999999998877725678******************9833344332224678 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3077 ssslissataaallssgavdyclhvlkslleywksqqndeepv....ats.............qllkphttssppdmspfflrqyvk 3146
+                            +ss+++s ta  l  sga  y+l+ l +ll +wk+   d        a+              qllkp      pd+s ++ + y+k
+   sp|Q9VLT5|POE_DROME 3213 NSSFVASTTANVLSKSGAFVYALEALNTLLVHWKNVLGDPYAAggglASQsaqasggasgpgvQLLKPIKHGPKPDISILIPHNYLK 3299
+                            9*********************************987775432111111011112233345559*********************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3147 ghaadvfeaytqlltemvlrlpyqikkitdtnsripppvfdhswfyflseylmiqqtpfvrrqvrklllficgskekyrqlrdlhtl 3233
+                            ++  d+fe+y  llte+++rlpyqi +++  +       f ++  + l ey+m+    ++rrqvrkll++icgskek+r  rd h+l
+   sp|Q9VLT5|POE_DROME 3300 NY-PDIFESYDGLLTEIIVRLPYQILRLSSAHPDNYDSGFCEAMTFTLCEYMMLNLNTLLRRQVRKLLMYICGSKEKFRMYRDGHSL 3385
+                            87.6***************************99999999*9********************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3234 dshvrgikklleeqgiflrasvvtassgsalqydtlislmehlkacaeiaaqrtinwqkfcikddsvlyfllqvs.flvdegvspvl 3319
+                            d+h r +k++     +  +      ++   l yd l+ l ehl+ c ei+  rt nwqkfc+  +  l +l++++ + +d+gvsp++
+   sp|Q9VLT5|POE_DROME 3386 DAHFRVVKRVCNI--VSSKTGAPYNANPPMLSYDALVELTEHLRTCQEISQMRTGNWQKFCVVHEDALAMLMEIAcYQLDDGVSPII 3470
+                            *********9975..445555666677889*********************************9999999999864889******** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3320 lqllscalcgskvlaalaassgsssassssapvaassgqattqsksstkkskkeekekekdgetsgsqed.qlctalvnqlnkfadk 3405
+                            +qll +a+c+      l   sgs  a              +t s s      + ++ek +d +   s+ d   c  +v+q+ ++a  
+   sp|Q9VLT5|POE_DROME 3471 IQLLQAAVCN------LPPPSGSKQAQPQP----------STSSASGKL---RTDREKSEDTDAYYSKFDpAQCGTFVHQIFRYACD 3538
+                            *********7......56778887665432..........222222222...223344444444444444156999*********** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3406 etliqflrcfllesnsssvrwqahcltlhiyrnssksqqellldlmwsiwpelpaygrkaaqfvdllgyfslktpqtekklkeysqk 3492
+                              +i+f+r flle+n + +rwqah +   +++++++ q+e ll+++w++wp +p ygr+ aqfvdllgy++l t    ++l e+  +
+   sp|Q9VLT5|POE_DROME 3539 ALIIRFVRIFLLENNITQLRWQAHSFMTGLFEHANERQREKLLNIFWNLWPLVPTYGRRTAQFVDLLGYLTLSTRSITERLPEFVSR 3625
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3493 aveilrtqnhiltnhpnsniyntlsglvefdgyylesdpclvcnnpevpfcyiklssikvdtrytttqqvvkligshtiskvtvkig 3579
+                            av++lr qn++l  hpn+ iy tl ++++ +gyyles+pclvcnnpevp++ ikl s+k d++yttt  + kl+  htisk+ v+i+
+   sp|Q9VLT5|POE_DROME 3626 AVDVLRQQNELLCKHPNAPIYTTLESILQVNGYYLESEPCLVCNNPEVPMANIKLPSVKSDSKYTTTTMIYKLVQCHTISKLIVRIA 3712
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3580 dlkrtkmvrtinlyynnrtvqaivelknkparwhkakkvqltpgqtevkidlplpivasnlmiefadfyenyqastetlqcprcsas 3666
+                            dlkrtkmvrtin+yynnr+vqa+velkn+pa whka+ v l  +qte+kid+plpi a nlmiefadf+e    s+e lqcprcsa+
+   sp|Q9VLT5|POE_DROME 3713 DLKRTKMVRTINVYYNNRSVQAVVELKNRPALWHKARSVSLQSAQTELKIDFPLPITACNLMIEFADFFETVSGSSENLQCPRCSAA 3799
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3667 vpanpgvcgncgenvyqchkcrsinydekdpflcnacgfckyarfdfmlyakpccavdpieneedrkkavsnintlldkadrvyhql 3753
+                            vpa pgvcgncgenv+qchkcr+inydekdpflc++cgfckya+fdf +ya+ ccavdpie+ edr k vs i++ l++adr y+ql
+   sp|Q9VLT5|POE_DROME 3800 VPAYPGVCGNCGENVFQCHKCRAINYDEKDPFLCHSCGFCKYAKFDFSMYARVCCAVDPIESAEDRVKTVSLIHSSLERADRNYRQL 3886
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3754 mghrpqlenllckvneaapekpqddsgtaggisstsasvnryilqlaqeycgdcknsfdelskiiqkvfasrkelleydlqqreaat 3840
+                            + ++  le l+ kv e        + +  +++ sts  vn+ i  laq+yc + + sf+elski+qkv a r el+ yd qq++   
+   sp|Q9VLT5|POE_DROME 3887 LTNKQMLELLIQKVAEHRSSDRMVEDNM-ASVHSTS-QVNKIIQLLAQKYCVESRTSFEELSKIVQKVKACRSELVAYDRQQQDQ-- 3969
+                            **************98765444444333.4678876.79*****************************************99874.. PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3841 kssrtsvqptftasqyralsvlgcghtsstkcygcasavtehcitllralatnpalrhilvsqglirelfdynlrrgaaamreevrq 3927
+                                  v p          s  g+ + ++ +cygca a te+c+tllra+a n   r  l sqgl+ el ++nlrrg   ++eevr 
+   sp|Q9VLT5|POE_DROME 3970 ----PPVNPG---------STTGAENPTTNRCYGCALASTEQCLTLLRAMAYNYDCRVCLYSQGLVSELAEHNLRRGTPLIQEEVRN 4043
+                            ....345554.........45688899999********************************************************* PP
+
+  sp|Q5T4S7|UBR4_HUMAN 3928 lmclltrdnpeatqqmndliigkvstalkghwanpdlasslqyemllltdsiskedscwelrlrcalslflmavniktpvvvenitl 4014
+                            l+ +lt+dn ea   +  l+  +v  al g      l +++  em ll   + ++d cwe +l+  + lf+    +     v  +  
+   sp|Q9VLT5|POE_DROME 4044 LLVVLTKDNAEACMHLLQLVTTRVKNALMGSIPLISLEAAVHQEMTLLEVLLGQDDICWEYKLKVIFELFISNCRLPRGP-VTAVLH 4129
+                            **********************************************************************9877765443.345778 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4015 mclrilqklikppaptskknkdvpvealttvkpycneihaqaqlwlkrdpkasydawkkclpirg.............idgngkaps 4088
+                             clri+q li p  p sk n+ v    l ++k +        + wl  d    y aw k +p ++               g + ap 
+   sp|Q9VLT5|POE_DROME 4130 PCLRIMQNLICPVLPGSKPNQKVATTDLCSMKMFEGNT-VDYRAWLNSDRNHEYAAWSKRMPSNNqaklknakdqnvaASGGSDAPP 4215
+                            9*******************************996543.56678*****************96432222222222211345667887 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4089 ks..elrhlyltekyvwrwkqflsrrgkrtspldlklghnnwlrqvlftpatqaarqaactivealatipsrkqqvldlltsyldel 4173
+                            ks  e+r  +l+eky  rw++ +  + +   pl +   +  w++ +lf   ++  rq ac+++ +l+    r+qq l++lts+l  +
+   sp|Q9VLT5|POE_DROME 4216 KSrrEVRVAFLSEKYGKRWRERVLDKQRVIKPLVF---NAKWIQPLLFNANSRFGRQLACSLLSSLSRTNERRQQALNMLTSFLKHV 4299
+                            654489***************99999999999865...569********************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4174 siagecaaeylalyqklitsahwkvylaargvlpyvgnlitkeiarllaleeatlstdlqqgyalksltgllssfvevesikrhfks 4260
+                              age++aeyl ly+ + t   w  yl  +gvl  ++ l+  ei+++  +ee +ls+dl  gyal+    ll  ++e  +i+r +k+
+   sp|Q9VLT5|POE_DROME 4300 GEAGEASAEYLMLYKNMATEQPWLQYLVLKGVLSQISQLLAIEISKVHRMEEYSLSSDLSLGYALRQYVELLWLLLECPNIRRTYKT 4386
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4261 rlvgtvlngylclrklvvqrtklidetqdmllemledmttgtesetkafmavcietakrynlddyrtpvfiferlcsiiypeenevt 4347
+                            r++g vl +yl+lr lvvqrt+lid+ q+ llemledmt+gte et+afm + i+t ++  ++d +tpvf+ferl sii+pee++ +
+   sp|Q9VLT5|POE_DROME 4387 RMLGPVLESYLALRSLVVQRTRLIDDAQEKLLEMLEDMTSGTEEETRAFMEILIDTVEKTRMNDIKTPVFVFERLYSIIHPEEHDES 4473
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4348 effvtlekdpqqedflqgrmpgnpyssnepgigplmrdiknkicqdcdlvalleddsgmellvnnkiisldlpvaevykkvwctt.n 4433
+                            ef++tlekdpqqedflqgrm gnpy s+e g+gplmrd+knkic dc+l+alledd+gmellvnnkiisldlpv +vykkvw     
+   sp|Q9VLT5|POE_DROME 4474 EFYMTLEKDPQQEDFLQGRMLGNPYPSSEMGLGPLMRDVKNKICTDCELIALLEDDNGMELLVNNKIISLDLPVKDVYKKVWLAEgG 4560
+                            **********************************************************************************87625 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4434 egepmrivyrmrgllgdateefiesldsttdeeedeeevykmagvmaqcgglecmlnrlagirdfkqgrhlltvllklfsycvkvkv 4520
+                            + + mrivyrmrgllgdateef+e+l++ + e+ d e++y+ma+v+a c+gl  ml r+ +++ + ++r+l+ vllklf  cvkv+ 
+   sp|Q9VLT5|POE_DROME 4561 DRDAMRIVYRMRGLLGDATEEFVETLNNKSQEQVDTEQLYRMANVLADCNGLRVMLERIGSLQRISRNRELIQVLLKLFLICVKVRR 4647
+                            7899*********************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4521 nrqqlvklemntlnvmlgtlnlalvaeqeskdsggaavaeqvlsimeiildesnaeplsedkgnllltgdkdqlvmlldqinstfvr 4607
+                             ++ l + e+  +n +l  l + l +e    ds  +av eq+l ime il ++ ++ l       l  g  + +  l+   +   vr
+   sp|Q9VLT5|POE_DROME 4648 CQEVLCQPEIGAINTLLKVLQMCLQSEN---DSIQSAVTEQLLEIMETILSKAASDTLDSFLQFSLTFGGPEYVSALISCTDCPNVR 4731
+                            *********************9997776...566679*********************9998888888999999999999******* PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4608 snpsvlqgllriipylsfgevekmqilverfkpycnfdkydedhsgddkvfldcfckiaagiknnsnghqlkdlilqkgitqnaldy 4694
+                            +npsvl+ l+r++  l +g   km +l e+fk   nf+++d +++ +++  l+ fc +   i++n  g  lkd i+  gi + +l y
+   sp|Q9VLT5|POE_DROME 4732 NNPSVLRHLIRVLAALVYGNEVKMALLCEHFKDTLNFNRFDNERTPEEEFKLELFCVLTNQIEHNCIGGTLKDYIVSLGIVERSLAY 4818
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4695 mkkhipsak....nldadiwkkflsrpalpfilrllrglaiqhpgtqvligtdsipnlhkleqvssdegigtlaenllealrehpdv 4777
+                            + +h p  k      d+d  k+f+srp+l +ilr+l gl+  h +tqv i+ d ip +h+leqvssde +g+laenlleal      
+   sp|Q9VLT5|POE_DROME 4819 ITEHAPCVKptllRTDSDELKEFISRPSLKYILRFLTGLSNHHEATQVAISKDIIPIIHRLEQVSSDEHVGSLAENLLEALSTDSAT 4905
+                            *****9988433357************************************************************************ PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4778 nkkidaarretraekkrmamamrqkalgtlgmttnekgqvvtktallkqmeelieepgltccicregykfqptkvlgiytftkrval 4864
+                              ++   r  traekkr+ama r+k l  lgm tnekgqv  k ++l+++e+l +e gltc icregy  qp kvlgiytftkr  +
+   sp|Q9VLT5|POE_DROME 4906 AARVQQVRDFTRAEKKRLAMATREKQLDALGMRTNEKGQVTAKGSILQKIEKLRDETGLTCFICREGYACQPDKVLGIYTFTKRCNV 4992
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4865 eemenkprkqqgystvshfnivhydchlaavrlargreewesaalqnantkcngllpvwgphvpesafatclarhntylqectgqre 4951
+                            ee+e k rk  gy+tv+hfn+vh dch +a+rl rgr+ewe a+lqnant+cngllp+wgp v e+af+ c+ rh++y+qe t + +
+   sp|Q9VLT5|POE_DROME 4993 EEFELKSRKTIGYTTVTHFNVVHVDCHTSAIRLTRGRDEWERASLQNANTRCNGLLPLWGPAVGEAAFSACMTRHSSYMQESTQRCD 5079
+                            *************************************************************************************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 4952 ptyqlnihdikllflrfameqsfsadtggggresnihlipyiihtvlyvlnttratsreeknlqgfleq.pkekwvesafevdgpyy 5037
+                             +y  ++hd+kll++rfa e+sf  d gggg +sn+h++py++   +y+l ++r+ +r+ k l  +l+  p ekw+e  +evdgp +
+   sp|Q9VLT5|POE_DROME 5080 ISYTSSVHDLKLLLVRFAWERSFHDDAGGGGPQSNMHFVPYLLFYSVYLLLSSRSAARDSKTLLTYLQApPSEKWLECGYEVDGPLF 5166
+                            *******************************************************************96268*************** PP
+
+  sp|Q5T4S7|UBR4_HUMAN 5038 ftvlalhilppeqwratrveilrrllvtsqaravapggatrl....tdkavkdysayrssllfwalvdliy.nmfkkvptsnteggw 5119
+                            +  ++l +   e w+  ++  l+r++  +q r v+p+   +      d+ vkdy+ y+  l++walvdliy n+fk v t   e  w
+   sp|Q9VLT5|POE_DROME 5167 MATISLSLHSRELWNKHKLAHLKRMIAVAQGRHVSPAVLCKAllapADRQVKDYTVYKPFLMMWALVDLIYdNLFKTVSTPK-EEDW 5252
+                            ************************************97655322337************************77899888876.668* PP
+
+  sp|Q5T4S7|UBR4_HUMAN 5120 scslaeyirhndmpiyeaadkalktfqeefmpvetfsefldvagllseitdpesflkdllnsvp 5183
+                              sl +y+r nd  + ++ d  l+t+ eef+p  +f ef dvagll  i  p++f++++l ++p
+   sp|Q9VLT5|POE_DROME 5253 PISLFDYLRKNDEALLKSTDSILQTLTEEFLPCTSFVEFCDVAGLLHLIEHPDNFIEEILAALP 5316
+                            ***********************************************************98877 PP
+
+>> sp|Q7TPD1|FBX11_MOUSE  F-box only protein 11 OS=Mus musculus OX=10090 GN=Fbxo11 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.9   3.3   3.7e-13   1.1e-09    1650    1721 ..     826     898 ..     814     929 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 35.9 bits;  conditional E-value: 3.7e-13
+   sp|Q5T4S7|UBR4_HUMAN 1650 edsdedslcnklctftitqke.fmnqhwyhchtckmvdgvgvctvcakvchkdheisyakygsffcdcgaked 1721
+                             +d+ e ++    c + i+    +    +y+chtc   d  ++c  c k ch+ h++ + ++  ffcdcga   
+  sp|Q7TPD1|FBX11_MOUSE  826 QDAIEKAVSRGQCLYKISSYTsYPMHDFYRCHTCNTTDRNAICVNCIKKCHQGHDVEFIRHDRFFCDCGAGTL 898 
+                             67778888888999999876515555699****************************************9654 PP
+
+>> tr|Q9VH60|Q9VH60_DROME  F-box protein 11, isoform A OS=Drosophila melanogaster OX=7227 GN=FBXO11 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.2   3.9   9.6e-12   2.9e-08    1650    1720 ..    1078    1149 ..    1069    1177 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 31.2 bits;  conditional E-value: 9.6e-12
+    sp|Q5T4S7|UBR4_HUMAN 1650 edsdedslcnklctftitqk.efmnqhwyhchtckmvdgvgvctvcakvchkdheisyakygsffcdcgake 1720
+                              ed  e ++ +  c + i+    f    +y+c+tc   d  ++c  c k ch  h++ + ++  ffcdcga  
+  tr|Q9VH60|Q9VH60_DROME 1078 EDEVEKAVSSGQCLYKISSYtSFPMHDFYRCQTCNTTDRNAICVNCIKNCHAGHDVEFIRHDRFFCDCGAGT 1149
+                              7888889999999999987515666779*****************************************965 PP
+
+>> sp|Q80TP3|UBR5_MOUSE  E3 ubiquitin-protein ligase UBR5 OS=Mus musculus OX=10090 GN=Ubr5 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0  11.3   3.7e-10   1.1e-06    1657    1728 ..    1168    1238 ..    1139    1249 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 26.0 bits;  conditional E-value: 3.7e-10
+  sp|Q5T4S7|UBR4_HUMAN 1657 lcnklctftitqkefmnqhwyhchtckmvdgvgvctvcakvchkdheisyakyg.sffcdcgakedgsclalv 1728
+                             cn  c+ft t  e +nq  ++c+tc +++++  ct ca+vchk h+    + + + +cdc  k    c  l+
+  sp|Q80TP3|UBR5_MOUSE 1168 CCNDTCSFTWTGAEHINQDIFECRTCGLLESLCCCTECARVCHKGHDCKLKRTSpTAYCDCWEK--CKCKTLI 1238
+                            48**********************************************9987652689***866..4555555 PP
+
+>> sp|P51592|HYD_DROME  E3 ubiquitin-protein ligase hyd OS=Drosophila melanogaster OX=7227 GN=hyd PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.4   7.9   5.3e-10   1.6e-06    1641    1728 ..    1197    1284 ..    1185    1294 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 25.4 bits;  conditional E-value: 5.3e-10
+  sp|Q5T4S7|UBR4_HUMAN 1641 aveeedsqaedsdedslc.nklctftitqkefmnqhwyhchtckmvdgvgvctvcakvchkdheisyakyg.sffcdcgakedgscl 1725
+                             +    s a+ s    +c n  c+ft t  + +nq+ ++c tc +  ++  ct ca+vchk h+    + + + +cdc  k    c 
+   sp|P51592|HYD_DROME 1197 MIFPNGSPADQSPLHVICyNDTCSFTWTGADHINQNIFECKTCGLTGSLCCCTECARVCHKGHDCKLKRTApTAYCDCWEK--CKCK 1281
+                            555667788888888888789********************************************9988652789***866..5677 PP
+
+  sp|Q5T4S7|UBR4_HUMAN 1726 alv 1728
+                            al+
+   sp|P51592|HYD_DROME 1282 ALI 1284
+                            766 PP
+
+>> tr|Q9VJE3|Q9VJE3_DROME  LD24839p OS=Drosophila melanogaster OX=7227 GN=Dmel\CG15141 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.4   3.1   3.6e-05      0.11    1637    1725 ..      24     120 ..       2     128 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 9.4 bits;  conditional E-value: 3.6e-05
+    sp|Q5T4S7|UBR4_HUMAN 1637 veelaveeedsqaedsdedsl...cnklctftitqkefmnqhwyhchtc......kmvdgvgvctvcakvchkdheis..yakyg 1710
+                              +  l v e++ + ed     l     k ct+   +  +  q  y c tc       +  + gvc  c+  ch+ he+   y k  
+  tr|Q9VJE3|Q9VJE3_DROME   24 ITMLDVLEQEKELEDEYAAVLgasDEKSCTYA--KGPIGRQALYSCLTCcpeareDLDKAAGVCLACSYRCHEHHELVelYTK-R 105 
+                              55555556666666655443311145777764..667889999999999554332233478***************8522555.6 PP
+
+    sp|Q5T4S7|UBR4_HUMAN 1711 sffcdcgakedgscl 1725
+                              +f cdc  +  g c 
+  tr|Q9VJE3|Q9VJE3_DROME  106 NFRCDCPTQRLGKCS 120 
+                              8********999995 PP
+
+>> sp|Q9WUH7|SEM4G_MOUSE  Semaphorin-4G OS=Mus musculus OX=10090 GN=Sema4g PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.0   0.1   9.4e-05      0.28     535     620 ..     687     777 ..     651     801 .. 0.53
+
+  Alignments for each domain:
+  == domain 1  score: 8.0 bits;  conditional E-value: 9.4e-05
+   sp|Q5T4S7|UBR4_HUMAN 535 ltllstsyrkacvl....qrqrkgsmssdasastdsntyyed..dfssteedssqdddsepilgqwfeetispskekaappppppppp 616
+                            l l s+    ac+      r+rk s+     a   s    +        eed   d +    l     + i      a ppppppppp
+  sp|Q9WUH7|SEM4G_MOUSE 687 LILASSLLYVACLKggrrGRRRKYSLGRAGRAG-GSAVQLQTvsGQCPGEEDEGDDGEGTGGLESGCLQIIPGEGAPAPPPPPPPPPP 773
+                            444444444555431111344455554433332.222222220022334666665555555565666565544445555666677777 PP
+
+   sp|Q5T4S7|UBR4_HUMAN 617 less 620
+                             e +
+  sp|Q9WUH7|SEM4G_MOUSE 774 AELT 777
+                            7754 PP
+
+>> tr|A0A0B4K7V4|A0A0B4K7V4_DROME  Transporter OS=Drosophila melanogaster OX=7227 GN=Dmel\CG43066 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.9   0.6    0.0001       0.3    2723    2779 ..     642     695 ..     605     708 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 7.9 bits;  conditional E-value: 0.0001
+            sp|Q5T4S7|UBR4_HUMAN 2723 ntpmgdkdddddddadekmqssgipngghirqesqeqsevdhgdfemvsesmvleta 2779
+                                         m d  +ddddd d++   sg   ggh++ +s   s+ d+ d  m    m++   
+  tr|A0A0B4K7V4|A0A0B4K7V4_DROME  642 TKEMID--NDDDDDEDDENDFSGPALGGHVKTQSD-FSDDDEEDKPMTMRMMMMRPT 695 
+                                      334545..45555666777899999******9885.677889999998888877654 PP
+
+>> sp|Q9ER60|SCN4A_MOUSE  Sodium channel protein type 4 subunit alpha OS=Mus musculus OX=10090 GN=Scn4a PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.7   2.8   0.00048       1.4     507     623 ..    1705    1829 ..    1683    1840 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 5.7 bits;  conditional E-value: 0.00048
+   sp|Q5T4S7|UBR4_HUMAN  507 aalsimaqstsiqriqrlidsvplmnll.ltllstsyrkacvlqrqrk.....gsmssdasastdsntyy..eddfssteedssqd 584 
+                             + +s    +t+++r q+ + ++ ++      ll  s ++a  + r  +     g+   +   +   n  y  e + +  +    ++
+  sp|Q9ER60|SCN4A_MOUSE 1705 SKVSYEPITTTLKRKQEEVCAIKIQRAYrRHLLQRSVKQASYMYRHSQegngdGAPEKEGLLANTMNKMYgsEKEDNGVQSQGEKE 1790
+                             55566666677777777777777766541457777777777776643311111223333333333343332234455666777788 PP
+
+   sp|Q5T4S7|UBR4_HUMAN  585 ddsepilgqwfeetispskekaappppppppplessprv 623 
+                              ds    g   e t   s + a  pppp ppp  s p+ 
+  sp|Q9ER60|SCN4A_MOUSE 1791 KDSTEDAGPTTEVTAPSSSDTALTPPPPSPPPPSSPPQG 1829
+                             8999999**999999888899988888888887777764 PP
+
+>> tr|Q9VMD4|Q9VMD4_DROME  FI03607p OS=Drosophila melanogaster OX=7227 GN=Rchy1 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.9   9.3    0.0016       4.8    3657    3740 ..     223     307 ..     209     336 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 3.9 bits;  conditional E-value: 0.0016
+    sp|Q5T4S7|UBR4_HUMAN 3657 tlqcprcsasvpanpgvcgncgen..vyqchkcrsinydekdpflcnacgfckyarfdfmlyakpccavdpieneedrkkavsni 3739
+                               l c +c+         c ncg     y c  c+ ++  +k  + c+ cg+c+    + +++ + c    pi+ + d  + v ni
+  tr|Q9VMD4|Q9VMD4_DROME  223 ELICSECNTRQTVR-EQCLNCGVRfgKYTCLICNLFDDADKQQYHCHGCGICRIGGAENFFHCEVCNMCLPIQLKIDGHRCVENI 306 
+                              36799999877665.579****862269*******9999*******************************************999 PP
+
+    sp|Q5T4S7|UBR4_HUMAN 3740 n 3740
+                              +
+  tr|Q9VMD4|Q9VMD4_DROME  307 S 307 
+                              7 PP
+
+>> tr|F2FB81|F2FB81_DROME  Wiskott-Aldrich syndrome protein family member OS=Drosophila melanogaster OX=7227 GN=SCAR PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   7.7    0.0041        12     563     619 ..     501     555 ..     487     567 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 2.6 bits;  conditional E-value: 0.0041
+    sp|Q5T4S7|UBR4_HUMAN 563 stdsntyyeddfssteedssqdddsepilgqwfeetispskekaappppppppples 619
+                             +  snt++   ++  + +s  d    p +       +sp    aappppppppp+e 
+  tr|F2FB81|F2FB81_DROME 501 TQLSNTFHSIGMTGNQLNSLSDLPPPPPVPDQHSPKMSPP--NAAPPPPPPPPPVEE 555
+                             5568999999998888888888877777777677777775..79**********997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (5183 nodes)
+Target sequences:                      35807  (19142235 residues searched)
+Passed MSV filter:                      3368  (0.0940598); expected 716.1 (0.02)
+Passed bias filter:                     1939  (0.0541514); expected 716.1 (0.02)
+Passed Vit filter:                       460  (0.0128467); expected 35.8 (0.001)
+Passed Fwd filter:                        80  (0.0022342); expected 0.4 (1e-05)
+Initial search space (Z):              35807  [actual number of targets]
+Domain search space  (domZ):              12  [number of targets reported over threshold]
+# CPU time: 16.90u 0.31s 00:00:17.20 Elapsed: 00:00:08.83
+# Mc/sec: 11233.99
+//
+[ok]

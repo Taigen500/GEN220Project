@@ -1,0 +1,618 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+sp|Q8N806|UBR7_HUMAN      --------------MAGAEGAAGRQSE---------------------------------
+sp|Q8IWV8|UBR2_HUMAN      -----------MASELEPEVQAIDRSL------------------LECSAEEIAGKWLQA
+sp|Q8IWV7|UBR1_HUMAN      --------------MADEEAGGTERME--------------ISAELPQTPQRLASWWDQQ
+sp|O95071|UBR5_HUMAN      ----MTSIHFVVHPLPGTEDQLNDR--------------------LREVSEKLNKYNLNS
+sp|Q5T4S7|UBR4_HUMAN      MATSGGEEAAAAAPAPGTPATGADTTPGWEVAVRPLLSASYSAFEMKELPQLVASVIESE
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      --------------------LEPVVSLVDVLEEDE--ELE--------------------
+sp|Q8IWV8|UBR2_HUMAN      T----------DLTREVYQHLAHYVPKIYCRGPNP--FPQ--------------------
+sp|Q8IWV7|UBR1_HUMAN      V----------DFYTAFLHHLAQLVPEIYFAEMDP--DLE--------------------
+sp|O95071|UBR5_HUMAN      H--------------PPLNVLEQATIKQCVVGPNHAAFLLEDGRVCRIGFSVQPDRLELG
+sp|Q5T4S7|UBR4_HUMAN      SEILHHEKQYEPFYSSFVALSTHYITTVCSLIPRN--QLQSVAAACKVLIEFSLLRLENP
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      NEACAV------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      KEDMLA------------------------------------------------QHVLLG
+sp|Q8IWV7|UBR1_HUMAN      KQEESV------------------------------------------------QMSIFT
+sp|O95071|UBR5_HUMAN      KPDNND----------------------------------GSKLNSNSGAGRTSRPGRTS
+sp|Q5T4S7|UBR4_HUMAN      DEACAVSQKHLILLIKGLCTGCSRLDRTEIITFTAMMKSAKLPQTVKTLSDVEDQKELAS
+                          .                                                           
+
+sp|Q8N806|UBR7_HUMAN      -----LGGSDSEKC---------------------------------------SYSQGSV
+sp|Q8IWV8|UBR2_HUMAN      PMEWYLCGEDPAFGF-----------------------------PKLEQANKPSHLCGRV
+sp|Q8IWV7|UBR1_HUMAN      PLEWYLFGEDPDICL-----------------------------EKLKHSG-AFQLCGRV
+sp|O95071|UBR5_HUMAN      DSPWFLSGSETLGRL--------AGNTLGSRWSSGVGGSGGGSSGRSSAGARDSRRQTRV
+sp|Q5T4S7|UBR4_HUMAN      PVSPELRQKEVQMNFLNQLTSVFNPRTVASQPISTQTLVEGENDEQSSTDQASAIKTKNV
+                               *  .:                                                 *
+
+sp|Q8N806|UBR7_HUMAN      KR--------------QALYACSTCT----------------------------------
+sp|Q8IWV8|UBR2_HUMAN      FKVG------------EPTYSCRDCA----------------------------------
+sp|Q8IWV7|UBR1_HUMAN      FKSG------------ETTYSCRDCA----------------------------------
+sp|O95071|UBR5_HUMAN      IRTGRDRGSGLLGSQPQPVIPASVIP----------EELISQAQVVLQGK--SRSVIIRE
+sp|Q5T4S7|UBR4_HUMAN      FIAQNVASLQELGGSEKLLRVCLNLPYFLRYINRFQDAVLANSFFIMPATVADATAVRNG
+                                          :    .   .                                  
+
+sp|Q8N806|UBR7_HUMAN      -------------------------PEGEEPAGICLACSY--------------------
+sp|Q8IWV8|UBR2_HUMAN      ---------------------------VDPTCVLCMECFL--------------------
+sp|Q8IWV7|UBR1_HUMAN      ---------------------------IDPTCVLCMDCFQ--------------------
+sp|O95071|UBR5_HUMAN      LQRTNLDVNLAVNNLL-----SRDDEDGDDGDDTASESYLPGEDL---MSLL--------
+sp|Q5T4S7|UBR4_HUMAN      FHSLVIDVTMALDTLSLPVLEPLNPSRLQDVTVLSLSCLYAGVSVATCMAILHVGSAQQV
+                                                      :     .  .                      
+
+sp|Q8N806|UBR7_HUMAN      ----------ECHGSH--------KLFELYTK--RNFRCDCGN-----------------
+sp|Q8IWV8|UBR2_HUMAN      ---------GSIHRDH---------RYRMTTSGGGGF-CDCGD--TEAWKEGPYCQKHEL
+sp|Q8IWV7|UBR1_HUMAN      ---------DSVHKNH---------RYKMHTSTGGGF-CDCGD--TEAWKTGPFCVNHEP
+sp|O95071|UBR5_HUMAN      --------DADIHSAHPSVI---IDADAMFSEDISYF------GYPSFRRSSLSRLGSSR
+sp|Q5T4S7|UBR4_HUMAN      RTGSTSSKEDDYESDAATIVQKCLEIYDMIGQAISSSRRAGGEHYQNFQLLGAWCLLNSL
+                                    .                 :  .                            
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------SKFKNLECKL--
+sp|Q8IWV8|UBR2_HUMAN      NT---------SEIEEEEDPLVHLSEDVIA------------------RTYNIFAITFRY
+sp|Q8IWV7|UBR1_HUMAN      GR---------AGT-IKENSRCPLNEEVIV------------------QARKIFPSVIKY
+sp|O95071|UBR5_HUMAN      VLLLPLERD--SELLRERESVLRLRERRWL----DGASFDNERGSTSKEGEPNLDK--KN
+sp|Q5T4S7|UBR4_HUMAN      FLILNLSPTALADKGKEKDPLAALRVRDILSRTKEGVGSPKLGPGKGHQGFGVLSVILAN
+                                                                               :      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      AVEILT---------------WEKESE---------------------------------
+sp|Q8IWV7|UBR1_HUMAN      VVEMTI---------------WEEEKE---------------------------------
+sp|O95071|UBR5_HUMAN      TPVQSPVSLGEDLQ-------WWPDKDGT-------------------------------
+sp|Q5T4S7|UBR4_HUMAN      HAIKLLTSLFQDLQVEALHKGW--ETDGPPAALSIMAQSTSIQRIQRLIDSVPLMNLLLT
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      -------------------LPDK-------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      -------------------LPADLEMVEKSDTYYC-------------------------
+sp|Q8IWV7|UBR1_HUMAN      -------------------LPPELQIREKNERYYC-------------------------
+sp|O95071|UBR5_HUMAN      ------KFICI------GALYSELLAVSSKGELYQWKWSESE------------------
+sp|Q5T4S7|UBR4_HUMAN      LLSTSYRKACVLQRQRKGSMSSDASASTDSNTYYEDDFSSTEEDSSQDDDSEPILGQWFE
+                                             :  .                                     
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      ----PYRNAQNPSLHHPRAT------------------------------FLGLTNEKIV
+sp|Q5T4S7|UBR4_HUMAN      ETISPSKEKAAPPPPPPPPPLESSPRVKSPSKQAPGEKGNILASRKDPELFLGLASNILN
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      --------AKVNSGNKYNDNF-------------------------------FGLYC---
+sp|Q8IWV8|UBR2_HUMAN      --------MLFNDEVHTYEQVIYTLQKAVNCTQKEAIGFATTVDRDGRRSVRYGDFQ---
+sp|Q8IWV7|UBR1_HUMAN      --------VLFNDEHHSYDHVIYSLQRALDCELAEAQLHTTAIDKEGRRAVKAGAYA---
+sp|O95071|UBR5_HUMAN      LLSANSIRATVATENNKVATWVDETLSSVASKLEHTAQTYSELQGERIVSL----HCCAL
+sp|Q5T4S7|UBR4_HUMAN      FITS----SMLNSRNNFIRNYLSVSLSE--HHMATLASIIKEVDKDGLKGSSDEEFAAAL
+                                    .    :                                       .    
+
+sp|Q8N806|UBR7_HUMAN      ------------ICKR-----------------------------------------PYP
+sp|Q8IWV8|UBR2_HUMAN      ------------YCEQAKSVIV-----------------------------------RNT
+sp|Q8IWV7|UBR1_HUMAN      ------------ACQEAKEDIK-----------------------------------SHS
+sp|O95071|UBR5_HUMAN      Y-----------TCAQLENSLY-WWGVVPFS----------QRKKMLEKARAKNKKPKSS
+sp|Q5T4S7|UBR4_HUMAN      YHFNHSLVTSDLQSPNLQNTLLQQLGVAPFSEGPWPLYIHPQSLSVLSRLLLIWQHKASA
+                                       .                                             .
+
+sp|Q8N806|UBR7_HUMAN      DPEDEIPDEMIQ---CVVCEDWF-----HGRHLGAIPPESGDFQ----------------
+sp|Q8IWV8|UBR2_HUMAN      SRQTK-PLKVQVMHSSIVAHQNF--GLKLLSWLGSIIGYSDGLR----------------
+sp|Q8IWV7|UBR1_HUMAN      ENVSQHPLHVEVLHSEIMAHQKF--ALRLGSWMNKIMSYSSDFR----------------
+sp|O95071|UBR5_HUMAN      AGISSMPNITVGTQVCLRNNPLYHAGAVAFSISAGIPK----------------------
+sp|Q5T4S7|UBR4_HUMAN      QGDPDVPE-------CLKVWDRFLSTMKQNALQGVVPSETEDLNVEHLQMLLLIFHNFTE
+                              . *         :     :            :                        
+
+sp|Q8N806|UBR7_HUMAN      -------EMVCQACM---------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      -------RILCQVGLQEGPDGENSSLVDRLMLSDSKLWKGARSVYHQLFMSSLLMDLKYK
+sp|Q8IWV7|UBR1_HUMAN      -------QIFCQACLREEPDSENPCLISRLMLWDAKLYKGARKILHELIFSSFFMEMEYK
+sp|O95071|UBR5_HUMAN      ----------VGVLMESVWNMNDSCRF-QLRSPESLKNMEKASKTTEAKPESKQEPVKTE
+sp|Q5T4S7|UBR4_HUMAN      TGRRAILSLFVQIIQELSVNMDAQMRFVPLILARLLLIFDYLLHQYSKAPVYLFEQVQHN
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ---------------------------------------KLFAVRFAKNYQQLQRDFMED
+sp|Q8IWV7|UBR1_HUMAN      ---------------------------------------KLFAMEFVKYYKQLQKEYISD
+sp|O95071|UBR5_HUMAN      -MGPPPSPASTCSDASSIA--------------------SSASMPYKRRRSTPAPK-EEE
+sp|Q5T4S7|UBR4_HUMAN      LLSPPFGWASGSQDSNSRRATTPLYHGFKEVEENWSKHFSSDAVPHPRFYCVLSPEASED
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      DHER--------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      DHDR--------------------------------------------------------
+sp|O95071|UBR5_HUMAN      KVNEEQWSLREVVF----------------------VEDVKNVPVGKVLKVDGAYVAVKF
+sp|Q5T4S7|UBR4_HUMAN      DLNRLDSVACDVLFSKLVKYDELYAALTALLAAGSQLDTVRRKENKNVTALEACALQYYF
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ----------AVSVTALSVQFFTAPTLARMLITEENLMS--IIIKTFMDHL-RHRDAQGR
+sp|Q8IWV7|UBR1_HUMAN      ----------SISITALSVQMFTVPTLARHLIEEQNVIS--VITETLLEVLPEYLDRNNK
+sp|O95071|UBR5_HUMAN      ----------PGTSSNTNCQNSSGPDADPSSLLQDCRL---LRIDEL------QVVKTGG
+sp|Q5T4S7|UBR4_HUMAN      LILWRILGILPPSKTYINQLSMNSPEMSECDILHTLRWSSRLRISSYVNWIKDHLIKQGM
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------KRC---------------------
+sp|Q8IWV8|UBR2_HUMAN      FQ------------------------FERYTALQAFKFR-----------------RVQS
+sp|Q8IWV7|UBR1_HUMAN      FN------------------------FQGYSQD---KLG-----------------RVYA
+sp|O95071|UBR5_HUMAN      TPK-----------------------VPDCFQRTPKKLC------------IPEKTEILA
+sp|Q5T4S7|UBR4_HUMAN      KAEHASSLLELASTTKCSSVKYDVEIVEEYFARQISSFCSIDCTTILQLHEIPSLQSIYT
+                                                              .                       
+
+sp|Q8N806|UBR7_HUMAN      ---------------------------------------------------SFLWAYA--
+sp|Q8IWV8|UBR2_HUMAN      LILDLKYVLIS---------------KPTEWSD-------ELRQKFLEGFDAFLELLK--
+sp|Q8IWV7|UBR1_HUMAN      VICDLKYILIS---------------KPTIWTE-------RLRMQFLEGFRSFLKILT--
+sp|O95071|UBR5_HUMAN      VNVDSKGVHAVL--------------KTGNWVRYCIFDLATGKAEQENNFPTSSIAFL--
+sp|Q5T4S7|UBR4_HUMAN      LDAAISKVQVSLDEHFSKMAAETDPHKSSEITK----NLLPATLQLIDTYASFTRAYLLQ
+                                                                             :        
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      -----GQNERN--------VAIFTAGQE-------SPIILRDGNGTIYPMAKD-------
+sp|Q5T4S7|UBR4_HUMAN      NFNEEGTTEKPSKEKLQGFAAVLAIGSSRCKANTLGPTLVQNLPSSVQTVCESWNNINTN
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ---CMQGMDP-----------------------------------------ITRQVGQ--
+sp|Q8IWV7|UBR1_HUMAN      ---CMQGMEE-----------------------------------------IRRQVGQ--
+sp|O95071|UBR5_HUMAN      ---CMGGIRD-------PDWLDLPPISSLGMGVHSLINLPANSTIKKKAAVIIMAVEK--
+sp|Q5T4S7|UBR4_HUMAN      EFPNIGSWRNAFANDTIPSESYISAVQAAHLGTLCSQSLPLAASLKHTLLSLVRLTGDLI
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ----------------HIEMEPEWEAAFTLQMK----------------------LTHVI
+sp|Q8IWV7|UBR1_HUMAN      ----------------HIEVDPDWEAAIAIQMQ----------------------LKNIL
+sp|O95071|UBR5_HUMAN      ------------QTLMQHILRCDYEACRQYLMN-LEQAV-----------VLEQNLQMLQ
+sp|Q5T4S7|UBR4_HUMAN      VWSDEMNPPQVIRTLLPLLLESSTESVAEISSNSLERILGPAESDEFLARVYEKLITGCY
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      -----------------------------------------------------AQLAVTK
+sp|Q8IWV8|UBR2_HUMAN      SMMQDWCASDEKVLIEAYKKCLAVLMQCHGGYTDGEQPITLSIC---------GHSVETI
+sp|Q8IWV7|UBR1_HUMAN      LMFQEWCACDEELLLVAYKECHKAVMRCSTSFISSSKTVVQS-C---------GHSLETK
+sp|O95071|UBR5_HUMAN      TFISHRCDGNRNILHACVSVCFPTSNKETKEEEEAERSERNTFAERLSAVEAIANAISVV
+sp|Q5T4S7|UBR4_HUMAN      NILANHADPNSGLDESILEECLQYLEKQL-ESSQARKAMEEFFSDS-------GELVQIM
+                                                                               .      
+
+sp|Q8N806|UBR7_HUMAN      ISTEDDGLV---------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      RYCVSQEKV------------SIHLPVSRLLAGLHVLLSKSEVAYKFPELLPLSELSPPM
+sp|Q8IWV7|UBR1_HUMAN      SYRVSEDLV------------SIHLPLSRTLAGLHVRLSRLGAVSRLHEFVSFEDFQVEV
+sp|O95071|UBR5_HUMAN      SSNGPGNRAGSSSSRSL----RLREMMRRSLRAAGLGRHEAGASSSDHQDPVSPPIAPPS
+sp|Q5T4S7|UBR4_HUMAN      MATANENLSAKFCNRVLKFFTKLFQLTEKSPNPSLL--HLCGSLA---QLACVEPVRLQA
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      LI----------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      LV----------------------------------------------------------
+sp|O95071|UBR5_HUMAN      WV----PDPPAMDPDGDI-----------------------DFILAPAVGSLTTAAT---
+sp|Q5T4S7|UBR4_HUMAN      WLTRMTTSPPKDSDQLDVIQENRQLLQLLTTYIVRENSQVGEGVCAVLLGTLTPMATEML
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ----EHPLRCLVLCAQVHAGMWRRNGFSLVNQIYYYHNVKCRREMFDKDVVMLQTGVSMM
+sp|Q8IWV7|UBR1_HUMAN      ----EYPLRCLVLVAQVVAEMWRRNGLSLISQVFYYQDVKCREEMYDKDIIMLQIGASLM
+sp|O95071|UBR5_HUMAN      --GTGQG-PSTSTIPGPSTEPSVVESKDRKANAHFILKLLCDSVVLQPYLRELLSAKDAR
+sp|Q5T4S7|UBR4_HUMAN      ANGDGTGFPELMVVMATLASAGQGAGHLQLHNAAVDWLSRCKKYLSQKNVVEKLNANVMH
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      DPNHFLMIMLSR-----FELYQIFSTPDYGKRFSSEITHKD-------------------
+sp|Q8IWV7|UBR1_HUMAN      DPNKFLLLVLQR-----YELAEAFNK-------TISTKDQD-------------------
+sp|O95071|UBR5_HUMAN      GMTPFMSAVSGR--AYPAAIT-ILETAQKIAKAEISSSEKE----------EDVFMGMVC
+sp|Q5T4S7|UBR4_HUMAN      GKHVMILECTCHIMSYLADVTNALSQSNGQGPSHLSVDGEERAIEVDSDWVEELAVEEED
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ----------------------------------------RNIDGIGD------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------VVQQNNTLIEEMLYLIIMLVGERFSPGVGQVN----------
+sp|Q8IWV7|UBR1_HUMAN      ------------------LIKQYNTLIEEMLQVLIYIVGERYVPGVGNVT----------
+sp|O95071|UBR5_HUMAN      PSGTNPDDSPLYVLCCNDTCSFTWTGAEHINQDIFECRTCGLLESLCCCTECARVCHKGH
+sp|Q5T4S7|UBR4_HUMAN      SQAEDSDEDSL----CNKLCTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKVCHKDH
+                                                                      .:              
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      DCKLKRTSPTAYCDCWEK------------------------------------------
+sp|Q5T4S7|UBR4_HUMAN      EISYAKYG-SFFCDCGAKEDGSCLALVKRTPSSGMSSTMKESAFQSEPRISESLVRHAST
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      ---------------------------CK----CKTLIAGQKSAR-----LDLLYRLLTA
+sp|Q5T4S7|UBR4_HUMAN      SSPADKAKVTISDGKVADEEKPKKSSLCRTVEGCREELQNQANFSFAPLVLDMLNFLMDA
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ----------------------------------------------------------AT
+sp|Q8IWV7|UBR1_HUMAN      ----------------------------------------------------------KE
+sp|O95071|UBR5_HUMAN      ---------------------------------TNLVTLPN-----------------SR
+sp|Q5T4S7|UBR4_HUMAN      IQTNFQQASAVGSSSRAQQALSELHTVEKAVEMTDQLMVPTLGSQEGAFENVRMNYSGDQ
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ---------QEVIKP---------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      DEIKREIIHQLSIKP-MAHSELV-------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      EVTMREIIHLLCIEP-MPHSAIA-------------------------------------
+sp|O95071|UBR5_HUMAN      GEHLLLFLVQTVARQTVEHCQYRPPRIR-------------------------EDRNRK-
+sp|Q5T4S7|UBR4_HUMAN      GQTIRQLISAHVLRR-VAMCVLSSPHGRRQHLAVSHEKGKITVLQLSALLKQADSSKRKL
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------ENGEHQD-----------------------------------
+sp|Q8IWV8|UBR2_HUMAN      -----------------KSLPEDEN-----------------------------------
+sp|Q8IWV7|UBR1_HUMAN      -----------------KNLPENEN-----------------------------------
+sp|O95071|UBR5_HUMAN      -----------------TASPEDSD--------------------MPDHDLEPPRFA---
+sp|Q5T4S7|UBR4_HUMAN      TLTRLASAPVPFTVLSLTGNPCKEDYLAVCGLKDCHVLTFSSSGSVSDHLVLHPQLATGN
+                                                 .:                                   
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ----------KETGMESVIEAV------------------------------------AH
+sp|Q8IWV7|UBR1_HUMAN      ----------NETGLENVINKV------------------------------------AT
+sp|O95071|UBR5_HUMAN      -----------QLALERVLQDW---------------------NALKSMIMFGSQENKDP
+sp|Q5T4S7|UBR4_HUMAN      FIIKAVWLPGSQTELAIVTADFVKIYDLCVDALSPTFYFLLPSSKIRDVTFLFNEEGKNI
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      FKKPGLTGRGMYELKPEC-------------------------------------AKEFN
+sp|Q8IWV7|UBR1_HUMAN      FKKPGVSGHGVYELKDES-------------------------------------LKDFN
+sp|O95071|UBR5_HUMAN      LSASSRIGHLLPE--EQVYLNQQ--------------------------------SGTIR
+sp|Q5T4S7|UBR4_HUMAN      IVIMSSAGYIYTQLMEEASSAQQGPFYVTNVLEINHEDLKDSNSQVAGGGVSVYYSHVLQ
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      LYFYHFSR----------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      MYFYHYSK----------------------------------------------------
+sp|O95071|UBR5_HUMAN      LDCFTHC-------LIVKCTADILLL----------------------------------
+sp|Q5T4S7|UBR4_HUMAN      MLFFSYCQGKSFAATISRTTLEVLQLFPINIKSSNGGSKTSPALCQWSEVMNHPGLVCCV
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      --------------DTLLGTLVKELQNK--------------------------------
+sp|Q5T4S7|UBR4_HUMAN      QQTTGVPLVVMVKPDTFLIQEIKTLPAKAKIQDMVAIRHTACNEQQRTTMILLCEDGSLR
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      -------------------------AEQSKAEEAQRKLKRQNREDT--------------
+sp|Q8IWV7|UBR1_HUMAN      -------------------------TQHSKAEHMQKKRRKQENKDE--------------
+sp|O95071|UBR5_HUMAN      -------------------------YTPGRREEAIAVTMRFLRSVA--------------
+sp|Q5T4S7|UBR4_HUMAN      IYMANVENTSYWLQPSLQPSSVISIMKPVRKRKTATITTRTSSQVTFPIDFFEHNQQLTD
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      ---------RVFVILSVE------------------------------------------
+sp|Q5T4S7|UBR4_HUMAN      VEFGGNDLLQVYNAQQIKHRLNSTGMYVANTKPGGFTIEISNNNSTMVMTGMRIQIGTQA
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      ----------------------------------MASSKKKNNFIPQPI-----------
+sp|Q5T4S7|UBR4_HUMAN      IERAPSYIEIFGRTMQLNLSRSRWFDFPFTREEALQADKKLNLFIGASVDPAGVTMIDAV
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ----------------------------------------STLKEDVP------------
+sp|Q8IWV8|UBR2_HUMAN      -----------ALPPPVLPPFCPLFASLV-----------NILQSDVMLCIMGTILQ---
+sp|Q8IWV7|UBR1_HUMAN      -----------ALPPPPPPEFCPAFSKVI-----------NLLNCDIMMYILRTVFE---
+sp|O95071|UBR5_HUMAN      ---GKCKRVFQALLPYAVEELCNVAESLIVPVRM------GIARPTAPFTLASTSID---
+sp|Q5T4S7|UBR4_HUMAN      KIYGKTKEQF-GWPDEPPEEFPSASVSNICPSNLNQSNGTGDSDSAAPTTTSGTVLERLV
+                                                                  .                   
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      --AMQGSEELFSVEPL-------------------PPRPSSDQSSSSS------QSQSSY
+sp|Q5T4S7|UBR4_HUMAN      VSSLEALESCFAVGPIIEKERNKNAAQELATLLLSLPAPASVQQQSKSLLASLHTSRSAY
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      ------------------------------------------------------------
+sp|Q5T4S7|UBR4_HUMAN      HSHKDQALLSKAVQCLNTSSKEGKDLDPEVFQRLVITARSIAIMRPNNLVHFTESKLPQM
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      ------------------------------------------------------------
+sp|Q5T4S7|UBR4_HUMAN      ETEGMDEGKEPQKQLEGDCCSFITQLVNHFWKLHASKPKNAFLAPACLPGLTHIEATVNA
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      --------------------------------------------IIRNPQQRRI------
+sp|Q5T4S7|UBR4_HUMAN      LVDIIHGYCTCELDCINTASKIYMQMLLCPDPAVSFSCKQALIRVLRPRNKRRHVTLPSS
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ----------EQGKDDVREVKVEQN-----------------------------------
+sp|Q8IWV8|UBR2_HUMAN      -------WAVEHNGYAWSESMLQRVLHLIGMALQEEKQHLEN------------------
+sp|Q8IWV7|UBR1_HUMAN      -------RAIDTDSNLWTEGMLQMAFHILALGLLEEKQQLQK------------------
+sp|O95071|UBR5_HUMAN      -SQSQPVRGRDEEQDDIVSADVEEVEVVEGVAGEEDHHDEQE-EHGE----------ENA
+sp|Q5T4S7|UBR4_HUMAN      PRSNTPMGDKDDDDDDDADEKMQSSGIPNGGHIRQESQEQSEVDHGDFEMVSESMVLETA
+                                    :       .  ::                                     
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      E----------------AEG-------------------------QHDEHDEDGSDMELD
+sp|Q5T4S7|UBR4_HUMAN      ENVNNGNPSPLEALLAGAEGFPPMLDIPPDADDETMVELAIALSLQQDQQGSSSSALGLQ
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      -------------------------VTEEHVVTFTFTQKISKPGEAPKNS----------
+sp|Q8IWV7|UBR1_HUMAN      -------------------------APEEE-VTFDFYHKASRLGSSAMN-----------
+sp|O95071|UBR5_HUMAN      LL--------------------AAAETESDSESNHSNQDNASGRRSVVT-AATAGSEAGA
+sp|Q5T4S7|UBR4_HUMAN      SLGLSGQAPSSSSLDAGTLSDTTASAPASDDEGSTAATDGSTLRTSPADHGGSVGSESGG
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      SSVPAFFSEDD-----------------------------------SQSNDSSDSDSSSS
+sp|Q5T4S7|UBR4_HUMAN      SAVDSVAGEHSVSGRSSAYGDATAEGHPAGPGSVSSSTGAISTTTGHQEGDGSEGEGEGE
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ----------------PSILAMLETLQNAPYLEVHK------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------IQMLLEKLKGIPQLEGQK------------------------
+sp|O95071|UBR5_HUMAN      QSDDIEQET-------FMLDEPLERTTNSSHANGAAQAP---------------------
+sp|Q5T4S7|UBR4_HUMAN      TEGDVHTSNRLHMVRLMLLERLLQTLPQLRNVGGVRAIPYMQVILMLTTDLDGEDEKDKG
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      -------------------------------------DMIRWILKTFNAVKKMRESSP--
+sp|Q8IWV7|UBR1_HUMAN      -------------------------------------DMITWILQMFDTVKRLREKSCLI
+sp|O95071|UBR5_HUMAN      -------------------------------------RSMQWAVRNTQHQRAASTAPSST
+sp|Q5T4S7|UBR4_HUMAN      ALDNLLSQLIAELGMDKKDVSKKNERSALNEVHLVVMRLLSVFMSRTKSGSKSSICESSS
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      SEPCAGSS----------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      TSPVAETEGTIM------------------------------EESSRDKDKAERK-----
+sp|Q8IWV7|UBR1_HUMAN      VATTSGSESIKN------------------------------DEITHDKEKAERK-----
+sp|O95071|UBR5_HUMAN      STPAASSAGLIY---------------------------IDPSNLRRSGTISTSA-----
+sp|Q5T4S7|UBR4_HUMAN      LISSATAAALLSSGAVDYCLHVLKSLLEYWKSQQNDEEPVATSQLLKPHTTSSPPDMSPF
+                            . : :                                                     
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      -------AAAAAALEA-------------------SNASS------------YLTSASSL
+sp|Q5T4S7|UBR4_HUMAN      FLRQYVKGHAADVFEAYTQLLTEMVLRLPYQIKKITDTNSRIPPPVFDHSWFYFLSEYLM
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      -RKAEIARLRREKIM---------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      -RKAEAARLHRQKIM---------------------------------------------
+sp|O95071|UBR5_HUMAN      ARAYSIVIRQISDLM---------------------------------------------
+sp|Q5T4S7|UBR4_HUMAN      IQQTPFVRRQVRKLLLFICGSKEKYRQLRDLHTLDSHVRGIKKLLEEQGIFLRASVVTAS
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      -------AQMSEMQRHFIDENKELFQQTLELDAS-------------TSAVLDH--SPVA
+sp|Q8IWV7|UBR1_HUMAN      -------AQMSALQKNFIETHKLMYDNTSEMPGK-------------EDSIMEEESTPAV
+sp|O95071|UBR5_HUMAN      -GLIPKYNHLV--YSQIPAAVKLTYQDAVNLQNY-----------------VEEKLIPTW
+sp|Q5T4S7|UBR4_HUMAN      SGSALQYDTLISLMEHLKACAEIAAQRTINWQKFCIKDDSVLYFLLQVSFLVDEGVSPVL
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------SDMTLTALGPAQTQVPEQRQFVTCILCQEEQEVKVE
+sp|Q8IWV7|UBR1_HUMAN      ------------------------SDYSRIALGPKRGPSVTEKEVLTCILCQEEQEVKIE
+sp|O95071|UBR5_HUMAN      -----------NWMVSIMDSTEAQLRYGSALASAGDPGHPNHPLHASQNSARRERMTARE
+sp|Q5T4S7|UBR4_HUMAN      LQLLSCALCGSKVLAALAASSGSSSASSSSAPVAASSGQATTQSKSSTKKSKKEEKEKEK
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      --------------------------SESDLQTVF-------------------------
+sp|Q8IWV8|UBR2_HUMAN      SRAMVLAAFVQRSTVLSKNRSKFIQ-DPEKYDPLF-------------------------
+sp|Q8IWV7|UBR1_HUMAN      NNAMVLSACVQKSTALTQHRGKPIELSGEALDPLF-------------------------
+sp|O95071|UBR5_HUMAN      EASLRTLEGRRRATLLSARQGMMS--ARGDFLNY--------------------------
+sp|Q5T4S7|UBR4_HUMAN      DGETSGSQEDQLCTALVNQLNKFA--DKETLIQFLRCFLLESNSSSVRWQAHCLTLHIYR
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      -------------------------------------------------------ALSLM
+sp|Q5T4S7|UBR4_HUMAN      NSSKSQQELLLDLMWSIWPELPAYGRKAAQFVDLLGYFSLKTPQTEKKLKEYSQKAVEIL
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      --------KNESLNAESKSG----------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      --------MHPDLSCGTHTS----------------SCGHIMHAHCWQR-----------
+sp|Q8IWV7|UBR1_HUMAN      --------MDPDLAYGTYTG----------------SCGHVMHAVCWQK-----------
+sp|O95071|UBR5_HUMAN      RSH-----NDEHSDVLPVLD----------------VCSLKHVAYVFQAL----------
+sp|Q5T4S7|UBR4_HUMAN      RTQNHILTNHPNSNIYNTLSGLVEFDGYYLESDPCLVCNNPEVPFCYIKLSSIKVDTRYT
+                                             .                                        
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------YFDSVQ
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------YFEAVQ
+sp|O95071|UBR5_HUMAN      ----------------------------------IY------------------WIKAMN
+sp|Q5T4S7|UBR4_HUMAN      TTQQVVKLIGSHTISKVTVKIGDLKRTKMVRTINLYYNNRTVQAIVELKNKPARWHKAKK
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ---------------------------------------------C--------------
+sp|Q8IWV8|UBR2_HUMAN      AKEQRRQQRLRL-----------------HTS-YDVENGEFLCPLCECLSNT--------
+sp|Q8IWV7|UBR1_HUMAN      LSSQQ-----RI-----------------HVDLFDLESGEYLCPLCKSLCNT--------
+sp|O95071|UBR5_HUMAN      QQTTLDTPQLERKRTRELLELGIDNEDSEHENDDDTNQSATLNDKDDDSLPAETG-----
+sp|Q5T4S7|UBR4_HUMAN      VQLTPGQTEVKIDLPLPIVASNLMIEFADFYENYQASTETLQCPRCSASVPANPGVCGNC
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      -------------------------------------------------KLQELKAKQLI
+sp|Q8IWV8|UBR2_HUMAN      ---------------------------------------VIPLL-LPPRNIFNNRLN-FS
+sp|Q8IWV7|UBR1_HUMAN      ---------------------------------------VIPIIPLQPQKINSENADALA
+sp|O95071|UBR5_HUMAN      ----------------QNHPF---------FRRSDSMTFLG-CIPPNPFEVPLAEAIPLA
+sp|Q5T4S7|UBR4_HUMAN      GENVYQCHKCRSINYDEKDPFLCNACGFCKYARFDFMLYAKPCCAVDPIENEEDRKKAVS
+                                                                           :        . 
+
+sp|Q8N806|UBR7_HUMAN      KKDTATYWP---------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      DQPNLTQWIRTISQQIKA------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      QLLTLARWIQTVLARISG------------------------------------------
+sp|O95071|UBR5_HUMAN      DQPHLLQPNARK-EDLFGRPSQ------------------------GLYSSSASSGKCLM
+sp|Q5T4S7|UBR4_HUMAN      NINTLLDKADRVYHQLMGHRPQLENLLCKVNEAAPEKPQDDSGTAGGISSTSASVNRYIL
+                          .                                                           
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      EV----------------------------------------------------------
+sp|Q5T4S7|UBR4_HUMAN      QLAQEYCGDCKNSFDELSKIIQKVFASRKELLEYDLQQREAATKSSRTSVQPTFTASQYR
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      --------------------------LQFLRKEESTPN----------------------
+sp|Q8IWV7|UBR1_HUMAN      --------------------------YNIRHAKGENPI----------------------
+sp|O95071|UBR5_HUMAN      --------------------TVDRNCLEVLPTKMSYAA----------------------
+sp|Q5T4S7|UBR4_HUMAN      ALSVLGCGHTSSTKCYGCASAVTEHCITLLRALATNPALRHILVSQGLIRELFDYNLRRG
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ----NASTKNSENVDELQLPEG--------------------FRPDFRPKIPYSESIK--
+sp|Q8IWV7|UBR1_HUMAN      ----PIFFNQGMGDSTLEFHSI--------------------LSFGVESSIKYSNSIK--
+sp|O95071|UBR5_HUMAN      ------NLKNVMNMQNRQKKEGEEQ---PVLPEETESSKPGPSAHDLAAQLKSSLLAEIG
+sp|Q5T4S7|UBR4_HUMAN      AAAMREEVRQLMCLLTRDNPEATQQMNDLIIGKVSTALKGHWANPDLASSLQYEMLLLTD
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      LTESEG------------------------------------------PP----------
+sp|Q5T4S7|UBR4_HUMAN      SISKEDSCWELRLRCALSLFLMAVNIKTPVVVENITLMCLRILQKLIKPPAPTSKKNKDV
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ---------------------------------LNWRSKL--------------------
+sp|Q8IWV8|UBR2_HUMAN      --EMLTTFGTATYKVGLKVHPN---EEDPRVPIMCWGSCAYTIQS---IERILSDEDK--
+sp|Q8IWV7|UBR1_HUMAN      --EMVILFATTIYRIGLKVPPD---ERDPRVPMLTWSTCAFTIQA---IENLLGDEGK--
+sp|O95071|UBR5_HUMAN      ----LTSFRPQCSFMGMVISHDMLLGR--------WRLSL-ELFGRVFMEDVGAEPGSIL
+sp|Q5T4S7|UBR4_HUMAN      PVEALTTVKPYCN--EIHAQAQLWLKRDPKASYDAWKKCL-PIRG---IDGNGKAPSK--
+                                                             *                        
+
+sp|Q8N806|UBR7_HUMAN      -------CTCQDCMKM--------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      PLFGPLPCRLDDCLRSLTRFAAAHWTVASVSVVQGHFCKLFASLVPNDSHEELPCILDID
+sp|Q8IWV7|UBR1_HUMAN      PLFGALQNRQHNGLKALMQFAVAQRITCPQVLIQKHLVRLLSVVLPNIKSEDTPCLLSID
+sp|O95071|UBR5_HUMAN      TELGGFEVKESKFRREMEKLRNQQSRDLSLEVDRDRDLLIQQTMRQLNNHFGRRCATTPM
+sp|Q5T4S7|UBR4_HUMAN      SELRHLYLTEKYVWRWKQFLSRRGKRTSPLDLKLGHNNWLRQVLFTPATQAARQAACTIV
+                                        .                                             
+
+sp|Q8N806|UBR7_HUMAN      -----------------------------------YGDLDVLFL----------------
+sp|Q8IWV8|UBR2_HUMAN      MFHLLVGL----VLAFPALQCQD-----FSGISLGTGDLHIFHLVTM-------------
+sp|Q8IWV7|UBR1_HUMAN      LFHVLVGA----VLAFPSLYWDDPVDLQPSSVSSSYNHLYLFHLITM-------------
+sp|O95071|UBR5_HUMAN      A-----------VHRVKVTFKDE--------PGEGSGVARSFYTAIA-----QAFLS---
+sp|Q5T4S7|UBR4_HUMAN      EALATIPSRKQQVLDLLTSYLDE-----LSIAGECAAEYLALYQKLITSAHWKVYLAARG
+                                                                   :.                 
+
+sp|Q8N806|UBR7_HUMAN      ---------TDEYDTVLAYENK--------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ---------AHIIQILLTSCTEENGMD---------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ---------AHMLQILLTV-DTGLPLA---------------------------------
+sp|O95071|UBR5_HUMAN      ---------NEKLPNLECIQNANKGTH--------------------TSLMQRLRNR---
+sp|Q5T4S7|UBR4_HUMAN      VLPYVGNLITKEIARLLALEEATLSTDLQQGYALKSLTGLLSSFVEVESIKRHFKSRLVG
+                                         :                                            
+
+sp|Q8N806|UBR7_HUMAN      -------------------------------GKIAQATDRS-------------------
+sp|Q8IWV8|UBR2_HUMAN      -------------------------------QENPPCEEESAVLALYKTLHQYTGSALK-
+sp|Q8IWV7|UBR1_HUMAN      -------------------------------QVQEDSEEAHSASSFFAEISQYTSGSIGC
+sp|O95071|UBR5_HUMAN      -------------------------------GERDREREREREMRRSSGLRAGSRRDRDR
+sp|Q5T4S7|UBR4_HUMAN      TVLNGYLCLRKLVVQRTKLIDETQDMLLEMLEDMTTGTESETKAFMAVCIETAKRYNLD-
+                                                                :                     
+
+sp|Q8N806|UBR7_HUMAN      --------------------------------DPLMDT----------------------
+sp|Q8IWV8|UBR2_HUMAN      EIPSGWHLWRSVRAGIMPFLKCSALFFHYLNGVPSPPD----------------------
+sp|Q8IWV7|UBR1_HUMAN      DIP-GWYLWVSLKNGITPYLRCAALFFHYLLGVTPPEE----------------------
+sp|O95071|UBR5_HUMAN      DFRRQLSI-------------DTRPFRPASEGNPSDDP--------EPLPAHRQALGE--
+sp|Q5T4S7|UBR4_HUMAN      DYRTPVFIFERLCSIIYPEENEVTEFFVTLEKDPQQEDFLQGRMPGNPYSSNEPGIGPLM
+                                                           .                          
+
+sp|Q8N806|UBR7_HUMAN      -------------LSSMNRVQQVELICEYNDLKTEL-----------KDYLKRFA--DEG
+sp|Q8IWV8|UBR2_HUMAN      -------------IQV-PGTSHFEHLCSYLSLPNNLICLFQENSEIMNSLIESWC--RNS
+sp|Q8IWV7|UBR1_HUMAN      -------------LHTNSAEGEYSALCSYLSLPTNLFLLFQEYWDTVRPLLQRWC--ADP
+sp|O95071|UBR5_HUMAN      --------------RLYPRVQAMQPAFASKITGMLL--------ELSPAQLLLLLASEDS
+sp|Q5T4S7|UBR4_HUMAN      RDIKNKICQDCDLVALLEDDSGMELLVNNKIISLDL--------PVAEVYKKVWCTTNEG
+                                                 .           *                      : 
+
+sp|Q8N806|UBR7_HUMAN      TVVK--------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      EVKRYLEGERDAIRYPRES-----------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ALLNCLKQKNTVVRYPRKR-----------------------------------------
+sp|O95071|UBR5_HUMAN      LRARVDEAMELIIAHGREN-----------------------------GADSILD-----
+sp|Q5T4S7|UBR4_HUMAN      EPMRIVYRMRGLLGDATEEFIESLDSTTDEEEDEEEVYKMAGVMAQCGGLECMLNRLAGI
+                             .                                                        
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      -----------------------------------------LGLVDSSEKVQQENRKRHG
+sp|Q5T4S7|UBR4_HUMAN      RDFKQGRHLLTVLLKLFSYCVKVKVNRQQLVKLEMNTLNVMLGTLNLALVAEQESKDSGG
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      -----------------------REDIQQFFEE---------------------------
+sp|Q8IWV8|UBR2_HUMAN      -------NKLINL----------PEDYSSLINQASN------------------------
+sp|Q8IWV7|UBR1_HUMAN      -------NSLIEL----------PDDYSCLLNQASH------------------------
+sp|O95071|UBR5_HUMAN      SS-----RSVVDMDLDDTDD---GDDNAPLFYQPGK----------------------RG
+sp|Q5T4S7|UBR4_HUMAN      AAVAEQVLSIMEIILDESNAEPLSEDKGNLLLTGDKDQLVMLLDQINSTFVRSNPSVLQG
+                                                  :*   ::                             
+
+sp|Q8N806|UBR7_HUMAN      -------------------------------FQSKK----RRRVD---------------
+sp|Q8IWV8|UBR2_HUMAN      -------------------------------FSCPKSGGDKSRAPTLCLV----------
+sp|Q8IWV7|UBR1_HUMAN      -------------------------------FRCPRSADDERKHPVLCLF----------
+sp|O95071|UBR5_HUMAN      F------------------------------YTPRPGKNTEARLNCFRNI---------G
+sp|Q5T4S7|UBR4_HUMAN      LLRIIPYLSFGEVEKMQILVERFKPYCNFDKYDEDHSGDDKVFLDCFCKIAAGIKNNSNG
+                                                         :                            
+
+sp|Q8N806|UBR7_HUMAN      ---------------GMQYYCS--------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ---------CGSLLCSQSYCCQTELEGEDVGACTAHTYSCGSGVGIFLRVRECQVLFLAG
+sp|Q8IWV7|UBR1_HUMAN      ---------CGAILCSQNICCQEIVNGEEVGACIFHALHCGAGVCIFLKIRECRVVLVEG
+sp|O95071|UBR5_HUMAN      RILGLCLLQNELCPITLNRHVIKVLLGRKVN---WHDFAFFD--PVMYESLRQLILASQS
+sp|Q5T4S7|UBR4_HUMAN      HQLKDLILQKGITQNALDYMKKHIPSAKNLDADIWKKFLSRPALPFILRLLRGLAIQHPG
+                                           .                                          
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      KT----------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      KA----------------------------------------------------------
+sp|O95071|UBR5_HUMAN      SD--------------------------ADAVFSAM----DLAFAIDLCKEE--------
+sp|Q5T4S7|UBR4_HUMAN      TQVLIGTDSIPNLHKLEQVSSDEGIGTLAENLLEALREHPDVNKKIDAARRETRAEKKRM
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      -----------------GGGQV-----------ELIPN-GVNI----------PVTPQNV
+sp|Q5T4S7|UBR4_HUMAN      AMAMRQKALGTLGMTTNEKGQVVTKTALLKQMEELIEEPGLTCCICREGYKFQPTKVLGI
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      YEYVRKYAEHRM-----------------LVVAEQPLHAMR-------------------
+sp|Q5T4S7|UBR4_HUMAN      YTFTKRVALEEMENKPRKQQGYSTVSHFNIVHYDCHLAAVRLARGREEWESAALQNANTK
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      -KGLLDV----LPKNSLE---------------------DLTAEDFRLLV----------
+sp|Q5T4S7|UBR4_HUMAN      CNGLLPVWGPHVPESAFATCLARHNTYLQECTGQREPTYQLNIHDIKLLFLRFAMEQSFS
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ----KGC------------------FYSPPYLDDYGETDQGL------------------
+sp|Q8IWV7|UBR1_HUMAN      ----RGC------------------AYPAPYLDEYGETDPGL------------------
+sp|O95071|UBR5_HUMAN      ----NGCGEVNVQML----------ISFTSFNDESGENAEKLLQF--KRWF---------
+sp|Q5T4S7|UBR4_HUMAN      ADTGGGGRESNIHLIPYIIHTVLYVLNTTRATSREEKNLQGFLEQPKEKWVESAFEVDGP
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      ------------------------------------------------------------
+sp|Q8IWV7|UBR1_HUMAN      ------------------------------------------------------------
+sp|O95071|UBR5_HUMAN      ---------------W-----SIVEKMSMTERQ---------------------------
+sp|Q5T4S7|UBR4_HUMAN      YYFTVLALHILPPEQWRATRVEILRRLLVTSQARAVAPGGATRLTDKAVKDYSAYRSSLL
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ------------------------------------------------------------
+sp|Q8IWV8|UBR2_HUMAN      -----------RRGNPLHLCKERFKKIQKLWHQHSVTEEIGHAQEANQTL----------
+sp|Q8IWV7|UBR1_HUMAN      -----------KRGNPLHLSRERYRKLHLVWQQHCIIEEIARSQETNQML----------
+sp|O95071|UBR5_HUMAN      -----DLVYFWTSSPSLPASEEGFQPMPSITIRPPDDQHLPTANTCISRL---YVPLYSS
+sp|Q5T4S7|UBR4_HUMAN      FWALVDLIYNMFKKVPTSNTEGGWSCSLAEYIRHNDMPIYEAADKALKTFQEEFMPVETF
+                                                                                      
+
+sp|Q8N806|UBR7_HUMAN      ----------------------------
+sp|Q8IWV8|UBR2_HUMAN      ----------------VGIDWQHL----
+sp|Q8IWV7|UBR1_HUMAN      ----------------FGFNWQLL----
+sp|O95071|UBR5_HUMAN      KQILKQKLLLAIKTKNFGFV--------
+sp|Q5T4S7|UBR4_HUMAN      SEFLDVAGLLSEITDPESFLKDLLNSVP
+                                                      

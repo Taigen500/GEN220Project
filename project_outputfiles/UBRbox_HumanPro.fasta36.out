@@ -1,0 +1,547 @@
+# fasta36 UBR4_UBRbox.fa humanproteome.fa
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8h May, 2020
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: UBR4_UBRbox.fa
+  1>>>sp|Q5T4S7|UBR4_HUMAN E3 ubiquitin-protein ligase UBR4 OS=Homo sapiens OX=9606 GN=UBR4 PE=1 SV=1; Putative zinc finger in N-recognin (UBR box), range 1662-1720 - 59 aa
+Library: humanproteome.fa
+  11394277 residues in 20588 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 6.1161+/-0.00126; mu= 3.5029+/- 0.073
+ mean_var=62.4024+/-12.039, 0's: 5 Z-trim(102.7): 28  B-trim: 22 in 1/60
+ Lambda= 0.162358
+ statistics sampled from 5620 (5626) to 5620 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -10/-2
+ ktup: 2, E-join: 1 (0.65), E-opt: 0.2 (0.273), width:  16
+ Scan time:  0.230
+
+The best scores are:                                      opt bits E(20588)
+sp|Q5T4S7|UBR4_HUMAN E3 ubiquitin-protein ligase U (5183)  455 114.4 2.3e-25
+sp|Q86XK2|FBX11_HUMAN F-box only protein 11 OS=Hom ( 927)  200 54.7 3.9e-08
+sp|O95071|UBR5_HUMAN E3 ubiquitin-protein ligase U (2799)  185 51.2 1.3e-06
+sp|Q8N806|UBR7_HUMAN Putative E3 ubiquitin-protein ( 425)  126 37.3   0.003
+sp|Q9H5U6|ZCHC4_HUMAN rRNA N6-adenosine-methyltran ( 513)   99 31.0    0.29
+sp|Q8IWV7|UBR1_HUMAN E3 ubiquitin-protein ligase U (1749)   99 31.0    0.97
+sp|Q8IWV8|UBR2_HUMAN E3 ubiquitin-protein ligase U (1755)   95 30.1     1.9
+sp|Q8NDW4|ZN248_HUMAN Zinc finger protein 248 OS=H ( 579)   85 27.7     3.1
+sp|Q9UC06|ZNF70_HUMAN Zinc finger protein 70 OS=Ho ( 446)   83 27.3     3.3
+sp|Q3LI66|KRA62_HUMAN Keratin-associated protein 6 (  62)   70 24.2     3.9
+sp|P04070|PROC_HUMAN Vitamin K-dependent protein C ( 461)   81 26.8     4.8
+sp|P04732|MT1E_HUMAN Metallothionein-1E OS=Homo sa (  61)   68 23.7     5.3
+sp|P04731|MT1A_HUMAN Metallothionein-1A OS=Homo sa (  61)   68 23.7     5.3
+sp|P13640|MT1G_HUMAN Metallothionein-1G OS=Homo sa (  62)   68 23.7     5.4
+sp|Q8N6M9|ZFN2A_HUMAN AN1-type zinc finger protein ( 145)   73 24.9     5.6
+sp|Q8NEN9|PDZD8_HUMAN PDZ domain-containing protei (1154)   85 27.7     6.2
+sp|P07438|MT1B_HUMAN Metallothionein-1B OS=Homo sa (  61)   67 23.5     6.2
+sp|P04733|MT1F_HUMAN Metallothionein-1F OS=Homo sa (  61)   67 23.5     6.2
+sp|Q9Y4G2|PKHM1_HUMAN Pleckstrin homology domain-c (1056)   84 27.5     6.7
+sp|Q6ZNB6|NFXL1_HUMAN NF-X1-type zinc finger prote ( 911)   83 27.3     6.8
+sp|Q93083|MT1L_HUMAN Metallothionein-1L OS=Homo sa (  61)   66 23.3     7.3
+sp|P02795|MT2_HUMAN Metallothionein-2 OS=Homo sapi (  61)   66 23.3     7.3
+sp|O15304|SIVA_HUMAN Apoptosis regulatory protein  ( 175)   72 24.7     7.9
+sp|Q1RMZ1|SAMTR_HUMAN S-adenosylmethionine sensor  ( 405)   77 25.9     8.1
+sp|Q6ZN11|ZN793_HUMAN Zinc finger protein 793 OS=H ( 406)   77 25.9     8.1
+sp|A0A1B0GVS7|MDFI2_HUMAN MyoD family inhibitor do ( 189)   72 24.7     8.5
+sp|P60321|NANO2_HUMAN Nanos homolog 2 OS=Homo sapi ( 138)   70 24.2     8.6
+sp|P80294|MT1H_HUMAN Metallothionein-1H OS=Homo sa (  61)   65 23.0     8.6
+sp|O43609|SPY1_HUMAN Protein sprouty homolog 1 OS= ( 319)   75 25.4     8.8
+sp|A4D161|F221A_HUMAN Protein FAM221A OS=Homo sapi ( 298)   74 25.2     9.7
+
+>>sp|Q5T4S7|UBR4_HUMAN E3 ubiquitin-protein ligase UBR4   (5183 aa)
+ initn: 455 init1: 455 opt: 455  Z-score: 565.4  bits: 114.4 E(20588): 2.3e-25
+Smith-Waterman score: 455; 100.0% identity (100.0% similar) in 59 aa overlap (1-59:1662-1720)
+
+                                             10        20        30
+sp|Q5T                               CTFTITQKEFMNQHWYHCHTCKMVDGVGVC
+                                     ::::::::::::::::::::::::::::::
+sp|Q5T VDSDWVEELAVEEEDSQAEDSDEDSLCNKLCTFTITQKEFMNQHWYHCHTCKMVDGVGVC
+            1640      1650      1660      1670      1680      1690 
+
+               40        50                                        
+sp|Q5T TVCAKVCHKDHEISYAKYGSFFCDCGAKE                               
+       :::::::::::::::::::::::::::::                               
+sp|Q5T TVCAKVCHKDHEISYAKYGSFFCDCGAKEDGSCLALVKRTPSSGMSSTMKESAFQSEPRI
+            1700      1710      1720      1730      1740      1750 
+
+>>sp|Q86XK2|FBX11_HUMAN F-box only protein 11 OS=Homo sa  (927 aa)
+ initn: 188 init1: 188 opt: 200  Z-score: 256.0  bits: 54.7 E(20588): 3.9e-08
+Smith-Waterman score: 200; 37.9% identity (69.0% similar) in 58 aa overlap (1-57:835-892)
+
+                                             10         20         
+sp|Q5T                               CTFTITQKEFMNQH-WYHCHTCKMVDGVGV
+                                     : . :..   . .: .:.::::. .:  ..
+sp|Q86 FLASGVNVTMKDNKIMNNQDAIEKAVSRGQCLYKISSYTSYPMHDFYRCHTCNTTDRNAI
+          810       820       830       840       850       860    
+
+      30        40        50                                       
+sp|Q5T CTVCAKVCHKDHEISYAKYGSFFCDCGAKE                              
+       :. : : ::. :.. . ..  :::::::                                
+sp|Q86 CVNCIKKCHQGHDVEFIRHDRFFCDCGAGTLSNPCTLAGEPTHDTDTLYDSAPPIESNTL
+          870       880       890       900       910       920    
+
+>>sp|O95071|UBR5_HUMAN E3 ubiquitin-protein ligase UBR5   (2799 aa)
+ initn: 190 init1: 146 opt: 185  Z-score: 228.4  bits: 51.2 E(20588): 1.3e-06
+Smith-Waterman score: 185; 39.0% identity (67.8% similar) in 59 aa overlap (1-58:1179-1237)
+
+                                             10        20        30
+sp|Q5T                               CTFTITQKEFMNQHWYHCHTCKMVDGVGVC
+                                     :.:: :  : .::  ..:.:: .....  :
+sp|O95 KEEDVFMGMVCPSGTNPDDSPLYVLCCNDTCSFTWTGAEHINQDIFECRTCGLLESLCCC
+     1150      1160      1170      1180      1190      1200        
+
+               40         50                                       
+sp|Q5T TVCAKVCHKDHEISYAKYG-SFFCDCGAKE                              
+       : ::.:::: :. .  . . . .:::  :                               
+sp|O95 TECARVCHKGHDCKLKRTSPTAYCDCWEKCKCKTLIAGQKSARLDLLYRLLTATNLVTLP
+     1210      1220      1230      1240      1250      1260        
+
+>>sp|Q8N806|UBR7_HUMAN Putative E3 ubiquitin-protein lig  (425 aa)
+ initn:  85 init1:  48 opt: 126  Z-score: 168.3  bits: 37.3 E(20588): 0.003
+Smith-Waterman score: 126; 33.3% identity (56.7% similar) in 60 aa overlap (1-56:46-102)
+
+                                             10        20          
+sp|Q5T                               CTFTITQKEFMNQHWYHCHTC--KMVDGVG
+                                     :..  .:     :  : : ::  .  . .:
+sp|Q8N PVVSLVDVLEEDEELENEACAVLGGSDSEKCSY--SQGSVKRQALYACSTCTPEGEEPAG
+          20        30        40          50        60        70   
+
+       30        40          50                                    
+sp|Q5T VCTVCAKVCHKDHEIS--YAKYGSFFCDCGAKE                           
+       .: .:.  :: .:..   :.:  .: ::::                              
+sp|Q8N ICLACSYECHGSHKLFELYTKR-NFRCDCGNSKFKNLECKLLPDKAKVNSGNKYNDNFFG
+            80        90        100       110       120       130  
+
+>>sp|Q9H5U6|ZCHC4_HUMAN rRNA N6-adenosine-methyltransfer  (513 aa)
+ initn:  54 init1:  54 opt:  99  Z-score: 132.7  bits: 31.0 E(20588): 0.29
+Smith-Waterman score: 99; 32.6% identity (51.2% similar) in 43 aa overlap (13-53:406-448)
+
+                                 10        20          30        40
+sp|Q5T                   CTFTITQKEFMNQHWYHCHTCKM-VDGVGV-CTVCAKVCHKD
+                                     ..: ::  ::  :    . :..: .    :
+sp|Q9H GYRFCSPCQRYVSLENQHCELCNSCTSKDGRKWNHCFLCKKCVKPSWIHCSICNHCAVPD
+         380       390       400       410       420       430     
+
+               50                                                  
+sp|Q5T HEISYAKYGSFFCDCGAKE                                         
+       :     :.: :.:                                               
+sp|Q9H HSCEGPKHGCFICGELDHKRSTCPNIATSKRANKAVRKQKQRKSNKMKMETTKGQSMNHT
+         440       450       460       470       480       490     
+
+>>sp|Q8IWV7|UBR1_HUMAN E3 ubiquitin-protein ligase UBR1   (1749 aa)
+ initn:  53 init1:  53 opt:  99  Z-score: 123.2  bits: 31.0 E(20588): 0.97
+Smith-Waterman score: 99; 32.6% identity (56.5% similar) in 46 aa overlap (16-59:110-155)
+
+                              10        20        30         40    
+sp|Q5T                CTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAK-VCHKDHEIS
+                                     : :. : .     .:  : .   ::.:. .
+sp|Q8I GEDPDICLEKLKHSGAFQLCGRVFKSGETTYSCRDCAIDPTCVLCMDCFQDSVHKNHRYK
+      80        90       100       110       120       130         
+
+            50                                                     
+sp|Q5T -YAKYGSFFCDCGAKE                                            
+        ... :. :::::  :                                            
+sp|Q8I MHTSTGGGFCDCGDTEAWKTGPFCVNHEPGRAGTIKENSRCPLNEEVIVQARKIFPSVIK
+     140       150       160       170       180       190         
+
+>>sp|Q8IWV8|UBR2_HUMAN E3 ubiquitin-protein ligase UBR2   (1755 aa)
+ initn:  53 init1:  53 opt:  95  Z-score: 118.1  bits: 30.1 E(20588):  1.9
+Smith-Waterman score: 95; 36.0% identity (56.0% similar) in 50 aa overlap (16-59:110-155)
+
+                              10        20        30             40
+sp|Q5T                CTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKVC-----HKD
+                                     : :. :  ::   .:..: . :     :.:
+sp|Q8I EDPAFGFPKLEQANKPSHLCGRVFKVGEPTYSCRDCA-VDP--TCVLCME-CFLGSIHRD
+      80        90       100       110          120        130     
+
+               50                                                  
+sp|Q5T HEISYAKYGSF-FCDCGAKE                                        
+       :.  ..  :.  :::::  :                                        
+sp|Q8I HRYRMTTSGGGGFCDCGDTEAWKEGPYCQKHELNTSEIEEEEDPLVHLSEDVIARTYNIF
+         140       150       160       170       180       190     
+
+>>sp|Q8NDW4|ZN248_HUMAN Zinc finger protein 248 OS=Homo   (579 aa)
+ initn:  87 init1:  67 opt:  85  Z-score: 114.0  bits: 27.7 E(20588):  3.1
+Smith-Waterman score: 85; 28.3% identity (53.3% similar) in 60 aa overlap (3-57:257-311)
+
+                                           10        20        30  
+sp|Q5T                             CTFTITQKEFMNQHWYHCHTCKMVDGVGVCTV
+                                     ..:.:.  .... : :  :    : . : .
+sp|Q8N AAFFTNKRSQIGETVCKYNECGRTFIESLKLNISQRPHLEMEPYGCSIC----GKSFC-M
+        230       240       250       260       270           280  
+
+                  40        50                                     
+sp|Q5T CAKVCH-----KDHEISYAKYGSFFCDCGAKE                            
+         .  :     ::.   : .:: .::: .:                              
+sp|Q8N NLRFGHQRALTKDNPYEYNEYGEIFCDNSAFIIHQGAYTRKILREYKVSDKTWEKSALLK
+             290       300       310       320       330       340 
+
+>>sp|Q9UC06|ZNF70_HUMAN Zinc finger protein 70 OS=Homo s  (446 aa)
+ initn:  41 init1:  41 opt:  83  Z-score: 113.5  bits: 27.3 E(20588):  3.3
+Smith-Waterman score: 83; 29.0% identity (54.8% similar) in 62 aa overlap (1-56:257-314)
+
+                                             10        20        30
+sp|Q5T                               CTFTITQKEFMNQHWYHCHTCKMVDGVGVC
+                                     :  ...:.  ..::  . :: :       :
+sp|Q9U RECGKDFSRSSSLRKHERIHTGERPYQCKECGKSFNQSSGLSQH-RKIHTLKKPH---EC
+        230       240       250       260       270        280     
+
+                40        50                                       
+sp|Q5T TVCAKV-CHKDHEISYAKYGS----FFCD-CGAKE                         
+        .:.:. ::..: : . .  .    . :: ::                            
+sp|Q9U DLCGKAFCHRSHLIRHQRIHTGKKPYKCDECGKAFSQSSNLIEHRKTHTGEKPYKCQKCG
+            290       300       310       320       330       340  
+
+sp|Q9U KAFSQSSSLIEHQRIHTGEKPYECCQCGKAFCHSSALIQHQRIHTGKKPYTCECGKAFRH
+            350       360       370       380       390       400  
+
+>>sp|Q3LI66|KRA62_HUMAN Keratin-associated protein 6-2 O  (62 aa)
+ initn:  87 init1:  49 opt:  70  Z-score: 112.3  bits: 24.2 E(20588):  3.9
+Smith-Waterman score: 70; 30.6% identity (51.0% similar) in 49 aa overlap (10-56:6-53)
+
+               10        20        30        40         50         
+sp|Q5T CTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKVCHKDHEISYAK-YGS-FFCDCGAK
+                . : .  : . :   .:.:      . :  .   .:.. ::: ::: ::  
+sp|Q3L     MCGSYYGNYYGDHGYGCCGYEGLGYGYGSLR-CGYSSCCGYGHGYGSRFFCGCGYG
+                   10        20        30         40        50     
+
+              
+sp|Q5T E      
+              
+sp|Q3L CGSGYYY
+          60  
+
+>>sp|P04070|PROC_HUMAN Vitamin K-dependent protein C OS=  (461 aa)
+ initn:  52 init1:  52 opt:  81  Z-score: 110.7  bits: 26.8 E(20588):  4.8
+Smith-Waterman score: 81; 32.8% identity (42.6% similar) in 61 aa overlap (1-55:64-122)
+
+                                             10        20        30
+sp|Q5T                               CTFTITQKEFMNQHWYHCHTCKMVDGVGVC
+                                     : :  ... :.:         : :::   :
+sp|P04 HQVLRIRKRANSFLEELRHSSLERECIEEICDFEEAKEIFQNVDDTLAFWSKHVDG-DQC
+            40        50        60        70        80         90  
+
+                     40        50                                  
+sp|Q5T TV------CAKVCHKDHEISYAKYGSFFCDCGAKE                         
+        :      ::..:   :       ::: :::                             
+sp|P04 LVLPLEHPCASLCC-GHGTCIDGIGSFSCDCRSGWEGRFCQREVSFLNCSLDNGGCTHYC
+            100        110       120       130       140       150 
+
+sp|P04 LEEVGWRRCSCAPGYKLGDDLLQCHPAVKFPCGRPWKRMEKKRSHLKRDTEDQEDQVDPR
+             160       170       180       190       200       210 
+
+>>sp|P04732|MT1E_HUMAN Metallothionein-1E OS=Homo sapien  (61 aa)
+ initn:  63 init1:  46 opt:  68  Z-score: 109.9  bits: 23.7 E(20588):  5.3
+Smith-Waterman score: 68; 31.7% identity (46.3% similar) in 41 aa overlap (18-57:21-61)
+
+                  10        20        30         40        50      
+sp|Q5T    CTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKV-CHKDHEISYAKYGSFFCDCG
+                           :. :: ..    :  :  : : :  .    : .:  :.: 
+sp|P04 MDPNCSCATGGSCTCAGSCKCKECKCTSCKKSCCSCCPVGCAKCAQGCVCKGASEKCSCC
+               10        20        30        40        50        60
+
+          
+sp|Q5T AKE
+       :  
+sp|P04 A  
+          
+
+>>sp|P04731|MT1A_HUMAN Metallothionein-1A OS=Homo sapien  (61 aa)
+ initn:  66 init1:  49 opt:  68  Z-score: 109.9  bits: 23.7 E(20588):  5.3
+Smith-Waterman score: 68; 30.0% identity (45.0% similar) in 40 aa overlap (18-57:26-61)
+
+                       10        20        30        40        50  
+sp|Q5T         CTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKVCHKDHEISYAKYGSFF
+                                : .::     . :. :   : :  .    : .:  
+sp|P04 MDPNCSCATGGSCTCTGSCKCKECKCTSCKK----SCCSCCPMSCAKCAQGCICKGASEK
+               10        20        30            40        50      
+
+              
+sp|Q5T CDCGAKE
+       :.: :  
+sp|P04 CSCCA  
+         60   
+
+>>sp|P13640|MT1G_HUMAN Metallothionein-1G OS=Homo sapien  (62 aa)
+ initn:  63 init1:  46 opt:  68  Z-score: 109.8  bits: 23.7 E(20588):  5.4
+Smith-Waterman score: 68; 31.7% identity (46.3% similar) in 41 aa overlap (18-57:22-62)
+
+                   10        20        30         40        50     
+sp|Q5T     CTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKV-CHKDHEISYAKYGSFFCDC
+                            :. :: ..    :  :  : : :  .    : .:  :.:
+sp|P13 MDPNCSCAAAGVSCTCASSCKCKECKCTSCKKSCCSCCPVGCAKCAQGCICKGASEKCSC
+               10        20        30        40        50        60
+
+           
+sp|Q5T GAKE
+        :  
+sp|P13 CA  
+           
+
+>>sp|Q8N6M9|ZFN2A_HUMAN AN1-type zinc finger protein 2A   (145 aa)
+ initn:  65 init1:  33 opt:  73  Z-score: 109.6  bits: 24.9 E(20588):  5.6
+Smith-Waterman score: 73; 38.5% identity (59.0% similar) in 39 aa overlap (17-52:9-46)
+
+               10          20         30        40        50       
+sp|Q5T CTFTITQKEFMNQHWYHC--HTCKMVDGVGV-CTVCAKVCHKDHEISYAKYGSFFCDCGA
+                       ::  .:::..: . : : .: .   ::: . :: .   :     
+sp|Q8N         MEFPDLGKHCSEKTCKQLDFLPVKCDACKQDFCKDH-FPYAAHKCPFAFQKD
+                       10        20        30         40        50 
+
+                                                                   
+sp|Q5T KE                                                          
+                                                                   
+sp|Q8N VHVPVCPLCNTPIPVKKGQIPDVVVGDHIDRDCDSHPGKKKEKIFTYRCSKEGCKKKEML
+              60        70        80        90       100       110 
+
+>>sp|Q8NEN9|PDZD8_HUMAN PDZ domain-containing protein 8   (1154 aa)
+ initn:  61 init1:  61 opt:  85  Z-score: 108.7  bits: 27.7 E(20588):  6.2
+Smith-Waterman score: 85; 39.0% identity (53.7% similar) in 41 aa overlap (2-39:842-878)
+
+                                            10        20           
+sp|Q5T                              CTFTITQKEFMNQHWYHCHTCK---MVDGVG
+                                     .:  ::  :.:  :  :  ::    . ...
+sp|Q8N EKEPHLVEEVSVLPKEEQFVGQMGLTENKHSFQDTQ--FQNPTW--CDYCKKKVWTKAAS
+             820       830       840         850         860       
+
+       30        40        50                                      
+sp|Q5T VCTVCAKVCHKDHEISYAKYGSFFCDCGAKE                             
+        :  :: ::::                                                 
+sp|Q8N QCMFCAYVCHKKCQEKCLAETSVCGATDRRIDRTLKNLRLEGQETLLGLPPRVDAEASKS
+       870       880       890       900       910       920       
+
+>>sp|P07438|MT1B_HUMAN Metallothionein-1B OS=Homo sapien  (61 aa)
+ initn:  54 init1:  47 opt:  67  Z-score: 108.7  bits: 23.5 E(20588):  6.2
+Smith-Waterman score: 67; 31.7% identity (43.9% similar) in 41 aa overlap (18-57:21-61)
+
+                  10        20        30         40        50      
+sp|Q5T    CTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKV-CHKDHEISYAKYGSFFCDCG
+                           :. :: ..    :  :  : : :  .    : .:  : : 
+sp|P07 MDPNCSCTTGGSCACAGSCKCKECKCTSCKKCCCSCCPVGCAKCAQGCVCKGSSEKCRCC
+               10        20        30        40        50        60
+
+          
+sp|Q5T AKE
+       :  
+sp|P07 A  
+          
+
+>>sp|P04733|MT1F_HUMAN Metallothionein-1F OS=Homo sapien  (61 aa)
+ initn:  73 init1:  45 opt:  67  Z-score: 108.7  bits: 23.5 E(20588):  6.2
+Smith-Waterman score: 67; 30.8% identity (46.2% similar) in 39 aa overlap (18-55:21-59)
+
+                  10        20        30         40        50      
+sp|Q5T    CTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKV-CHKDHEISYAKYGSFFCDCG
+                           :. :: ..    :  :  : : :  .    : .:  :.: 
+sp|P04 MDPNCSCAAGVSCTCAGSCKCKECKCTSCKKSCCSCCPVGCSKCAQGCVCKGASEKCSCC
+               10        20        30        40        50        60
+
+          
+sp|Q5T AKE
+          
+sp|P04 D  
+          
+
+>>sp|Q9Y4G2|PKHM1_HUMAN Pleckstrin homology domain-conta  (1056 aa)
+ initn:  70 init1:  70 opt:  84  Z-score: 108.1  bits: 27.5 E(20588):  6.7
+Smith-Waterman score: 84; 40.6% identity (56.2% similar) in 32 aa overlap (9-40:982-1008)
+
+                                     10        20        30        
+sp|Q5T                       CTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKVCH
+                                     :: .:: :::  : .  :  .: .:    :
+sp|Q9Y YLLESPHRFSVADLQQIADGVYEGFLKALIEFASQHVYHCDLCTQ-RGF-ICQICQ---H
+             960       970       980       990        1000         
+
+       40        50                                      
+sp|Q5T KDHEISYAKYGSFFCDCGAKE                             
+       .:                                                
+sp|Q9Y HDIIFPFEFDTTVRCAECKTVFHQSCQAVVKKGCPRCARRRKYQEQNIFA
+       1010      1020      1030      1040      1050      
+
+>>sp|Q6ZNB6|NFXL1_HUMAN NF-X1-type zinc finger protein N  (911 aa)
+ initn: 103 init1:  63 opt:  83  Z-score: 108.0  bits: 27.3 E(20588):  6.8
+Smith-Waterman score: 83; 26.8% identity (46.4% similar) in 56 aa overlap (1-55:345-398)
+
+                                             10         20         
+sp|Q5T                               CTFTITQKEFMNQHWYHC-HTCKMVDGVGV
+                                     :   ....   .  : :: ..:  .   : 
+sp|Q6Z KLLCGQHKCENPCHAGSCQPCPRVSRQKCVCGKKVAERSCASPLW-HCDQVCGKTLPCGN
+          320       330       340       350        360       370   
+
+      30        40        50                                       
+sp|Q5T CTVCAKVCHKDHEISYAKYGSFFCDCGAKE                              
+        : : .:::        . :. :: :                                  
+sp|Q6Z HT-CEQVCHVGACGECPRSGKRFCPCQKSKFSLPCTEDVPTCGDSCDKVLECGIHRCSQR
+            380       390       400       410       420       430  
+
+>>sp|Q93083|MT1L_HUMAN Metallothionein-1L OS=Homo sapien  (61 aa)
+ initn:  62 init1:  45 opt:  66  Z-score: 107.4  bits: 23.3 E(20588):  7.3
+Smith-Waterman score: 66; 30.0% identity (45.0% similar) in 40 aa overlap (18-57:26-61)
+
+                       10        20        30        40        50  
+sp|Q5T         CTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKVCHKDHEISYAKYGSFF
+                                : .::     . :. :   : :  .    : .:  
+sp|Q93 MDPNCSCATGGSCSCASSCKCKECKCTSCKK----SCCSCCPMGCAKCAQGCVCKGASEK
+               10        20        30            40        50      
+
+              
+sp|Q5T CDCGAKE
+       :.: :  
+sp|Q93 CSCCA  
+         60   
+
+>>sp|P02795|MT2_HUMAN Metallothionein-2 OS=Homo sapiens   (61 aa)
+ initn:  67 init1:  46 opt:  66  Z-score: 107.4  bits: 23.3 E(20588):  7.3
+Smith-Waterman score: 66; 31.7% identity (46.3% similar) in 41 aa overlap (18-57:21-61)
+
+                  10        20        30         40        50      
+sp|Q5T    CTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKV-CHKDHEISYAKYGSFFCDCG
+                           :. :: ..    :  :  : : :  .    : .:  :.: 
+sp|P02 MDPNCSCAAGDSCTCAGSCKCKECKCTSCKKSCCSCCPVGCAKCAQGCICKGASDKCSCC
+               10        20        30        40        50        60
+
+          
+sp|Q5T AKE
+       :  
+sp|P02 A  
+          
+
+>>sp|O15304|SIVA_HUMAN Apoptosis regulatory protein Siva  (175 aa)
+ initn:  48 init1:  48 opt:  72  Z-score: 106.8  bits: 24.7 E(20588):  7.9
+Smith-Waterman score: 72; 33.3% identity (54.8% similar) in 42 aa overlap (18-56:114-154)
+
+                            10        20         30         40     
+sp|Q5T              CTFTITQKEFMNQHWYHCHTC-KMVDGVGVCTVCAK-VCHKDHEISY
+                                     : .: . ::: .::  : . .: .  .  .
+sp|O15 GQMLIGPDGRLIRSLGQASEADPSGVASIACSSCVRAVDGKAVCGQCERALCGQCVRTCW
+            90       100       110       120       130       140   
+
+          50                            
+sp|Q5T AKYGSFFCD-CGAKE                  
+       .  ::  :  ::                     
+sp|O15 GC-GSVACTLCGLVDCSDMYEKVLCTSCAMFET
+            150       160       170     
+
+>>sp|Q1RMZ1|SAMTR_HUMAN S-adenosylmethionine sensor upst  (405 aa)
+ initn:  72 init1:  53 opt:  77  Z-score: 106.7  bits: 25.9 E(20588):  8.1
+Smith-Waterman score: 77; 28.2% identity (64.1% similar) in 39 aa overlap (1-39:72-105)
+
+                                             10        20        30
+sp|Q5T                               CTFTITQKEFMNQHWYHCHTCKMVDGVGVC
+                                     : .....:.. ..::   .::   .: :  
+sp|Q1R SVHRRLRKKYREVGDFDKIWREHCEDEETLCEYAVAMKNLADNHW--AKTC---EGEGRI
+              50        60        70        80          90         
+
+               40        50                                        
+sp|Q5T TVCAKVCHKDHEISYAKYGSFFCDCGAKE                               
+         : .::..                                                   
+sp|Q1R EWCCSVCREYFQNGGKRKALEKDEKRAVLATKTTPALNMHESSQLEGHLTNLSFTNPEFI
+        100       110       120       130       140       150      
+
+>>sp|Q6ZN11|ZN793_HUMAN Zinc finger protein 793 OS=Homo   (406 aa)
+ initn:  51 init1:  51 opt:  77  Z-score: 106.7  bits: 25.9 E(20588):  8.1
+Smith-Waterman score: 77; 29.5% identity (61.4% similar) in 44 aa overlap (1-44:344-383)
+
+                                             10        20        30
+sp|Q5T                               CTFTITQKEFMNQHWYHCHTCKMVDGVGVC
+                                     :  ...::  .:.:: . :: .   :   :
+sp|Q6Z SECGKSFGEKSYLNVHRKMHTGERPYRCRECGKSFSQKSCLNKHW-RTHTGEKPYG---C
+           320       330       340       350        360            
+
+               40        50                 
+sp|Q5T TVCAKVCHKDHEISYAKYGSFFCDCGAKE        
+       . :.:. ..  ..:                       
+sp|Q6Z NECGKAFYQKPNLSRHQKIHARKNAYRNENLIIVGNT
+     370       380       390       400      
+
+>>sp|A0A1B0GVS7|MDFI2_HUMAN MyoD family inhibitor domain  (189 aa)
+ initn:  57 init1:  43 opt:  72  Z-score: 106.2  bits: 24.7 E(20588):  8.5
+Smith-Waterman score: 72; 30.4% identity (58.7% similar) in 46 aa overlap (18-55:113-158)
+
+                            10        20            30             
+sp|Q5T              CTFTITQKEFMNQHWYHCHTCKMVDGV----GVC-TVCAKVC---HK
+                                     :  :.. : .    :.: :::.:.:   ..
+sp|A0A ECQTTFSYLQTDTSVHHRDTDEECASLILACLFCQFWDCLLMLPGTCETVCTKMCCPSRR
+             90       100       110       120       130       140  
+
+      40        50                                    
+sp|Q5T DHEISYAKYGSFFCDCGAKE                           
+        :. :  ...   :.:                               
+sp|A0A YHHTSDENHSRNDCSCNCDMDCSLFESCHETSECLELAMEISEICYR
+            150       160       170       180         
+
+>>sp|P60321|NANO2_HUMAN Nanos homolog 2 OS=Homo sapiens   (138 aa)
+ initn:  67 init1:  38 opt:  70  Z-score: 106.1  bits: 24.2 E(20588):  8.6
+Smith-Waterman score: 70; 30.2% identity (47.2% similar) in 53 aa overlap (1-45:63-113)
+
+                                             10        20          
+sp|Q5T                               CTFTITQKEFMNQHWYHCHTCKMVDGV---
+                                     :.:   . :  ..: :  :  :  :::   
+sp|P60 QEIEEPSPGPPLGQDQGLGAPGANGGLGTLCNFCKHNGE--SRHVYSSHQLKTPDGVVVC
+             40        50        60        70          80        90
+
+             30        40        50                    
+sp|Q5T -----GVCTVCAKVCHKDHEISYAKYGSFFCDCGAKE           
+             :: ::. .  . : ..:                         
+sp|P60 PILRHYVCPVCGATGDQAHTLKYCPLNGGQQSLYRRSGRNSAGRRVKR
+              100       110       120       130        
+
+>>sp|P80294|MT1H_HUMAN Metallothionein-1H OS=Homo sapien  (61 aa)
+ initn:  62 init1:  45 opt:  65  Z-score: 106.1  bits: 23.0 E(20588):  8.6
+Smith-Waterman score: 65; 30.0% identity (45.0% similar) in 40 aa overlap (18-57:26-61)
+
+                       10        20        30        40        50  
+sp|Q5T         CTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKVCHKDHEISYAKYGSFF
+                                : .::     . :. :   : :  .    : .:  
+sp|P80 MDPNCSCEAGGSCACAGSCKCKKCKCTSCKK----SCCSCCPLGCAKCAQGCICKGASEK
+               10        20        30            40        50      
+
+              
+sp|Q5T CDCGAKE
+       :.: :  
+sp|P80 CSCCA  
+         60   
+
+>>sp|O43609|SPY1_HUMAN Protein sprouty homolog 1 OS=Homo  (319 aa)
+ initn:  68 init1:  49 opt:  75  Z-score: 106.0  bits: 25.4 E(20588):  8.8
+Smith-Waterman score: 75; 25.5% identity (58.8% similar) in 51 aa overlap (5-53:174-223)
+
+                                         10        20          30  
+sp|Q5T                           CTFTITQKEFMNQHWYHCHT--CKMVDGVGVCTV
+                                     .::..:. ..  .:.   :     .  : .
+sp|O43 PVPGHRSERAIRTQPKQLIVDDLKGSLKEDLTQHKFICEQCGKCKCGECTAPRTLPSCLA
+           150       160       170       180       190       200   
+
+             40        50                                          
+sp|Q5T CAKVCHKDHEISYAKYGSFFCDCGAKE                                 
+       : . :  . : :...::. .:                                       
+sp|O43 CNRQCLCSAE-SMVEYGTCMCLVKGIFYHCSNDDEGDSYSDNPCSCSQSHCCSRYLCMGA
+           210        220       230       240       250       260  
+
+>>sp|A4D161|F221A_HUMAN Protein FAM221A OS=Homo sapiens   (298 aa)
+ initn:  63 init1:  63 opt:  74  Z-score: 105.2  bits: 25.2 E(20588):  9.7
+Smith-Waterman score: 74; 35.5% identity (58.1% similar) in 31 aa overlap (8-34:127-157)
+
+                                      10            20        30   
+sp|Q5T                        CTFTITQKEFMNQH----WYHCHTCKMVDGVGVCTVC
+                                     :.: .::     . :.::.  .:   : .:
+sp|A4D IDLPCQVTGCQCRAYLYVPLNGSQPIRCRCKHFADQHSAAPGFTCNTCSKCSGFHSCFTC
+        100       110       120       130       140       150      
+
+            40        50                                           
+sp|Q5T AKVCHKDHEISYAKYGSFFCDCGAKE                                  
+       :                                                           
+sp|A4D ACGQPAYAHDTVVETKQERLAQEKPVGQDIPYAAMGGLTGFSSLAEGYMRLDDSGIGVPS
+        160       170       180       190       200       210      
+
+
+
+59 residues in 1 query   sequences
+11394277 residues in 20588 library sequences
+ Tcomplib [36.3.8h May, 2020] (64 proc in memory [0G])
+ start: Mon Dec 13 18:32:09 2021 done: Mon Dec 13 18:32:10 2021
+ Total Scan time:  0.230 Total Display time:  0.010
+
+Function used was FASTA [36.3.8h May, 2020]

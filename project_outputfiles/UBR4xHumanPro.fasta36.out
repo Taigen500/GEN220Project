@@ -1,0 +1,952 @@
+# fasta36 UBR4_Q5T4S7.fasta humanproteome.fa
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8h May, 2020
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: UBR4_Q5T4S7.fasta
+  1>>>sp|Q5T4S7|UBR4_HUMAN E3 ubiquitin-protein ligase UBR4 OS=Homo sapiens OX=9606 GN=UBR4 PE=1 SV=1 - 5183 aa
+Library: humanproteome.fa
+  11394277 residues in 20588 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 11.6714+/-0.00226; mu= 3.2087+/- 0.137
+ mean_var=170.3253+/-32.566, 0's: 0 Z-trim(95.8): 28  B-trim: 18 in 1/61
+ Lambda= 0.098273
+ statistics sampled from 3610 (3615) to 3610 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -10/-2
+ ktup: 2, E-join: 1 (0.403), E-opt: 0.2 (0.176), width:  16
+ Scan time:  5.670
+
+The best scores are:                                      opt bits E(20588)
+sp|Q5T4S7|UBR4_HUMAN E3 ubiquitin-protein ligase U (5183) 33871 4815.6       0
+sp|Q86XK2|FBX11_HUMAN F-box only protein 11 OS=Hom ( 927)  214 44.1  0.0052
+sp|O95071|UBR5_HUMAN E3 ubiquitin-protein ligase U (2799)  205 42.6   0.045
+sp|Q17RH7|TPRXL_HUMAN Putative protein TPRXL OS=Ho ( 258)  160 36.7    0.24
+sp|Q68DA7|FMN1_HUMAN Formin-1 OS=Homo sapiens OX=9 (1419)  167 37.4    0.86
+sp|Q96NY7|CLIC6_HUMAN Chloride intracellular chann ( 704)  149 35.0     2.2
+sp|Q9UI08|EVL_HUMAN Ena/VASP-like protein OS=Homo  ( 416)  139 33.7     3.3
+sp|P35527|K1C9_HUMAN Keratin, type I cytoskeletal  ( 623)  140 33.7     4.7
+sp|Q15054|DPOD3_HUMAN DNA polymerase delta subunit ( 466)  135 33.1     5.5
+sp|A6NGB9|WIPF3_HUMAN WAS/WASL-interacting protein ( 483)  134 32.9     6.4
+sp|Q9NTN9|SEM4G_HUMAN Semaphorin-4G OS=Homo sapien ( 838)  140 33.6     6.6
+sp|Q6P5Q4|LMOD2_HUMAN Leiomodin-2 OS=Homo sapiens  ( 547)  134 32.9     7.3
+sp|Q9ULQ0|STRP2_HUMAN Striatin-interacting protein ( 834)  137 33.2     8.9
+sp|Q8N684|CPSF7_HUMAN Cleavage and polyadenylation ( 471)  130 32.4     9.2
+sp|Q15517|CDSN_HUMAN Corneodesmosin OS=Homo sapien ( 529)  131 32.5     9.5
+
+>>sp|Q5T4S7|UBR4_HUMAN E3 ubiquitin-protein ligase UBR4   (5183 aa)
+ initn: 33871 init1: 33871 opt: 33871  Z-score: 25937.7  bits: 4815.6 E(20588):    0
+Smith-Waterman score: 33871; 100.0% identity (100.0% similar) in 5183 aa overlap (1-5183:1-5183)
+
+               10        20        30        40        50        60
+sp|Q5T MATSGGEEAAAAAPAPGTPATGADTTPGWEVAVRPLLSASYSAFEMKELPQLVASVIESE
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T MATSGGEEAAAAAPAPGTPATGADTTPGWEVAVRPLLSASYSAFEMKELPQLVASVIESE
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+sp|Q5T SEILHHEKQYEPFYSSFVALSTHYITTVCSLIPRNQLQSVAAACKVLIEFSLLRLENPDE
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T SEILHHEKQYEPFYSSFVALSTHYITTVCSLIPRNQLQSVAAACKVLIEFSLLRLENPDE
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+sp|Q5T ACAVSQKHLILLIKGLCTGCSRLDRTEIITFTAMMKSAKLPQTVKTLSDVEDQKELASPV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T ACAVSQKHLILLIKGLCTGCSRLDRTEIITFTAMMKSAKLPQTVKTLSDVEDQKELASPV
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+sp|Q5T SPELRQKEVQMNFLNQLTSVFNPRTVASQPISTQTLVEGENDEQSSTDQASAIKTKNVFI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T SPELRQKEVQMNFLNQLTSVFNPRTVASQPISTQTLVEGENDEQSSTDQASAIKTKNVFI
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+sp|Q5T AQNVASLQELGGSEKLLRVCLNLPYFLRYINRFQDAVLANSFFIMPATVADATAVRNGFH
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T AQNVASLQELGGSEKLLRVCLNLPYFLRYINRFQDAVLANSFFIMPATVADATAVRNGFH
+              250       260       270       280       290       300
+
+              310       320       330       340       350       360
+sp|Q5T SLVIDVTMALDTLSLPVLEPLNPSRLQDVTVLSLSCLYAGVSVATCMAILHVGSAQQVRT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T SLVIDVTMALDTLSLPVLEPLNPSRLQDVTVLSLSCLYAGVSVATCMAILHVGSAQQVRT
+              310       320       330       340       350       360
+
+              370       380       390       400       410       420
+sp|Q5T GSTSSKEDDYESDAATIVQKCLEIYDMIGQAISSSRRAGGEHYQNFQLLGAWCLLNSLFL
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T GSTSSKEDDYESDAATIVQKCLEIYDMIGQAISSSRRAGGEHYQNFQLLGAWCLLNSLFL
+              370       380       390       400       410       420
+
+              430       440       450       460       470       480
+sp|Q5T ILNLSPTALADKGKEKDPLAALRVRDILSRTKEGVGSPKLGPGKGHQGFGVLSVILANHA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T ILNLSPTALADKGKEKDPLAALRVRDILSRTKEGVGSPKLGPGKGHQGFGVLSVILANHA
+              430       440       450       460       470       480
+
+              490       500       510       520       530       540
+sp|Q5T IKLLTSLFQDLQVEALHKGWETDGPPAALSIMAQSTSIQRIQRLIDSVPLMNLLLTLLST
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T IKLLTSLFQDLQVEALHKGWETDGPPAALSIMAQSTSIQRIQRLIDSVPLMNLLLTLLST
+              490       500       510       520       530       540
+
+              550       560       570       580       590       600
+sp|Q5T SYRKACVLQRQRKGSMSSDASASTDSNTYYEDDFSSTEEDSSQDDDSEPILGQWFEETIS
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T SYRKACVLQRQRKGSMSSDASASTDSNTYYEDDFSSTEEDSSQDDDSEPILGQWFEETIS
+              550       560       570       580       590       600
+
+              610       620       630       640       650       660
+sp|Q5T PSKEKAAPPPPPPPPPLESSPRVKSPSKQAPGEKGNILASRKDPELFLGLASNILNFITS
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T PSKEKAAPPPPPPPPPLESSPRVKSPSKQAPGEKGNILASRKDPELFLGLASNILNFITS
+              610       620       630       640       650       660
+
+              670       680       690       700       710       720
+sp|Q5T SMLNSRNNFIRNYLSVSLSEHHMATLASIIKEVDKDGLKGSSDEEFAAALYHFNHSLVTS
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T SMLNSRNNFIRNYLSVSLSEHHMATLASIIKEVDKDGLKGSSDEEFAAALYHFNHSLVTS
+              670       680       690       700       710       720
+
+              730       740       750       760       770       780
+sp|Q5T DLQSPNLQNTLLQQLGVAPFSEGPWPLYIHPQSLSVLSRLLLIWQHKASAQGDPDVPECL
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T DLQSPNLQNTLLQQLGVAPFSEGPWPLYIHPQSLSVLSRLLLIWQHKASAQGDPDVPECL
+              730       740       750       760       770       780
+
+              790       800       810       820       830       840
+sp|Q5T KVWDRFLSTMKQNALQGVVPSETEDLNVEHLQMLLLIFHNFTETGRRAILSLFVQIIQEL
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T KVWDRFLSTMKQNALQGVVPSETEDLNVEHLQMLLLIFHNFTETGRRAILSLFVQIIQEL
+              790       800       810       820       830       840
+
+              850       860       870       880       890       900
+sp|Q5T SVNMDAQMRFVPLILARLLLIFDYLLHQYSKAPVYLFEQVQHNLLSPPFGWASGSQDSNS
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T SVNMDAQMRFVPLILARLLLIFDYLLHQYSKAPVYLFEQVQHNLLSPPFGWASGSQDSNS
+              850       860       870       880       890       900
+
+              910       920       930       940       950       960
+sp|Q5T RRATTPLYHGFKEVEENWSKHFSSDAVPHPRFYCVLSPEASEDDLNRLDSVACDVLFSKL
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T RRATTPLYHGFKEVEENWSKHFSSDAVPHPRFYCVLSPEASEDDLNRLDSVACDVLFSKL
+              910       920       930       940       950       960
+
+              970       980       990      1000      1010      1020
+sp|Q5T VKYDELYAALTALLAAGSQLDTVRRKENKNVTALEACALQYYFLILWRILGILPPSKTYI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T VKYDELYAALTALLAAGSQLDTVRRKENKNVTALEACALQYYFLILWRILGILPPSKTYI
+              970       980       990      1000      1010      1020
+
+             1030      1040      1050      1060      1070      1080
+sp|Q5T NQLSMNSPEMSECDILHTLRWSSRLRISSYVNWIKDHLIKQGMKAEHASSLLELASTTKC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T NQLSMNSPEMSECDILHTLRWSSRLRISSYVNWIKDHLIKQGMKAEHASSLLELASTTKC
+             1030      1040      1050      1060      1070      1080
+
+             1090      1100      1110      1120      1130      1140
+sp|Q5T SSVKYDVEIVEEYFARQISSFCSIDCTTILQLHEIPSLQSIYTLDAAISKVQVSLDEHFS
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T SSVKYDVEIVEEYFARQISSFCSIDCTTILQLHEIPSLQSIYTLDAAISKVQVSLDEHFS
+             1090      1100      1110      1120      1130      1140
+
+             1150      1160      1170      1180      1190      1200
+sp|Q5T KMAAETDPHKSSEITKNLLPATLQLIDTYASFTRAYLLQNFNEEGTTEKPSKEKLQGFAA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T KMAAETDPHKSSEITKNLLPATLQLIDTYASFTRAYLLQNFNEEGTTEKPSKEKLQGFAA
+             1150      1160      1170      1180      1190      1200
+
+             1210      1220      1230      1240      1250      1260
+sp|Q5T VLAIGSSRCKANTLGPTLVQNLPSSVQTVCESWNNINTNEFPNIGSWRNAFANDTIPSES
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T VLAIGSSRCKANTLGPTLVQNLPSSVQTVCESWNNINTNEFPNIGSWRNAFANDTIPSES
+             1210      1220      1230      1240      1250      1260
+
+             1270      1280      1290      1300      1310      1320
+sp|Q5T YISAVQAAHLGTLCSQSLPLAASLKHTLLSLVRLTGDLIVWSDEMNPPQVIRTLLPLLLE
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T YISAVQAAHLGTLCSQSLPLAASLKHTLLSLVRLTGDLIVWSDEMNPPQVIRTLLPLLLE
+             1270      1280      1290      1300      1310      1320
+
+             1330      1340      1350      1360      1370      1380
+sp|Q5T SSTESVAEISSNSLERILGPAESDEFLARVYEKLITGCYNILANHADPNSGLDESILEEC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T SSTESVAEISSNSLERILGPAESDEFLARVYEKLITGCYNILANHADPNSGLDESILEEC
+             1330      1340      1350      1360      1370      1380
+
+             1390      1400      1410      1420      1430      1440
+sp|Q5T LQYLEKQLESSQARKAMEEFFSDSGELVQIMMATANENLSAKFCNRVLKFFTKLFQLTEK
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T LQYLEKQLESSQARKAMEEFFSDSGELVQIMMATANENLSAKFCNRVLKFFTKLFQLTEK
+             1390      1400      1410      1420      1430      1440
+
+             1450      1460      1470      1480      1490      1500
+sp|Q5T SPNPSLLHLCGSLAQLACVEPVRLQAWLTRMTTSPPKDSDQLDVIQENRQLLQLLTTYIV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T SPNPSLLHLCGSLAQLACVEPVRLQAWLTRMTTSPPKDSDQLDVIQENRQLLQLLTTYIV
+             1450      1460      1470      1480      1490      1500
+
+             1510      1520      1530      1540      1550      1560
+sp|Q5T RENSQVGEGVCAVLLGTLTPMATEMLANGDGTGFPELMVVMATLASAGQGAGHLQLHNAA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T RENSQVGEGVCAVLLGTLTPMATEMLANGDGTGFPELMVVMATLASAGQGAGHLQLHNAA
+             1510      1520      1530      1540      1550      1560
+
+             1570      1580      1590      1600      1610      1620
+sp|Q5T VDWLSRCKKYLSQKNVVEKLNANVMHGKHVMILECTCHIMSYLADVTNALSQSNGQGPSH
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T VDWLSRCKKYLSQKNVVEKLNANVMHGKHVMILECTCHIMSYLADVTNALSQSNGQGPSH
+             1570      1580      1590      1600      1610      1620
+
+             1630      1640      1650      1660      1670      1680
+sp|Q5T LSVDGEERAIEVDSDWVEELAVEEEDSQAEDSDEDSLCNKLCTFTITQKEFMNQHWYHCH
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T LSVDGEERAIEVDSDWVEELAVEEEDSQAEDSDEDSLCNKLCTFTITQKEFMNQHWYHCH
+             1630      1640      1650      1660      1670      1680
+
+             1690      1700      1710      1720      1730      1740
+sp|Q5T TCKMVDGVGVCTVCAKVCHKDHEISYAKYGSFFCDCGAKEDGSCLALVKRTPSSGMSSTM
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T TCKMVDGVGVCTVCAKVCHKDHEISYAKYGSFFCDCGAKEDGSCLALVKRTPSSGMSSTM
+             1690      1700      1710      1720      1730      1740
+
+             1750      1760      1770      1780      1790      1800
+sp|Q5T KESAFQSEPRISESLVRHASTSSPADKAKVTISDGKVADEEKPKKSSLCRTVEGCREELQ
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T KESAFQSEPRISESLVRHASTSSPADKAKVTISDGKVADEEKPKKSSLCRTVEGCREELQ
+             1750      1760      1770      1780      1790      1800
+
+             1810      1820      1830      1840      1850      1860
+sp|Q5T NQANFSFAPLVLDMLNFLMDAIQTNFQQASAVGSSSRAQQALSELHTVEKAVEMTDQLMV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T NQANFSFAPLVLDMLNFLMDAIQTNFQQASAVGSSSRAQQALSELHTVEKAVEMTDQLMV
+             1810      1820      1830      1840      1850      1860
+
+             1870      1880      1890      1900      1910      1920
+sp|Q5T PTLGSQEGAFENVRMNYSGDQGQTIRQLISAHVLRRVAMCVLSSPHGRRQHLAVSHEKGK
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T PTLGSQEGAFENVRMNYSGDQGQTIRQLISAHVLRRVAMCVLSSPHGRRQHLAVSHEKGK
+             1870      1880      1890      1900      1910      1920
+
+             1930      1940      1950      1960      1970      1980
+sp|Q5T ITVLQLSALLKQADSSKRKLTLTRLASAPVPFTVLSLTGNPCKEDYLAVCGLKDCHVLTF
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T ITVLQLSALLKQADSSKRKLTLTRLASAPVPFTVLSLTGNPCKEDYLAVCGLKDCHVLTF
+             1930      1940      1950      1960      1970      1980
+
+             1990      2000      2010      2020      2030      2040
+sp|Q5T SSSGSVSDHLVLHPQLATGNFIIKAVWLPGSQTELAIVTADFVKIYDLCVDALSPTFYFL
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T SSSGSVSDHLVLHPQLATGNFIIKAVWLPGSQTELAIVTADFVKIYDLCVDALSPTFYFL
+             1990      2000      2010      2020      2030      2040
+
+             2050      2060      2070      2080      2090      2100
+sp|Q5T LPSSKIRDVTFLFNEEGKNIIVIMSSAGYIYTQLMEEASSAQQGPFYVTNVLEINHEDLK
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T LPSSKIRDVTFLFNEEGKNIIVIMSSAGYIYTQLMEEASSAQQGPFYVTNVLEINHEDLK
+             2050      2060      2070      2080      2090      2100
+
+             2110      2120      2130      2140      2150      2160
+sp|Q5T DSNSQVAGGGVSVYYSHVLQMLFFSYCQGKSFAATISRTTLEVLQLFPINIKSSNGGSKT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T DSNSQVAGGGVSVYYSHVLQMLFFSYCQGKSFAATISRTTLEVLQLFPINIKSSNGGSKT
+             2110      2120      2130      2140      2150      2160
+
+             2170      2180      2190      2200      2210      2220
+sp|Q5T SPALCQWSEVMNHPGLVCCVQQTTGVPLVVMVKPDTFLIQEIKTLPAKAKIQDMVAIRHT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T SPALCQWSEVMNHPGLVCCVQQTTGVPLVVMVKPDTFLIQEIKTLPAKAKIQDMVAIRHT
+             2170      2180      2190      2200      2210      2220
+
+             2230      2240      2250      2260      2270      2280
+sp|Q5T ACNEQQRTTMILLCEDGSLRIYMANVENTSYWLQPSLQPSSVISIMKPVRKRKTATITTR
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T ACNEQQRTTMILLCEDGSLRIYMANVENTSYWLQPSLQPSSVISIMKPVRKRKTATITTR
+             2230      2240      2250      2260      2270      2280
+
+             2290      2300      2310      2320      2330      2340
+sp|Q5T TSSQVTFPIDFFEHNQQLTDVEFGGNDLLQVYNAQQIKHRLNSTGMYVANTKPGGFTIEI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T TSSQVTFPIDFFEHNQQLTDVEFGGNDLLQVYNAQQIKHRLNSTGMYVANTKPGGFTIEI
+             2290      2300      2310      2320      2330      2340
+
+             2350      2360      2370      2380      2390      2400
+sp|Q5T SNNNSTMVMTGMRIQIGTQAIERAPSYIEIFGRTMQLNLSRSRWFDFPFTREEALQADKK
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T SNNNSTMVMTGMRIQIGTQAIERAPSYIEIFGRTMQLNLSRSRWFDFPFTREEALQADKK
+             2350      2360      2370      2380      2390      2400
+
+             2410      2420      2430      2440      2450      2460
+sp|Q5T LNLFIGASVDPAGVTMIDAVKIYGKTKEQFGWPDEPPEEFPSASVSNICPSNLNQSNGTG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T LNLFIGASVDPAGVTMIDAVKIYGKTKEQFGWPDEPPEEFPSASVSNICPSNLNQSNGTG
+             2410      2420      2430      2440      2450      2460
+
+             2470      2480      2490      2500      2510      2520
+sp|Q5T DSDSAAPTTTSGTVLERLVVSSLEALESCFAVGPIIEKERNKNAAQELATLLLSLPAPAS
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T DSDSAAPTTTSGTVLERLVVSSLEALESCFAVGPIIEKERNKNAAQELATLLLSLPAPAS
+             2470      2480      2490      2500      2510      2520
+
+             2530      2540      2550      2560      2570      2580
+sp|Q5T VQQQSKSLLASLHTSRSAYHSHKDQALLSKAVQCLNTSSKEGKDLDPEVFQRLVITARSI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T VQQQSKSLLASLHTSRSAYHSHKDQALLSKAVQCLNTSSKEGKDLDPEVFQRLVITARSI
+             2530      2540      2550      2560      2570      2580
+
+             2590      2600      2610      2620      2630      2640
+sp|Q5T AIMRPNNLVHFTESKLPQMETEGMDEGKEPQKQLEGDCCSFITQLVNHFWKLHASKPKNA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T AIMRPNNLVHFTESKLPQMETEGMDEGKEPQKQLEGDCCSFITQLVNHFWKLHASKPKNA
+             2590      2600      2610      2620      2630      2640
+
+             2650      2660      2670      2680      2690      2700
+sp|Q5T FLAPACLPGLTHIEATVNALVDIIHGYCTCELDCINTASKIYMQMLLCPDPAVSFSCKQA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T FLAPACLPGLTHIEATVNALVDIIHGYCTCELDCINTASKIYMQMLLCPDPAVSFSCKQA
+             2650      2660      2670      2680      2690      2700
+
+             2710      2720      2730      2740      2750      2760
+sp|Q5T LIRVLRPRNKRRHVTLPSSPRSNTPMGDKDDDDDDDADEKMQSSGIPNGGHIRQESQEQS
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T LIRVLRPRNKRRHVTLPSSPRSNTPMGDKDDDDDDDADEKMQSSGIPNGGHIRQESQEQS
+             2710      2720      2730      2740      2750      2760
+
+             2770      2780      2790      2800      2810      2820
+sp|Q5T EVDHGDFEMVSESMVLETAENVNNGNPSPLEALLAGAEGFPPMLDIPPDADDETMVELAI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T EVDHGDFEMVSESMVLETAENVNNGNPSPLEALLAGAEGFPPMLDIPPDADDETMVELAI
+             2770      2780      2790      2800      2810      2820
+
+             2830      2840      2850      2860      2870      2880
+sp|Q5T ALSLQQDQQGSSSSALGLQSLGLSGQAPSSSSLDAGTLSDTTASAPASDDEGSTAATDGS
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T ALSLQQDQQGSSSSALGLQSLGLSGQAPSSSSLDAGTLSDTTASAPASDDEGSTAATDGS
+             2830      2840      2850      2860      2870      2880
+
+             2890      2900      2910      2920      2930      2940
+sp|Q5T TLRTSPADHGGSVGSESGGSAVDSVAGEHSVSGRSSAYGDATAEGHPAGPGSVSSSTGAI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T TLRTSPADHGGSVGSESGGSAVDSVAGEHSVSGRSSAYGDATAEGHPAGPGSVSSSTGAI
+             2890      2900      2910      2920      2930      2940
+
+             2950      2960      2970      2980      2990      3000
+sp|Q5T STTTGHQEGDGSEGEGEGETEGDVHTSNRLHMVRLMLLERLLQTLPQLRNVGGVRAIPYM
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T STTTGHQEGDGSEGEGEGETEGDVHTSNRLHMVRLMLLERLLQTLPQLRNVGGVRAIPYM
+             2950      2960      2970      2980      2990      3000
+
+             3010      3020      3030      3040      3050      3060
+sp|Q5T QVILMLTTDLDGEDEKDKGALDNLLSQLIAELGMDKKDVSKKNERSALNEVHLVVMRLLS
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T QVILMLTTDLDGEDEKDKGALDNLLSQLIAELGMDKKDVSKKNERSALNEVHLVVMRLLS
+             3010      3020      3030      3040      3050      3060
+
+             3070      3080      3090      3100      3110      3120
+sp|Q5T VFMSRTKSGSKSSICESSSLISSATAAALLSSGAVDYCLHVLKSLLEYWKSQQNDEEPVA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T VFMSRTKSGSKSSICESSSLISSATAAALLSSGAVDYCLHVLKSLLEYWKSQQNDEEPVA
+             3070      3080      3090      3100      3110      3120
+
+             3130      3140      3150      3160      3170      3180
+sp|Q5T TSQLLKPHTTSSPPDMSPFFLRQYVKGHAADVFEAYTQLLTEMVLRLPYQIKKITDTNSR
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T TSQLLKPHTTSSPPDMSPFFLRQYVKGHAADVFEAYTQLLTEMVLRLPYQIKKITDTNSR
+             3130      3140      3150      3160      3170      3180
+
+             3190      3200      3210      3220      3230      3240
+sp|Q5T IPPPVFDHSWFYFLSEYLMIQQTPFVRRQVRKLLLFICGSKEKYRQLRDLHTLDSHVRGI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T IPPPVFDHSWFYFLSEYLMIQQTPFVRRQVRKLLLFICGSKEKYRQLRDLHTLDSHVRGI
+             3190      3200      3210      3220      3230      3240
+
+             3250      3260      3270      3280      3290      3300
+sp|Q5T KKLLEEQGIFLRASVVTASSGSALQYDTLISLMEHLKACAEIAAQRTINWQKFCIKDDSV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T KKLLEEQGIFLRASVVTASSGSALQYDTLISLMEHLKACAEIAAQRTINWQKFCIKDDSV
+             3250      3260      3270      3280      3290      3300
+
+             3310      3320      3330      3340      3350      3360
+sp|Q5T LYFLLQVSFLVDEGVSPVLLQLLSCALCGSKVLAALAASSGSSSASSSSAPVAASSGQAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T LYFLLQVSFLVDEGVSPVLLQLLSCALCGSKVLAALAASSGSSSASSSSAPVAASSGQAT
+             3310      3320      3330      3340      3350      3360
+
+             3370      3380      3390      3400      3410      3420
+sp|Q5T TQSKSSTKKSKKEEKEKEKDGETSGSQEDQLCTALVNQLNKFADKETLIQFLRCFLLESN
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T TQSKSSTKKSKKEEKEKEKDGETSGSQEDQLCTALVNQLNKFADKETLIQFLRCFLLESN
+             3370      3380      3390      3400      3410      3420
+
+             3430      3440      3450      3460      3470      3480
+sp|Q5T SSSVRWQAHCLTLHIYRNSSKSQQELLLDLMWSIWPELPAYGRKAAQFVDLLGYFSLKTP
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T SSSVRWQAHCLTLHIYRNSSKSQQELLLDLMWSIWPELPAYGRKAAQFVDLLGYFSLKTP
+             3430      3440      3450      3460      3470      3480
+
+             3490      3500      3510      3520      3530      3540
+sp|Q5T QTEKKLKEYSQKAVEILRTQNHILTNHPNSNIYNTLSGLVEFDGYYLESDPCLVCNNPEV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T QTEKKLKEYSQKAVEILRTQNHILTNHPNSNIYNTLSGLVEFDGYYLESDPCLVCNNPEV
+             3490      3500      3510      3520      3530      3540
+
+             3550      3560      3570      3580      3590      3600
+sp|Q5T PFCYIKLSSIKVDTRYTTTQQVVKLIGSHTISKVTVKIGDLKRTKMVRTINLYYNNRTVQ
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T PFCYIKLSSIKVDTRYTTTQQVVKLIGSHTISKVTVKIGDLKRTKMVRTINLYYNNRTVQ
+             3550      3560      3570      3580      3590      3600
+
+             3610      3620      3630      3640      3650      3660
+sp|Q5T AIVELKNKPARWHKAKKVQLTPGQTEVKIDLPLPIVASNLMIEFADFYENYQASTETLQC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T AIVELKNKPARWHKAKKVQLTPGQTEVKIDLPLPIVASNLMIEFADFYENYQASTETLQC
+             3610      3620      3630      3640      3650      3660
+
+             3670      3680      3690      3700      3710      3720
+sp|Q5T PRCSASVPANPGVCGNCGENVYQCHKCRSINYDEKDPFLCNACGFCKYARFDFMLYAKPC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T PRCSASVPANPGVCGNCGENVYQCHKCRSINYDEKDPFLCNACGFCKYARFDFMLYAKPC
+             3670      3680      3690      3700      3710      3720
+
+             3730      3740      3750      3760      3770      3780
+sp|Q5T CAVDPIENEEDRKKAVSNINTLLDKADRVYHQLMGHRPQLENLLCKVNEAAPEKPQDDSG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T CAVDPIENEEDRKKAVSNINTLLDKADRVYHQLMGHRPQLENLLCKVNEAAPEKPQDDSG
+             3730      3740      3750      3760      3770      3780
+
+             3790      3800      3810      3820      3830      3840
+sp|Q5T TAGGISSTSASVNRYILQLAQEYCGDCKNSFDELSKIIQKVFASRKELLEYDLQQREAAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T TAGGISSTSASVNRYILQLAQEYCGDCKNSFDELSKIIQKVFASRKELLEYDLQQREAAT
+             3790      3800      3810      3820      3830      3840
+
+             3850      3860      3870      3880      3890      3900
+sp|Q5T KSSRTSVQPTFTASQYRALSVLGCGHTSSTKCYGCASAVTEHCITLLRALATNPALRHIL
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T KSSRTSVQPTFTASQYRALSVLGCGHTSSTKCYGCASAVTEHCITLLRALATNPALRHIL
+             3850      3860      3870      3880      3890      3900
+
+             3910      3920      3930      3940      3950      3960
+sp|Q5T VSQGLIRELFDYNLRRGAAAMREEVRQLMCLLTRDNPEATQQMNDLIIGKVSTALKGHWA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T VSQGLIRELFDYNLRRGAAAMREEVRQLMCLLTRDNPEATQQMNDLIIGKVSTALKGHWA
+             3910      3920      3930      3940      3950      3960
+
+             3970      3980      3990      4000      4010      4020
+sp|Q5T NPDLASSLQYEMLLLTDSISKEDSCWELRLRCALSLFLMAVNIKTPVVVENITLMCLRIL
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T NPDLASSLQYEMLLLTDSISKEDSCWELRLRCALSLFLMAVNIKTPVVVENITLMCLRIL
+             3970      3980      3990      4000      4010      4020
+
+             4030      4040      4050      4060      4070      4080
+sp|Q5T QKLIKPPAPTSKKNKDVPVEALTTVKPYCNEIHAQAQLWLKRDPKASYDAWKKCLPIRGI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T QKLIKPPAPTSKKNKDVPVEALTTVKPYCNEIHAQAQLWLKRDPKASYDAWKKCLPIRGI
+             4030      4040      4050      4060      4070      4080
+
+             4090      4100      4110      4120      4130      4140
+sp|Q5T DGNGKAPSKSELRHLYLTEKYVWRWKQFLSRRGKRTSPLDLKLGHNNWLRQVLFTPATQA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T DGNGKAPSKSELRHLYLTEKYVWRWKQFLSRRGKRTSPLDLKLGHNNWLRQVLFTPATQA
+             4090      4100      4110      4120      4130      4140
+
+             4150      4160      4170      4180      4190      4200
+sp|Q5T ARQAACTIVEALATIPSRKQQVLDLLTSYLDELSIAGECAAEYLALYQKLITSAHWKVYL
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T ARQAACTIVEALATIPSRKQQVLDLLTSYLDELSIAGECAAEYLALYQKLITSAHWKVYL
+             4150      4160      4170      4180      4190      4200
+
+             4210      4220      4230      4240      4250      4260
+sp|Q5T AARGVLPYVGNLITKEIARLLALEEATLSTDLQQGYALKSLTGLLSSFVEVESIKRHFKS
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T AARGVLPYVGNLITKEIARLLALEEATLSTDLQQGYALKSLTGLLSSFVEVESIKRHFKS
+             4210      4220      4230      4240      4250      4260
+
+             4270      4280      4290      4300      4310      4320
+sp|Q5T RLVGTVLNGYLCLRKLVVQRTKLIDETQDMLLEMLEDMTTGTESETKAFMAVCIETAKRY
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T RLVGTVLNGYLCLRKLVVQRTKLIDETQDMLLEMLEDMTTGTESETKAFMAVCIETAKRY
+             4270      4280      4290      4300      4310      4320
+
+             4330      4340      4350      4360      4370      4380
+sp|Q5T NLDDYRTPVFIFERLCSIIYPEENEVTEFFVTLEKDPQQEDFLQGRMPGNPYSSNEPGIG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T NLDDYRTPVFIFERLCSIIYPEENEVTEFFVTLEKDPQQEDFLQGRMPGNPYSSNEPGIG
+             4330      4340      4350      4360      4370      4380
+
+             4390      4400      4410      4420      4430      4440
+sp|Q5T PLMRDIKNKICQDCDLVALLEDDSGMELLVNNKIISLDLPVAEVYKKVWCTTNEGEPMRI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T PLMRDIKNKICQDCDLVALLEDDSGMELLVNNKIISLDLPVAEVYKKVWCTTNEGEPMRI
+             4390      4400      4410      4420      4430      4440
+
+             4450      4460      4470      4480      4490      4500
+sp|Q5T VYRMRGLLGDATEEFIESLDSTTDEEEDEEEVYKMAGVMAQCGGLECMLNRLAGIRDFKQ
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T VYRMRGLLGDATEEFIESLDSTTDEEEDEEEVYKMAGVMAQCGGLECMLNRLAGIRDFKQ
+             4450      4460      4470      4480      4490      4500
+
+             4510      4520      4530      4540      4550      4560
+sp|Q5T GRHLLTVLLKLFSYCVKVKVNRQQLVKLEMNTLNVMLGTLNLALVAEQESKDSGGAAVAE
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T GRHLLTVLLKLFSYCVKVKVNRQQLVKLEMNTLNVMLGTLNLALVAEQESKDSGGAAVAE
+             4510      4520      4530      4540      4550      4560
+
+             4570      4580      4590      4600      4610      4620
+sp|Q5T QVLSIMEIILDESNAEPLSEDKGNLLLTGDKDQLVMLLDQINSTFVRSNPSVLQGLLRII
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T QVLSIMEIILDESNAEPLSEDKGNLLLTGDKDQLVMLLDQINSTFVRSNPSVLQGLLRII
+             4570      4580      4590      4600      4610      4620
+
+             4630      4640      4650      4660      4670      4680
+sp|Q5T PYLSFGEVEKMQILVERFKPYCNFDKYDEDHSGDDKVFLDCFCKIAAGIKNNSNGHQLKD
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T PYLSFGEVEKMQILVERFKPYCNFDKYDEDHSGDDKVFLDCFCKIAAGIKNNSNGHQLKD
+             4630      4640      4650      4660      4670      4680
+
+             4690      4700      4710      4720      4730      4740
+sp|Q5T LILQKGITQNALDYMKKHIPSAKNLDADIWKKFLSRPALPFILRLLRGLAIQHPGTQVLI
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T LILQKGITQNALDYMKKHIPSAKNLDADIWKKFLSRPALPFILRLLRGLAIQHPGTQVLI
+             4690      4700      4710      4720      4730      4740
+
+             4750      4760      4770      4780      4790      4800
+sp|Q5T GTDSIPNLHKLEQVSSDEGIGTLAENLLEALREHPDVNKKIDAARRETRAEKKRMAMAMR
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T GTDSIPNLHKLEQVSSDEGIGTLAENLLEALREHPDVNKKIDAARRETRAEKKRMAMAMR
+             4750      4760      4770      4780      4790      4800
+
+             4810      4820      4830      4840      4850      4860
+sp|Q5T QKALGTLGMTTNEKGQVVTKTALLKQMEELIEEPGLTCCICREGYKFQPTKVLGIYTFTK
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T QKALGTLGMTTNEKGQVVTKTALLKQMEELIEEPGLTCCICREGYKFQPTKVLGIYTFTK
+             4810      4820      4830      4840      4850      4860
+
+             4870      4880      4890      4900      4910      4920
+sp|Q5T RVALEEMENKPRKQQGYSTVSHFNIVHYDCHLAAVRLARGREEWESAALQNANTKCNGLL
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T RVALEEMENKPRKQQGYSTVSHFNIVHYDCHLAAVRLARGREEWESAALQNANTKCNGLL
+             4870      4880      4890      4900      4910      4920
+
+             4930      4940      4950      4960      4970      4980
+sp|Q5T PVWGPHVPESAFATCLARHNTYLQECTGQREPTYQLNIHDIKLLFLRFAMEQSFSADTGG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T PVWGPHVPESAFATCLARHNTYLQECTGQREPTYQLNIHDIKLLFLRFAMEQSFSADTGG
+             4930      4940      4950      4960      4970      4980
+
+             4990      5000      5010      5020      5030      5040
+sp|Q5T GGRESNIHLIPYIIHTVLYVLNTTRATSREEKNLQGFLEQPKEKWVESAFEVDGPYYFTV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T GGRESNIHLIPYIIHTVLYVLNTTRATSREEKNLQGFLEQPKEKWVESAFEVDGPYYFTV
+             4990      5000      5010      5020      5030      5040
+
+             5050      5060      5070      5080      5090      5100
+sp|Q5T LALHILPPEQWRATRVEILRRLLVTSQARAVAPGGATRLTDKAVKDYSAYRSSLLFWALV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T LALHILPPEQWRATRVEILRRLLVTSQARAVAPGGATRLTDKAVKDYSAYRSSLLFWALV
+             5050      5060      5070      5080      5090      5100
+
+             5110      5120      5130      5140      5150      5160
+sp|Q5T DLIYNMFKKVPTSNTEGGWSCSLAEYIRHNDMPIYEAADKALKTFQEEFMPVETFSEFLD
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|Q5T DLIYNMFKKVPTSNTEGGWSCSLAEYIRHNDMPIYEAADKALKTFQEEFMPVETFSEFLD
+             5110      5120      5130      5140      5150      5160
+
+             5170      5180   
+sp|Q5T VAGLLSEITDPESFLKDLLNSVP
+       :::::::::::::::::::::::
+sp|Q5T VAGLLSEITDPESFLKDLLNSVP
+             5170      5180   
+
+>>sp|Q86XK2|FBX11_HUMAN F-box only protein 11 OS=Homo sa  (927 aa)
+ initn: 339 init1: 188 opt: 214  Z-score: 164.0  bits: 44.1 E(20588): 0.0052
+Smith-Waterman score: 214; 28.2% identity (58.2% similar) in 110 aa overlap (1650-1758:823-926)
+
+    1620      1630      1640      1650      1660      1670         
+sp|Q5T HLSVDGEERAIEVDSDWVEELAVEEEDSQAEDSDEDSLCNKLCTFTITQKEFMNQH-WYH
+                                     .:. : ..    : . :..   . .: .:.
+sp|Q86 GNQIFNNRFGGLFLASGVNVTMKDNKIMNNQDAIEKAVSRGQCLYKISSYTSYPMHDFYR
+            800       810       820       830       840       850  
+
+     1680      1690      1700      1710      1720      1730        
+sp|Q5T CHTCKMVDGVGVCTVCAKVCHKDHEISYAKYGSFFCDCGAKEDGSCLALVKRTPSSGMSS
+       ::::. .:  ..:. : : ::. :.. . ..  :::::::   :.   : .    .:  .
+sp|Q86 CHTCNTTDRNAICVNCIKKCHQGHDVEFIRHDRFFCDCGA---GT---LSNPCTLAGEPT
+            860       870       880       890             900      
+
+     1740      1750      1760      1770      1780      1790        
+sp|Q5T TMKESAFQSEPRISESLVRHASTSSPADKAKVTISDGKVADEEKPKKSSLCRTVEGCREE
+          .. ..: : :  . ..:                                        
+sp|Q86 HDTDTLYDSAPPIESNTLQHN                                       
+        910       920                                              
+
+>>sp|O95071|UBR5_HUMAN E3 ubiquitin-protein ligase UBR5   (2799 aa)
+ initn: 179 init1: 179 opt: 205  Z-score: 147.2  bits: 42.6 E(20588): 0.045
+Smith-Waterman score: 209; 25.3% identity (56.7% similar) in 178 aa overlap (1572-1728:1071-1244)
+
+            1550      1560      1570      1580      1590      1600 
+sp|Q5T ATLASAGQGAGHLQLHNAAVDWLSRCKKYLSQKNVVEKLNANVMHGKHVMILECTCHIMS
+                                     .. .:::. . .. ... .. : :   ...
+sp|O95 FILAPAVGSLTTAATGTGQGPSTSTIPGPSTEPSVVESKDRKA-NAHFILKLLCDSVVLQ
+             1050      1060      1070      1080       1090         
+
+             1610      1620      1630       1640      1650         
+sp|Q5T -YLADVTNALSQSNGQGPSHLSVDGEERAIEVDS-DWVEELAVEEEDSQAEDSD------
+        :: .. .: ... :. :   .:.:.     .   . ....:  : .:. .. :      
+sp|O95 PYLRELLSA-KDARGMTPFMSAVSGRAYPAAITILETAQKIAKAEISSSEKEEDVFMGMV
+    1100       1110      1120      1130      1140      1150        
+
+                      1660      1670      1680      1690      1700 
+sp|Q5T -------EDS-----LCNKLCTFTITQKEFMNQHWYHCHTCKMVDGVGVCTVCAKVCHKD
+              .::      ::  :.:: :  : .::  ..:.:: .....  :: ::.:::: 
+sp|O95 CPSGTNPDDSPLYVLCCNDTCSFTWTGAEHINQDIFECRTCGLLESLCCCTECARVCHKG
+     1160      1170      1180      1190      1200      1210        
+
+            1710       1720      1730      1740      1750      1760
+sp|Q5T HEISYAKYG-SFFCDCGAKEDGSCLALVKRTPSSGMSSTMKESAFQSEPRISESLVRHAS
+       :. .  . . . .:::   :  .: .:.                                
+sp|O95 HDCKLKRTSPTAYCDC--WEKCKCKTLIAGQKSARLDLLYRLLTATNLVTLPNSRGEHLL
+     1220      1230        1240      1250      1260      1270      
+
+>>sp|Q17RH7|TPRXL_HUMAN Putative protein TPRXL OS=Homo s  (258 aa)
+ initn: 540 init1:  96 opt: 160  Z-score: 134.0  bits: 36.7 E(20588): 0.24
+Smith-Waterman score: 160; 28.8% identity (70.5% similar) in 132 aa overlap (2821-2952:29-158)
+
+             2800      2810      2820      2830      2840      2850
+sp|Q5T EALLAGAEGFPPMLDIPPDADDETMVELAIALSLQQDQQGSSSSALGLQSLGLSGQAPSS
+                                     ::.   ....::::   :.:  ::.. :::
+sp|Q17   MTHDKSWRRCSISGSTKCRCGSRIAGPNALGSGGSRSSSSSSRSILSSSILSSSIPSS
+                 10        20        30        40        50        
+
+             2860      2870      2880      2890      2900      2910
+sp|Q5T SSLDAGTLSDTTASAPASDDEGSTAATDGSTLRTSPADHGGSVGSESGGSAVDSVAGEHS
+       :: ...  :. ..:.:.:.  .:. ....::  .::.. ..: .: : .:. .: ..  :
+sp|Q17 SSSSSSPSSSHSSSSPSSSHSSSSPSSSSST--SSPSSSSSSSSSSSPSSSNSSSSSSSS
+       60        70        80          90       100       110      
+
+             2920      2930      2940      2950      2960      2970
+sp|Q5T VSGRSSAYGDATAEGHPAGPGSVSSSTGAISTTTGHQEGDGSEGEGEGETEGDVHTSNRL
+         . ::. ....  .  ..:.: :::...  .... . ...:                  
+sp|Q17 SPSSSSSSSSSSPSSSSSSPSSSSSSSSSSPSSSSSSPSSSSSSSSSSSSSPSSSSPSSS
+        120       130       140       150       160       170      
+
+             2980      2990      3000      3010      3020      3030
+sp|Q5T HMVRLMLLERLLQTLPQLRNVGGVRAIPYMQVILMLTTDLDGEDEKDKGALDNLLSQLIA
+                                                                   
+sp|Q17 GSSPSSSNSSPSSSSSSPSSSSSSPSPRSSSPSSSSSSTSSPSTSSPSSSSPSSSSPSSS
+        180       190       200       210       220       230      
+
+>>sp|Q68DA7|FMN1_HUMAN Formin-1 OS=Homo sapiens OX=9606   (1419 aa)
+ initn: 305 init1: 155 opt: 167  Z-score: 124.2  bits: 37.4 E(20588): 0.86
+Smith-Waterman score: 167; 45.3% identity (62.3% similar) in 53 aa overlap (601-653:914-966)
+
+              580       590       600       610       620       630
+sp|Q5T EDDFSSTEEDSSQDDDSEPILGQWFEETISPSKEKAAPPPPPPPPPLESSPRVKSPSKQA
+                                     :   .:.:::::::::: .::   .:.   
+sp|Q68 GLGSLSPAPPMPPVSAGPPLPPPPPPPPPLPPPSSAGPPPPPPPPPLPNSPAPPNPGGPP
+           890       900       910       920       930       940   
+
+              640       650       660       670       680       690
+sp|Q5T PGEKGNILASRKDPELFLGLASNILNFITSSMLNSRNNFIRNYLSVSLSEHHMATLASII
+       :.     ::    : ::.::.:.                                     
+sp|Q68 PAPPPPGLAPPPPPGLFFGLGSSSSQCPRKPAIEPSCPMKPLYWTRIQISDRSQNATPTL
+           950       960       970       980       990      1000   
+
+>>sp|Q96NY7|CLIC6_HUMAN Chloride intracellular channel p  (704 aa)
+ initn:  68 init1:  68 opt: 149  Z-score: 116.6  bits: 35.0 E(20588):  2.2
+Smith-Waterman score: 159; 26.5% identity (54.7% similar) in 245 aa overlap (2725-2955:90-325)
+
+         2700      2710      2720      2730      2740          2750
+sp|Q5T FSCKQALIRVLRPRNKRRHVTLPSSPRSNTPMGDKDDDDDDDADEKMQSSGIPNG----G
+                                     : : .  .  ....  .:  :   :    :
+sp|Q96 AGGGGPDRGPEAEARGTRGAHGETEAEEGAPEGAEVPQGGEETSGAQQVEGASPGRGAQG
+      60        70        80        90       100       110         
+
+             2760      2770      2780      2790       2800         
+sp|Q5T HIRQESQEQSEVDHGDFEMVSESMVLETAENVNNGNPSPLEALLAGAEG-FPPMLDIPPD
+       . : :.:.. : : .  :   :.   :   .: .:. :   .  . ::: .   ..    
+sp|Q96 EPRGEAQREPE-DSAAPERQEEA---EQRPEVPEGSASGEAGDSVDAEGPLGDNIEAEGP
+     120       130        140          150       160       170     
+
+    2810      2820       2830      2840      2850       2860       
+sp|Q5T ADDETMVELAIALSLQQD-QQGSSSSALGLQSLGLSGQAPSSSSLDA-GTLSDTT-ASAP
+       : : . .:  .. :.. .   :.: .: :  . ......:...:.:: : ..:.. : .:
+sp|Q96 AGDSVEAEGRVGDSVDAEGPAGDSVDAEGPLGDNIQAEGPAGDSVDAEGRVGDSVDAEGP
+         180       190       200       210       220       230     
+
+       2870      2880      2890      2900      2910      2920      
+sp|Q5T ASDDEGSTAATDGSTLRTSPADHGGSVGSESGGSAVDSVAGEHSVSGRSSAYGDA----T
+       :.:.  . . .  :.   .::      : :.:  : ::: .:  ..   .: : :     
+sp|Q96 AGDSVDAEGRVGDSVEAGDPAGD----GVEAGVPAGDSVEAEGPAGDSMDAEGPAGRARR
+         240       250           260       270       280       290 
+
+             2930      2940      2950      2960      2970      2980
+sp|Q5T AEGHP--AGPGSVSSSTGAISTTTGHQEGDGSEGEGEGETEGDVHTSNRLHMVRLMLLER
+       . :.:  .: ::.: .. :: ...:.. :  : ::                         
+sp|Q96 VSGEPQQSGDGSLSPQAEAIEVAAGESAGR-SPGELAWDAAEEAEVPGVKGSEEAAPGDA
+             300       310       320        330       340       350
+
+             2990      3000      3010      3020      3030      3040
+sp|Q5T LLQTLPQLRNVGGVRAIPYMQVILMLTTDLDGEDEKDKGALDNLLSQLIAELGMDKKDVS
+                                                                   
+sp|Q96 RADAGEDRVGDGPQQEPGEDEERRERSPEGPREEEAAGGEEESPDSSPHGEASRGAAEPE
+              360       370       380       390       400       410
+
+>>sp|Q9UI08|EVL_HUMAN Ena/VASP-like protein OS=Homo sapi  (416 aa)
+ initn: 139 init1: 139 opt: 139  Z-score: 113.7  bits: 33.7 E(20588):  3.3
+Smith-Waterman score: 152; 22.1% identity (50.0% similar) in 208 aa overlap (457-654:20-227)
+
+        430       440       450       460        470         480   
+sp|Q5T TALADKGKEKDPLAALRVRDILSRTKEGVGSPKLGPGK-GHQGFGVLSVI--LANHAIKL
+                                     : :  : : :.:::. ...    :......
+sp|Q9U            MSEQSICQARASVMVYDDTSKKWVPIKPGQQGFSRINIYHNTASNTFRV
+                          10        20        30        40         
+
+           490          500       510       520         530        
+sp|Q5T LTSLFQDLQV---EALHKGWETDGPPAALSIMAQSTSIQRIQRLI--DSVPLMNLLLTLL
+       .   .:: ::    .. :: . .    ..    .. ..  ..     ... . : .:  :
+sp|Q9U VGVKLQDQQVVINYSIVKGLKYNQATPTFHQWRDARQVYGLNFASKEEATTFSNAMLFAL
+      50        60        70        80        90       100         
+
+        540       550       560       570       580       590      
+sp|Q5T S--TSYRKACVLQRQRKGSMSSDASASTDSNTYYEDDFSSTEEDSSQDDDSEPILGQWFE
+       .  .: . .   ::: ... : :       ... . . .  :    . . . :::     
+sp|Q9U NIMNSQEGGPSSQRQVQNGPSPDEMDIQRRQVMEQHQQQRQESLERRTSATGPILPPGHP
+     110       120       130       140       150       160         
+
+        600       610       620       630       640       650      
+sp|Q5T ETISPSKEKAAPPPPPPPPPLESSPRVKSPSKQAPGEKGNILASRKDPELFLGLASNILN
+        . . .  . . ::::::::.   :   .:    :   :.  .: .:   . :::. :  
+sp|Q9U SSAASAPVSCSGPPPPPPPPVPPPPTGATPPPPPPLPAGGAQGSSHDESSMSGLAAAIAG
+     170       180       190       200       210       220         
+
+        660       670       680       690       700       710      
+sp|Q5T FITSSMLNSRNNFIRNYLSVSLSEHHMATLASIIKEVDKDGLKGSSDEEFAAALYHFNHS
+                                                                   
+sp|Q9U AKLRRVQRPEDASGGSSPSGTSKSDANRASSGGGGGGLMEEMNKLLAKRRKAASQSDKPA
+     230       240       250       260       270       280         
+
+>>sp|P35527|K1C9_HUMAN Keratin, type I cytoskeletal 9 OS  (623 aa)
+ initn: 244 init1: 102 opt: 140  Z-score: 110.8  bits: 33.7 E(20588):  4.7
+Smith-Waterman score: 143; 27.7% identity (62.8% similar) in 137 aa overlap (2824-2958:458-591)
+
+          2800      2810      2820      2830      2840      2850   
+sp|Q5T LAGAEGFPPMLDIPPDADDETMVELAIALSLQQDQQGSSSSALGLQSLGLSGQAPSSSSL
+                                     :.  :.   ::. :  ..::.:.. :..: 
+sp|P35 QEIECQNQEYSLLLSIKMRLEKEIETYHNLLEGGQEDFESSGAG--KIGLGGRGGSGGSY
+       430       440       450       460       470         480     
+
+          2860      2870      2880      2890       2900      2910  
+sp|Q5T DAGTLSDTTASAPASDDEGSTAATDGSTLRTSPADHGGS-VGSESGGSAVDSVAGEHSVS
+         :. . . .:  .. . :. .. .::   .. .  :::  :. :::.   . .: :: .
+sp|P35 GRGSRGGSGGSYGGGGSGGGYGGGSGSRGGSGGSYGGGSGSGGGSGGGYGGGSGGGHS-G
+         490       500       510       520       530       540     
+
+           2920      2930      2940      2950       2960      2970 
+sp|Q5T GRSSAYGDATAEGHPAGPGSVSSSTGAISTTTGHQEGDG-SEGEGEGETEGDVHTSNRLH
+       : ..... ... .. .: :: ..: :. .  .: . :.: :.: : :             
+sp|P35 GSGGGHSGGSGGNYGGGSGSGGGSGGGYGGGSGSRGGSGGSHGGGSGFGGESGGSYGGGE
+          550       560       570       580       590       600    
+
+            2980      2990      3000      3010      3020      3030 
+sp|Q5T MVRLMLLERLLQTLPQLRNVGGVRAIPYMQVILMLTTDLDGEDEKDKGALDNLLSQLIAE
+                                                                   
+sp|P35 EASGSGGGYGGGSGKSSHS                                         
+          610       620                                            
+
+>>sp|Q15054|DPOD3_HUMAN DNA polymerase delta subunit 3 O  (466 aa)
+ initn:  98 init1:  98 opt: 135  Z-score: 109.6  bits: 33.1 E(20588):  5.5
+Smith-Waterman score: 135; 34.9% identity (55.7% similar) in 106 aa overlap (538-633:281-378)
+
+       510       520       530       540          550           560
+sp|Q5T ALSIMAQSTSIQRIQRLIDSVPLMNLLLTLLSTSYRKAC---VLQRQRK-G---SMSSDA
+                                     :. : .::    :::...: :   ..:.: 
+sp|Q15 LDSEQAVKEEKIVEQPTVSVTEPKLATPAGLKKSSKKAEPVKVLQKEKKRGKRVALSDDE
+              260       270       280       290       300       310
+
+              570       580       590       600       610       620
+sp|Q5T SASTDSNTYYEDDFSSTEEDSSQDDDSEPILGQWFEETISPSKEKAAPPPPPPPPPLESS
+       .  :..    .  ..  : :::.:.      : .  :  :::      ::::: ::::  
+sp|Q15 TKETENMRKKRRRIKLPESDSSEDEVFPDSPGAYEAE--SPS------PPPPPSPPLEPV
+              320       330       340         350             360  
+
+                 630       640       650       660       670       
+sp|Q5T PRVKS--PS-KQAPGEKGNILASRKDPELFLGLASNILNFITSSMLNSRNNFIRNYLSVS
+       :...   :: :.. ::                                            
+sp|Q15 PKTEPEPPSVKSSSGENKRKRKRVLKSKTYLDGEGCIVTEKVYESESCTDSEEELNMKTS
+            370       380       390       400       410       420  
+
+>>sp|A6NGB9|WIPF3_HUMAN WAS/WASL-interacting protein fam  (483 aa)
+ initn: 163 init1: 119 opt: 134  Z-score: 108.5  bits: 32.9 E(20588):  6.4
+Smith-Waterman score: 134; 48.8% identity (63.4% similar) in 41 aa overlap (601-637:172-212)
+
+              580       590       600       610         620        
+sp|Q5T EDDFSSTEEDSSQDDDSEPILGQWFEETISPSKEKAAPPPPPPP--PPLESSPRVKSPSK
+                                     :.    .:::::::  ::: ::  .:.:  
+sp|A6N GPLIPPASPRLGNTSEAHGAARTAPPRPNVPAPPPPTPPPPPPPLPPPLPSSSPIKTPLV
+             150       160       170       180       190       200 
+
+      630         640       650       660       670       680      
+sp|Q5T QAPGE--KGNILASRKDPELFLGLASNILNFITSSMLNSRNNFIRNYLSVSLSEHHMATL
+       . ::   :::.                                                 
+sp|A6N SPPGPLTKGNLPVVAPPVPCAPPPPPPPPPPTPPPLPPASVLSDKAVKPQLAPLHLPPIP
+             210       220       230       240       250       260 
+
+>>sp|Q9NTN9|SEM4G_HUMAN Semaphorin-4G OS=Homo sapiens OX  (838 aa)
+ initn: 295 init1: 110 opt: 140  Z-score: 108.2  bits: 33.6 E(20588):  6.6
+Smith-Waterman score: 140; 30.5% identity (54.2% similar) in 118 aa overlap (505-616:659-773)
+
+          480       490       500       510       520       530    
+sp|Q5T ILANHAIKLLTSLFQDLQVEALHKGWETDGPPAALSIMAQSTSIQRIQRLIDSVPLMNLL
+                                     : :  .  :: .   :.  ..  . : .: 
+sp|Q9N NYGCYAEENGLRTLLASYSLTVRPATPAPAPKAPATPGAQLAPDVRLLYVLAIAALGGLC
+      630       640       650       660       670       680        
+
+          540           550       560       570         580        
+sp|Q5T LTLLSTSYRKACVLQ----RQRKGSMSSDASASTDSNTYYEDDFSST--EEDSSQDDDSE
+       : : :.    ::. .    :.:: :..  :: .  : .  .   ..   ::: ..:. . 
+sp|Q9N LILASSLLYVACLREGRRGRRRKYSLGR-ASRAGGSAVQLQTVSGQCPGEEDEGDDEGAG
+      690       700       710        720       730       740       
+
+      590       600       610       620       630       640        
+sp|Q5T PILGQWFEETISPSKEKAAPPPPPPPPPLESSPRVKSPSKQAPGEKGNILASRKDPELFL
+        . :. ..  : :..   ::::::::::                                
+sp|Q9N GLEGSCLQ--IIPGEGAPAPPPPPPPPPPAELTNGLVALPSRLRRMNGNSYVLLRQSNNG
+       750         760       770       780       790       800     
+
+>>sp|Q6P5Q4|LMOD2_HUMAN Leiomodin-2 OS=Homo sapiens OX=9  (547 aa)
+ initn: 202 init1: 116 opt: 134  Z-score: 107.4  bits: 32.9 E(20588):  7.3
+Smith-Waterman score: 134; 23.7% identity (50.3% similar) in 173 aa overlap (468-631:282-446)
+
+       440       450       460       470       480       490       
+sp|Q5T PLAALRVRDILSRTKEGVGSPKLGPGKGHQGFGVLSVILANHAIKLLTSLFQDLQVEALH
+                                     : :.:... : .   .:: :    : . . 
+sp|Q6P ADDSAAMAIAEMLKVNEHITNVNVESNFITGKGILAIMRALQHNTVLTELRFHNQRHIMG
+             260       270       280       290       300       310 
+
+       500       510       520        530          540       550   
+sp|Q5T KGWETDGPPAALSIMAQSTSIQRIQRLID-SVPLMNLLLTL---LSTSYRKACVLQRQRK
+       .  : .     .... ..:.. :.   ..   : :..   :   .. . .:    :.:..
+sp|Q6P SQVEME----IVKLLKENTTLLRLGYHFELPGPRMSMTSILTRNMDKQRQKRLQEQKQQE
+                 320       330       340       350       360       
+
+           560       570       580        590           600        
+sp|Q5T GSMSSDASASTDSNTYYEDDFSSTEEDSSQDDD-SEPILGQWFEET----ISPSKEKAAP
+       :    :.. .  .... .   ::.   : . .  : : : .  . .    .::      :
+sp|Q6P GY---DGGPNLRTKVWQRGTPSSSPYVSPRHSPWSSPKLPKKVQTVRSRPLSPVATPPPP
+          370       380       390       400       410       420    
+
+      610       620       630       640       650       660        
+sp|Q5T PPPPPPPPLESSPRVKSPSKQAPGEKGNILASRKDPELFLGLASNILNFITSSMLNSRNN
+       ::::::::  :: :.  :    :                                     
+sp|Q6P PPPPPPPP-PSSQRLPPPPPPPPPPLPEKKLITRNIAEVIKQQESAQRALQNGQKKKKGK
+          430        440       450       460       470       480   
+
+>>sp|Q9ULQ0|STRP2_HUMAN Striatin-interacting protein 2 O  (834 aa)
+ initn:  73 init1:  73 opt: 137  Z-score: 105.9  bits: 33.2 E(20588):  8.9
+Smith-Waterman score: 145; 22.5% identity (50.7% similar) in 365 aa overlap (469-821:264-585)
+
+      440       450       460       470       480        490       
+sp|Q5T LAALRVRDILSRTKEGVGSPKLGPGKGHQGFGVLSVILANHAIKLLT-SLFQDLQVEALH
+                                     : . .:.:    . ..: . :. ::.  ..
+sp|Q9U ELSFSMHNEEPFALLLFSMVTKFCSGLAPHFPIKKVLLLLWKVVMFTLGGFEHLQTLKVQ
+           240       250       260       270       280       290   
+
+       500       510       520       530       540       550       
+sp|Q5T KGWETDGPPAALSIMAQSTSIQRIQRLIDSVPLMNLLLTLLSTSYRKACVLQRQRKGSMS
+       :  :   :: :        ::: .. .  . :  .  : :  ..        : :.::  
+sp|Q9U KRAELGLPPLA------EDSIQVVKSMRAASP-PSYTLDLGESQLAPPPSKLRGRRGSRR
+           300             310        320       330       340      
+
+       560       570       580       590        600       610      
+sp|Q5T SDASASTDSNTYYEDDFSSTEEDSSQDDDSEPILGQW-FEETISPSKEKAAPPPPPPPPP
+       .  . . . . : : :. .::: ......     :.  ..  ..  ..    ::::   :
+sp|Q9U QLLTKQDSLDIYNERDLFKTEEPATEEEEESAGDGERTLDGELDLLEQDPLVPPPPSQAP
+        350       360       370       380       390       400      
+
+        620       630       640       650        660       670     
+sp|Q5T LESSPRVKSPSKQAPGEKGNILASRKDPELFLGLASN-ILNFITSSMLNSRNNFIRN-YL
+       : :. ::  :.    . :    . .:: : :: .. : ...:  ..  ..  .. :  . 
+sp|Q9U L-SAERVAFPKGLPWAPK----VRQKDIEHFLEMSRNKFIGFTLGQDTDTLVGLPRPIHE
+         410       420           430       440       450       460 
+
+           680       690       700       710       720       730   
+sp|Q5T SV-SLSEHHMATLASIIKEVDKDGLKGSSDEEFAAALYHFNHSLVTSDLQSPNLQNTLLQ
+       :: .:..:.. ..:..         . ...::.    . ... .:      :.    .: 
+sp|Q9U SVKTLKQHKYISIADV---------QIKNEEELEKCPMSLGEEVV------PETPCEILY
+             470                480       490             500      
+
+           740       750       760       770             780       
+sp|Q5T QLGVAPFSEGPWPLYIHPQSLSVLSRLLLIWQHKASAQGDP-----DV-PECLKVWDRFL
+       : :.         ::  :: . .: ..::     ..:. :      :: :: . .    :
+sp|Q9U Q-GM---------LYSLPQYMIALLKILLAAAPTSKAKTDSINILADVLPEEMPI--TVL
+                  510       520       530       540       550      
+
+       790       800       810        820       830       840      
+sp|Q5T STMKQNALQGVVPSETEDLNVEHLQ-MLLLIFHNFTETGRRAILSLFVQIIQELSVNMDA
+       ..::     :.  .. ... :. .. .:::....:                         
+sp|Q9U QSMKL----GIDVNRHKEIIVKSISTLLLLLLKHFKLNHIYQFEYVSQHLVFANCIPLIL
+              560       570       580       590       600       610
+
+        850       860       870       880       890       900      
+sp|Q5T QMRFVPLILARLLLIFDYLLHQYSKAPVYLFEQVQHNLLSPPFGWASGSQDSNSRRATTP
+                                                                   
+sp|Q9U KFFNQNILSYITAKNSISVLDYPCCTIQDLPELTTESLEAGDNSQFCWRNLFSCINLLRL
+              620       630       640       650       660       670
+
+>>sp|Q8N684|CPSF7_HUMAN Cleavage and polyadenylation spe  (471 aa)
+ initn: 128 init1:  97 opt: 130  Z-score: 105.7  bits: 32.4 E(20588):  9.2
+Smith-Waterman score: 130; 32.1% identity (49.1% similar) in 112 aa overlap (525-632:155-260)
+
+          500       510       520       530       540        550   
+sp|Q5T ALHKGWETDGPPAALSIMAQSTSIQRIQRLIDSVPLMNLLLTLLSTSYRK-ACVLQRQRK
+                                     .:  :     :. . .. ::  ::  :  .
+sp|Q8N KGYAEVVVASENSVHKLLELLPGKVLNGEKVDVRPATRQNLSQFEAQARKRECV--RVPR
+          130       140       150       160       170         180  
+
+           560       570         580       590       600       610 
+sp|Q5T GSMSSDASASTDSNTYYEDDFSSTEE--DSSQDDDSEPILGQWFEETISPSKEKAAPPPP
+       :..   :  : ::.   .   . .:.   ::   :. : .  .:..  :     . ::::
+sp|Q8N GGIPPRAH-SRDSSDSADGRATPSENLVPSSARVDKPPSVLPYFNRPPSALPLMGLPPPP
+            190        200       210       220       230       240 
+
+              620       630       640       650       660       670
+sp|Q5T -PPPPPLESSPRVKSPSKQAPGEKGNILASRKDPELFLGLASNILNFITSSMLNSRNNFI
+        :::::: ::  :  :    ::                                      
+sp|Q8N IPPPPPLSSSFGVPPPP---PGIHYQHLMPPPPRLPPHLAVPPPGAIPPALHLNPAFFPP
+             250          260       270       280       290        
+
+>>sp|Q15517|CDSN_HUMAN Corneodesmosin OS=Homo sapiens OX  (529 aa)
+ initn: 162 init1: 112 opt: 131  Z-score: 105.4  bits: 32.5 E(20588):  9.5
+Smith-Waterman score: 131; 27.2% identity (67.5% similar) in 114 aa overlap (2840-2952:62-174)
+
+    2810      2820      2830      2840      2850      2860         
+sp|Q5T ADDETMVELAIALSLQQDQQGSSSSALGLQSLGLSGQAPSSSSLDAGTLSDTTASAPASD
+                                     : :.:. . :::: .. . . ..... ...
+sp|Q15 AKSIGTFSDPCKDPTRITSPNDPCLTGKGDSSGFSSYSGSSSSGSSISSARSSGGGSSGS
+              40        50        60        70        80        90 
+
+    2870      2880      2890       2900      2910      2920        
+sp|Q5T DEGSTAATDGSTLRTSPADHGGSVGSESG-GSAVDSVAGEHSVSGRSSAYGDATAEGHPA
+       . ::. :  ::.   .:.   ..:.  :: ::......:  .... ::  :.. ...  .
+sp|Q15 SSGSSIAQGGSAGSFKPGTGYSQVSYSSGSGSSLQGASGSSQLGSSSSHSGNSGSHSGSS
+             100       110       120       130       140       150 
+
+     2930      2940      2950      2960      2970      2980        
+sp|Q5T GPGSVSSSTGAISTTTGHQEGDGSEGEGEGETEGDVHTSNRLHMVRLMLLERLLQTLPQL
+       .  : :::.  .:...  : :.::                                    
+sp|Q15 SSHSSSSSSFQFSSSS-FQVGNGSALPTNDNSYRGILNPSQPGQSSSSSQTSGVSSSGQS
+             160        170       180       190       200       210
+
+
+
+5183 residues in 1 query   sequences
+11394277 residues in 20588 library sequences
+ Tcomplib [36.3.8h May, 2020] (32 proc in memory [0G])
+ start: Mon Dec 13 17:29:54 2021 done: Mon Dec 13 17:29:55 2021
+ Total Scan time:  5.670 Total Display time:  1.490
+
+Function used was FASTA [36.3.8h May, 2020]

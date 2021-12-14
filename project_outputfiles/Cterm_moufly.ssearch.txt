@@ -1,0 +1,818 @@
+# ssearch36 UBR4_CtermNoP.fa flymouseproteomes.fasta
+SSEARCH performs a Smith-Waterman search
+ version 36.3.8h May, 2020
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: UBR4_CtermNoP.fa
+  1>>>UBR4|NP_065816.2 E3 ubiquitin-protein ligase UBR4 [Homo sapiens] Pfam accession pfam13764 Interval 4367-5163 (C-terminal domain) - 817 aa
+Library: flymouseproteomes.fasta
+  19141954 residues in 35806 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 8.0546+/-0.000259; mu= 6.6467+/- 0.016
+ mean_var=68.4938+/-13.336, 0's: 12 Z-trim(127.3): 17  B-trim: 32 in 1/67
+ Lambda= 0.154970
+ statistics sampled from 35801 (35806) to 35801 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL50 matrix (15:-5), open/ext: -10/-2
+ Scan time:  4.430
+
+The best scores are:                                      s-w bits E(35806)
+sp|A2AN08|UBR4_MOUSE E3 ubiquitin-protein ligase U (5180) 5277 1185.8       0
+sp|Q9VLT5|POE_DROME Protein purity of essence OS=D (5322) 2629 593.7 2.9e-168
+tr|A0A1D5RLM8|A0A1D5RLM8_MOUSE Predicted gene 1163 (5808)  176 45.3   0.004
+sp|P23475|XRCC6_MOUSE X-ray repair cross-complemen ( 608)  126 34.9    0.56
+tr|Q9VIE7|Q9VIE7_DROME Glutamine amidotransferase  ( 683)  120 33.5     1.6
+sp|Q8BIJ7|RUFY1_MOUSE RUN and FYVE domain-containi ( 712)  116 32.6     3.2
+sp|Q8VC56|RNF8_MOUSE E3 ubiquitin-protein ligase R ( 488)  112 31.8     3.7
+tr|Q9Y0Y5|Q9Y0Y5_DROME Coatomer subunit epsilon OS ( 306)  106 30.7     5.2
+sp|Q9D8Y0|EFHD2_MOUSE EF-hand domain-containing pr ( 240)  104 30.3     5.3
+tr|Q9VJ86|Q9VJ86_DROME Bicoid stability factor OS= (1412)  118 32.8     5.5
+sp|Q80UF4|SDCG8_MOUSE Serologically defined colon  ( 717)  112 31.7       6
+sp|Q925H0|ASIC2_MOUSE Acid-sensing ion channel 2 O ( 512)  108 30.9     7.3
+sp|Q920F6|SMC1B_MOUSE Structural maintenance of ch (1248)  115 32.2     7.5
+sp|P12024|CHAO_DROME Chaoptin OS=Drosophila melano (1315)  115 32.2       8
+tr|Q9VPH4|Q9VPH4_DROME FI03293p OS=Drosophila mela ( 390)  105 30.4     8.3
+sp|Q8BWY9|CIP2A_MOUSE Protein CIP2A OS=Mus musculu ( 907)  111 31.4     9.4
+sp|Q9D4G2|HSF2B_MOUSE Heat shock factor 2-binding  ( 338)  103 30.0     9.4
+
+>>sp|A2AN08|UBR4_MOUSE E3 ubiquitin-protein ligase UBR4   (5180 aa)
+ s-w opt: 5277  Z-score: 6334.9  bits: 1185.8 E(35806):    0
+Smith-Waterman score: 5277; 97.3% identity (99.6% similar) in 817 aa overlap (1-817:4364-5180)
+
+                                             10        20        30
+UBR4|N                               MPGNPYSSNEPGIGPLMRDIKNKICQDCDL
+                                     ::::::::::::::::::::::::::::::
+sp|A2A SIIYPEENEVTEFFVTLEKDPQQEDFLQGRMPGNPYSSNEPGIGPLMRDIKNKICQDCDL
+          4340      4350      4360      4370      4380      4390   
+
+               40        50        60        70        80        90
+UBR4|N VALLEDDSGMELLVNNKIISLDLPVAEVYKKVWCTTNEGEPMRIVYRMRGLLGDATEEFI
+       ::::::::::::::::::::::::::::::::::.:::::::::::::::::::::::::
+sp|A2A VALLEDDSGMELLVNNKIISLDLPVAEVYKKVWCATNEGEPMRIVYRMRGLLGDATEEFI
+          4400      4410      4420      4430      4440      4450   
+
+              100       110       120       130       140       150
+UBR4|N ESLDSTTDEEEDEEEVYKMAGVMAQCGGLECMLNRLAGIRDFKQGRHLLTVLLKLFSYCV
+       :::::::::::::::::.:::::::::::.::::::::..::::::::::::::::::::
+sp|A2A ESLDSTTDEEEDEEEVYRMAGVMAQCGGLQCMLNRLAGVKDFKQGRHLLTVLLKLFSYCV
+          4460      4470      4480      4490      4500      4510   
+
+              160       170       180       190       200       210
+UBR4|N KVKVNRQQLVKLEMNTLNVMLGTLNLALVAEQESKDSGGAAVAEQVLSIMEIILDESNAE
+       ::::::::::::: ::::::::::::::::::::::::::::::::::::::::::::::
+sp|A2A KVKVNRQQLVKLETNTLNVMLGTLNLALVAEQESKDSGGAAVAEQVLSIMEIILDESNAE
+          4520      4530      4540      4550      4560      4570   
+
+              220       230       240       250       260       270
+UBR4|N PLSEDKGNLLLTGDKDQLVMLLDQINSTFVRSNPSVLQGLLRIIPYLSFGEVEKMQILVE
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|A2A PLSEDKGNLLLTGDKDQLVMLLDQINSTFVRSNPSVLQGLLRIIPYLSFGEVEKMQILVE
+          4580      4590      4600      4610      4620      4630   
+
+              280       290       300       310       320       330
+UBR4|N RFKPYCNFDKYDEDHSGDDKVFLDCFCKIAAGIKNNSNGHQLKDLILQKGITQNALDYMK
+       ::::::.:.:::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|A2A RFKPYCSFEKYDEDHSGDDKVFLDCFCKIAAGIKNNSNGHQLKDLILQKGITQNALDYMK
+          4640      4650      4660      4670      4680      4690   
+
+              340       350       360       370       380       390
+UBR4|N KHIPSAKNLDADIWKKFLSRPALPFILRLLRGLAIQHPGTQVLIGTDSIPNLHKLEQVSS
+       ::::::::::::::::::::::::::::::::::.:::.:::::::::: .:::::::::
+sp|A2A KHIPSAKNLDADIWKKFLSRPALPFILRLLRGLAMQHPATQVLIGTDSITSLHKLEQVSS
+          4700      4710      4720      4730      4740      4750   
+
+              400       410       420       430       440       450
+UBR4|N DEGIGTLAENLLEALREHPDVNKKIDAARRETRAEKKRMAMAMRQKALGTLGMTTNEKGQ
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|A2A DEGIGTLAENLLEALREHPDVNKKIDAARRETRAEKKRMAMAMRQKALGTLGMTTNEKGQ
+          4760      4770      4780      4790      4800      4810   
+
+              460       470       480       490       500       510
+UBR4|N VVTKTALLKQMEELIEEPGLTCCICREGYKFQPTKVLGIYTFTKRVALEEMENKPRKQQG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|A2A VVTKTALLKQMEELIEEPGLTCCICREGYKFQPTKVLGIYTFTKRVALEEMENKPRKQQG
+          4820      4830      4840      4850      4860      4870   
+
+              520       530       540       550       560       570
+UBR4|N YSTVSHFNIVHYDCHLAAVRLARGREEWESAALQNANTKCNGLLPVWGPHVPESAFATCL
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|A2A YSTVSHFNIVHYDCHLAAVRLARGREEWESAALQNANTKCNGLLPVWGPHVPESAFATCL
+          4880      4890      4900      4910      4920      4930   
+
+              580       590       600       610       620       630
+UBR4|N ARHNTYLQECTGQREPTYQLNIHDIKLLFLRFAMEQSFSADTGGGGRESNIHLIPYIIHT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sp|A2A ARHNTYLQECTGQREPTYQLNIHDIKLLFLRFAMEQSFSADTGGGGRESNIHLIPYIIHT
+          4940      4950      4960      4970      4980      4990   
+
+              640       650       660       670       680       690
+UBR4|N VLYVLNTTRATSREEKNLQGFLEQPKEKWVESAFEVDGPYYFTVLALHILPPEQWRATRV
+       :::::::::::::::::::::::::::::.::::.::::.:::.::::.::::::.: ::
+sp|A2A VLYVLNTTRATSREEKNLQGFLEQPKEKWTESAFDVDGPHYFTILALHVLPPEQWKAIRV
+          5000      5010      5020      5030      5040      5050   
+
+              700       710       720       730       740       750
+UBR4|N EILRRLLVTSQARAVAPGGATRLTDKAVKDYSAYRSSLLFWALVDLIYNMFKKVPTSNTE
+       ::::::::.:.:::::::::::::::::::::::::::::::::::::::::::::::::
+sp|A2A EILRRLLVASHARAVAPGGATRLTDKAVKDYSAYRSSLLFWALVDLIYNMFKKVPTSNTE
+          5060      5070      5080      5090      5100      5110   
+
+              760       770       780       790       800       810
+UBR4|N GGWSCSLAEYIRHNDMPIYEAADKALKTFQEEFMPVETFSEFLDVAGLLSEITDPESFLK
+       ::::::::::::::::::::::::::::::::::::::::::::.:::::::::::::::
+sp|A2A GGWSCSLAEYIRHNDMPIYEAADKALKTFQEEFMPVETFSEFLDAAGLLSEITDPESFLK
+          5120      5130      5140      5150      5160      5170   
+
+              
+UBR4|N DLLNSVP
+       :::::::
+sp|A2A DLLNSVP
+          5180
+
+>>sp|Q9VLT5|POE_DROME Protein purity of essence OS=Droso  (5322 aa)
+ s-w opt: 2629  Z-score: 3135.1  bits: 593.7 E(35806): 2.9e-168
+Smith-Waterman score: 2629; 48.4% identity (76.0% similar) in 828 aa overlap (1-817:4493-5316)
+
+                                             10        20        30
+UBR4|N                               MPGNPYSSNEPGIGPLMRDIKNKICQDCDL
+                                     : :::: :.: :.::::::.::::: ::.:
+sp|Q9V SIIHPEEHDESEFYMTLEKDPQQEDFLQGRMLGNPYPSSEMGLGPLMRDVKNKICTDCEL
+           4470      4480      4490      4500      4510      4520  
+
+               40        50        60         70        80         
+UBR4|N VALLEDDSGMELLVNNKIISLDLPVAEVYKKVWCTTN-EGEPMRIVYRMRGLLGDATEEF
+       .::::::.::::::::::::::::: .:::::: . . . . ::::::::::::::::::
+sp|Q9V IALLEDDNGMELLVNNKIISLDLPVKDVYKKVWLAEGGDRDAMRIVYRMRGLLGDATEEF
+           4530      4540      4550      4560      4570      4580  
+
+      90       100       110       120       130       140         
+UBR4|N IESLDSTTDEEEDEEEVYKMAGVMAQCGGLECMLNRLAGIRDFKQGRHLLTVLLKLFSYC
+       .:.:.. ..:. : :..:.::.:.:.:.::. ::.:..... ....:.:. ::::::  :
+sp|Q9V VETLNNKSQEQVDTEQLYRMANVLADCNGLRVMLERIGSLQRISRNRELIQVLLKLFLIC
+           4590      4600      4610      4620      4630      4640  
+
+     150       160       170       180       190       200         
+UBR4|N VKVKVNRQQLVKLEMNTLNVMLGTLNLALVAEQESKDSGGAAVAEQVLSIMEIILDESNA
+       :::.  .. : . :....:..: .:.. :   :  .::  .::.::.: ::: ::... .
+sp|Q9V VKVRRCQEVLCQPEIGAINTLLKVLQMCL---QSENDSIQSAVTEQLLEIMETILSKAAS
+           4650      4660      4670         4680      4690         
+
+     210       220       230       240       250       260         
+UBR4|N EPLSEDKGNLLLTGDKDQLVMLLDQINSTFVRSNPSVLQGLLRIIPYLSFGEVEKMQILV
+       . :.      :  :  . .  :..  .   ::.:::::. :.:..  : .:.  :: .: 
+sp|Q9V DTLDSFLQFSLTFGGPEYVSALISCTDCPNVRNNPSVLRHLIRVLAALVYGNEVKMALLC
+    4700      4710      4720      4730      4740      4750         
+
+     270       280       290       300       310       320         
+UBR4|N ERFKPYCNFDKYDEDHSGDDKVFLDCFCKIAAGIKNNSNGHQLKDLILQKGITQNALDYM
+       :.::   ::...:.... ...  :. :: ..  :..:  :  ::: :.. ::.. .: :.
+sp|Q9V EHFKDTLNFNRFDNERTPEEEFKLELFCVLTNQIEHNCIGGTLKDYIVSLGIVERSLAYI
+    4760      4770      4780      4790      4800      4810         
+
+     330           340       350       360       370       380     
+UBR4|N KKHIPSAK----NLDADIWKKFLSRPALPFILRLLRGLAIQHPGTQVLIGTDSIPNLHKL
+        .: : .:      :.:  :.:.:::.: .:::.: ::. .: .::: :. : :: .:.:
+sp|Q9V TEHAPCVKPTLLRTDSDELKEFISRPSLKYILRFLTGLSNHHEATQVAISKDIIPIIHRL
+    4820      4830      4840      4850      4860      4870         
+
+         390       400       410       420       430       440     
+UBR4|N EQVSSDEGIGTLAENLLEALREHPDVNKKIDAARRETRAEKKRMAMAMRQKALGTLGMTT
+       ::::::: .:.:::::::::     .  ... .:  :::::::.::: :.: : .::: :
+sp|Q9V EQVSSDEHVGSLAENLLEALSTDSATAARVQQVRDFTRAEKKRLAMATREKQLDALGMRT
+    4880      4890      4900      4910      4920      4930         
+
+         450       460       470       480       490       500     
+UBR4|N NEKGQVVTKTALLKQMEELIEEPGLTCCICREGYKFQPTKVLGIYTFTKRVALEEMENKP
+       ::::::..: ..:...:.: .: :::: ::::::  :: :::::::::::  .::.: : 
+sp|Q9V NEKGQVTAKGSILQKIEKLRDETGLTCFICREGYACQPDKVLGIYTFTKRCNVEEFELKS
+    4940      4950      4960      4970      4980      4990         
+
+         510       520       530       540       550       560     
+UBR4|N RKQQGYSTVSHFNIVHYDCHLAAVRLARGREEWESAALQNANTKCNGLLPVWGPHVPESA
+       ::  ::.::.:::.:: ::: .:.::.:::.::: :.::::::.::::::.::: : :.:
+sp|Q9V RKTIGYTTVTHFNVVHVDCHTSAIRLTRGRDEWERASLQNANTRCNGLLPLWGPAVGEAA
+    5000      5010      5020      5030      5040      5050         
+
+         570       580       590       600       610       620     
+UBR4|N FATCLARHNTYLQECTGQREPTYQLNIHDIKLLFLRFAMEQSFSADTGGGGRESNIHLIP
+       :..:..::..:.:: : . . .:  ..::.:::..::: :.::  :.:::: .::.:..:
+sp|Q9V FSACMTRHSSYMQESTQRCDISYTSSVHDLKLLLVRFAWERSFHDDAGGGGPQSNMHFVP
+    5060      5070      5080      5090      5100      5110         
+
+         630       640       650        660       670       680    
+UBR4|N YIIHTVLYVLNTTRATSREEKNLQGFLEQP-KEKWVESAFEVDGPYYFTVLALHILPPEQ
+       :..   .:.: ..:...:. :.:  .:. : .:::.: ..::::: ......: .   : 
+sp|Q9V YLLFYSVYLLLSSRSAARDSKTLLTYLQAPPSEKWLECGYEVDGPLFMATISLSLHSREL
+    5120      5130      5140      5150      5160      5170         
+
+          690       700       710           720       730          
+UBR4|N WRATRVEILRRLLVTSQARAVAPGGATRL----TDKAVKDYSAYRSSLLFWALVDLIY-N
+       :   ..  :.:.....:.: :.:.   .     .:. ::::..:.  :..:::::::: :
+sp|Q9V WNKHKLAHLKRMIAVAQGRHVSPAVLCKALLAPADRQVKDYTVYKPFLMMWALVDLIYDN
+    5180      5190      5200      5210      5220      5230         
+
+     740       750       760       770       780       790         
+UBR4|N MFKKVPTSNTEGGWSCSLAEYIRHNDMPIYEAADKALKTFQEEFMPVETFSEFLDVAGLL
+       .:: : : . :  :  :: .:.:.::  . ...:. :.:. :::.:  .: :: ::::::
+sp|Q9V LFKTVSTPKEED-WPISLFDYLRKNDEALLKSTDSILQTLTEEFLPCTSFVEFCDVAGLL
+    5240      5250       5260      5270      5280      5290        
+
+     800       810             
+UBR4|N SEITDPESFLKDLLNSVP      
+         :  :..:....: ..:      
+sp|Q9V HLIEHPDNFIEEILAALPSTSSSN
+     5300      5310      5320  
+
+>>tr|A0A1D5RLM8|A0A1D5RLM8_MOUSE Predicted gene 11639 OS  (5808 aa)
+ s-w opt: 176  Z-score: 170.3  bits: 45.3 E(35806): 0.004
+Smith-Waterman score: 176; 21.7% identity (55.1% similar) in 494 aa overlap (19-471:1182-1662)
+
+                           10        20        30        40        
+UBR4|N             MPGNPYSSNEPGIGPLMRDIKNKICQDCDLVALLEDDSGMELLVNNKI
+                                     .. ..: :. : ...    : ..  ..:  
+tr|A0A VSTLSDILRTLKSEREKEILHNTNFDLNNVNVTSEIKQSLDALGIHITGSDIQRAMENMA
+            1160      1170      1180      1190      1200      1210 
+
+       50         60        70          80           90         100
+UBR4|N ISLD-LPVAEVYKKVWCTTNEGEPMRI--VYRMRGLLGDA---TEEFIESLDSTTD--EE
+        : . . . .. :..  .   .: .::  ..:.  ..::.   ...:. .:.. :   ::
+tr|A0A SSGEVITLKDIIKELANSDVFSECQRIEDIHRIIDVIGDGKMDVKDFLSALNNFTRPLEE
+            1220      1230      1240      1250      1260      1270 
+
+              110       120       130       140       150       160
+UBR4|N EDEEEVYKMAGVMAQCGGLECMLNRLAGIRDFKQGRHLLTVLLKLFSYCVKVKVNRQQLV
+       : . .: .   .  . . :.  .: :.:.  . . . ::  . . :.     :.  ..::
+tr|A0A EGQSDVSQSPEMNEKEAILRNTINYLTGVSAMTRFKSLLKGV-QTFDNIRGNKMPVDELV
+            1280      1290      1300      1310       1320      1330
+
+               170       180       190       200       210         
+UBR4|N KLEMNT-LNVMLGTLNLALVAEQESKDSGGAAVAEQVLSIMEIILDESNAEPLSEDKGNL
+       .  :.: . .  .:..  :  .: : : .  .  .:.:      :   : .:. ::  : 
+tr|A0A SNLMSTGMPISQSTMQELL--RQASVDENEEVSLKQILEN----LATRNPDPVLEDIENA
+             1340        1350      1360          1370      1380    
+
+     220            230       240       250       260              
+UBR4|N L-----LTGDKDQLVMLLDQINSTFVRSNPSVLQGLLRIIPYLSFGEVEKMQILV-----
+       :     .:.:: :.. : : ...  .. .:  :: . . .     ::: .  .:.     
+tr|A0A LNSVKLMTSDKIQVANLKDALKDLNIHLSPEELQQVEEALNVDENGEVSQRAVLLALKSN
+         1390      1400      1410      1420      1430      1440    
+
+     270       280         290       300       310            320  
+UBR4|N ERFKPYCNFDKYDE--DHSGDDKVFLDCFCKIAAGIKNNSNGHQLKDL-----ILQKGIT
+       .:.: . . ..  .  :.  ..:.  : . ... :.  .   ..:.::     : ..: .
+tr|A0A KRLKDFREVNELAKALDKITSEKIRTDDLIHVSKGLGFGVPDKELQDLDETVSIDEEGNV
+         1450      1460      1470      1480      1490      1500    
+
+              330         340             350       360       370  
+UBR4|N --QNALDYMK--KHIPSAKNLD------ADIWKKFLSRPALPFILRLLRGLAIQHPGTQV
+         .. :  .:   :. ......      :.: :.  .   :::::  . :.:.  :  : 
+tr|A0A DLKEWLTKLKGTPHFNKSSKIQTPMKTLASIRKNETNYDDLPFILNSM-GVAL--P--QD
+         1510      1520      1530      1540      1550              
+
+            380         390       400        410       420         
+UBR4|N LIGTDSIPNLHKLE--QVSSDEGIGTLAENLLEALRE-HPDVNKKIDAARRETRAEKKRM
+       .: . .. :. . :  ... :: .. : .  : .. : . ....::::.  .   ..  .
+tr|A0A IIEA-ALRNMAHRENGKLNLDEFLNQLIKVQLSSIPESRVSLEEKIDASSVDDILKSMDI
+    1560       1570      1580      1590      1600      1610        
+
+     430        440        450       460       470       480       
+UBR4|N AMA-MRQKALGT-LGMTTNEKGQVVTKTALLKQMEELIEEPGLTCCICREGYKFQPTKVL
+       ... ...:::   : .  .:  .. :  . .:...: :.  .:.                
+tr|A0A TLTDQEKKALFEHLPVPGDEGIDMETLIGAVKMLKEKIDVTNLSNFLDDMGVELSKEEQS
+     1620      1630      1640      1650      1660      1670        
+
+       490       500       510       520       530       540       
+UBR4|N GIYTFTKRVALEEMENKPRKQQGYSTVSHFNIVHYDCHLAAVRLARGREEWESAALQNAN
+                                                                   
+tr|A0A DLINHLPVSAEGKVSHLQLVDTIKNLKSGKADIEKLEGILGKMGLALTSLEFQNLQENLP
+     1680      1690      1700      1710      1720      1730        
+
+>>sp|P23475|XRCC6_MOUSE X-ray repair cross-complementing  (608 aa)
+ s-w opt: 126  Z-score: 131.8  bits: 34.9 E(35806): 0.56
+Smith-Waterman score: 126; 23.7% identity (49.9% similar) in 409 aa overlap (96-466:220-599)
+
+          70        80        90       100           110       120 
+UBR4|N TNEGEPMRIVYRMRGLLGDATEEFIESLDSTTDEEEDE----EEVYKMAGVMAQCGGLEC
+                                     :: :.::     ::  :.  .. .  . : 
+sp|P23 DLRDTGIFLDLMHLKKPGGFDVSVFYRDIITTAEDEDLGVHFEESSKLEDLLRKVRAKET
+     190       200       210       220       230       240         
+
+             130       140       150               160       170   
+UBR4|N MLNRLAGIRDFKQGRHLLTVLLKLFSYCVK------VKVNRQ--QLVKLEMNTLNVMLGT
+           :. .. :: :. .. ... ...   :      :.. :.  . :: .  :.::  :.
+sp|P23 KKRVLSRLK-FKLGEDVV-LMVGIYNLVQKANKPFPVRLYRETNEPVKTKTRTFNVNTGS
+     250        260        270       280       290       300       
+
+           180       190       200       210        220       230  
+UBR4|N LNLALVAEQESKDSGGAAVAEQVLSIMEIILDESNAEPLSE-DKGNLLLTGDKDQLVMLL
+       : :     ...: :        . .  .:.:.. ..: :.. :. .:.: : :   ::: 
+sp|P23 LLLP----SDTKRS-------LTYGTRQIVLEKEETEELKRFDEPGLILMGFKPT-VMLK
+       310                  320       330       340       350      
+
+               240       250       260       270       280         
+UBR4|N DQIN---STFVRSNPSVLQGLLRIIPYLSFGEVEKMQILVERFKPYCNFDKYDEDHSGDD
+        :     : ::  . :...:   ..  :    :::  : : :. :  : . :      ..
+sp|P23 KQHYLRPSLFVYPEESLVSGSSTLFSALLTKCVEKKVIAVCRYTPRKNVSPYFVALVPQE
+         360       370       380       390       400       410     
+
+     290       300       310       320       330       340         
+UBR4|N KVFLDCFCKIAAGIKNNSNGHQLKDLILQKGITQNALDYMKKHIPSAKNLD---ADIWK-
+       . . :   ... :      : ::  ..:  .  .  . . .:   . ...:   : . : 
+sp|P23 EELDDQNIQVTPG------GFQL--VFLPYADDKRKVPFTEKVTANQEQIDKMKAIVQKL
+         420             430         440       450       460       
+
+         350             360       370       380       390         
+UBR4|N KFLSR------PALPFILRLLRGLAIQHPGTQVLIGTDSIPNLHKLEQVSSDEGIGTLAE
+       .:  :      :.:   .: :..::..   .. ..   ..:   :.: ...   .:.::.
+sp|P23 RFTYRSDSFENPVLQQHFRNLEALALDMMESEQVVDL-TLP---KVEAIKKR--LGSLAD
+       470       480       490       500           510         520 
+
+     400       410       420          430             440       450
+UBR4|N NLLEALREHPDVNKKIDAARRETRAE---KKRMAMAMRQKAL------GTLGMTTNEKGQ
+       .. : :   :  : .  .:.:.   :   .:.  . . .. :      ::::  :    .
+sp|P23 EFKE-LVYPPGYNPEGKVAKRKQDDEGSTSKKPKVELSEEELKAHFRKGTLGKLTVPTLK
+              530       540       550       560       570       580
+
+                 460       470       480       490       500       
+UBR4|N VVTKTALLK---QMEELIEEPGLTCCICREGYKFQPTKVLGIYTFTKRVALEEMENKPRK
+        . :.  ::   . .::..                                         
+sp|P23 DICKAHGLKSGPKKQELLDALIRHLEKN                                
+              590       600                                        
+
+>>tr|Q9VIE7|Q9VIE7_DROME Glutamine amidotransferase OS=D  (683 aa)
+ s-w opt: 120  Z-score: 123.4  bits: 33.5 E(35806):  1.6
+Smith-Waterman score: 120; 18.6% identity (53.4% similar) in 354 aa overlap (164-509:1-327)
+
+           140       150       160       170       180       190   
+UBR4|N QGRHLLTVLLKLFSYCVKVKVNRQQLVKLEMNTLNVMLGTLNLALVAEQESKDSGGAAVA
+                                     ::. :..::: . .:  ..    ..::  .
+tr|Q9V                               MNS-NIFLGTAENGLRHDKIVILDAGAQYG
+                                              10        20         
+
+           200       210       220       230       240       250   
+UBR4|N EQVLSIMEIILDESNAEPLSEDKGNLLLTGDKDQLVMLLDQINSTFVRSNPSVLQGLLRI
+       . .   .. .. :..  ::.   ...  .: .   ...    ::..... ::    :...
+tr|Q9V KVIDRKVRELFVETDILPLDTPAATIRNNGYRG--IIISGGPNSVYAEDAPSYDPDLFKL
+      30        40        50        60          70        80       
+
+            260       270       280       290       300       310  
+UBR4|N -IPYLSFGEVEKMQILVERFKPYCNFDKYDEDHSGDDKVFLDCFCKIAAGIKNNSNGHQL
+        ::.:  :    ::.. ..:    .  : :  ..:.... ..  : . . ..      . 
+tr|Q9V KIPML--GICYGMQLINKEFGG--TVLKKDVREDGQQNIEIETSCPLFSRLS------RT
+        90         100         110       120       130             
+
+            320       330       340       350       360        370 
+UBR4|N KDLILQKGITQNALDYMKKHIPSAKNLDADIWKKFLSRPALPFILRLLRGLAIQ-HPGTQ
+       ....: .:      : ...    ..::    :.   .: .  .  ..::  ..: :: ..
+tr|Q9V QSVLLTHG------DSVER---VGENLKIGGWST--NRIVTAIYNEVLRIYGVQFHPEVD
+       140             150          160         170       180      
+
+              380        390       400       410       420         
+UBR4|N VLI-GTDSIPN-LHKLEQVSSDEGIGTLAENLLEALREHPDVNKKIDAARRETRAEKKRM
+       . : : . . : :... ... .  .:.  :. .. .::.   :: .  .   . .  . .
+tr|Q9V LTINGKQMLSNFLYEICELTPNFTMGSRKEECIRYIREKVGNNKVLLLV---SGGVDSSV
+        190       200       210       220       230          240   
+
+     430       440       450       460       470       480         
+UBR4|N AMAMRQKALGTLGMTTNEKGQVVTKTALLKQMEELIEEPGLTCCICREGYKF----QPTK
+         :. ..::    . . .  .   .    ...:. ... :.   . .::: :      .:
+tr|Q9V CAALLRRALYPHQIIAVHVDNGFMRKKESEKVERSLRDIGIDLIVRKEGYTFLKGTTQVK
+           250       260       270       280       290       300   
+
+         490       500       510       520       530       540     
+UBR4|N VLGIYTFTKRVALEEMENKPRKQQGYSTVSHFNIVHYDCHLAAVRLARGREEWESAALQN
+         : :. ..   : .  :  .:..                                    
+tr|Q9V RPGQYSVVETPMLCQTYNPEEKRKIIGDIFVKVTNDVVAELKLKPEEVMLAQGTLRPDLI
+           310       320       330       340       350       360   
+
+>>sp|Q8BIJ7|RUFY1_MOUSE RUN and FYVE domain-containing p  (712 aa)
+ s-w opt: 116  Z-score: 118.2  bits: 32.6 E(35806):  3.2
+Smith-Waterman score: 116; 21.0% identity (55.5% similar) in 200 aa overlap (383-581:524-708)
+
+            360       370       380       390       400        410 
+UBR4|N LPFILRLLRGLAIQHPGTQVLIGTDSIPNLHKLEQVSSDEGIGTLAENLLEALREH-PDV
+                                     :::.:  :  : :.  .  :  ::..   .
+sp|Q8B KTTQVMSSMKQMEERLQQAERARQAAEERSHKLQQELS--GRGSALQLQLSQLRDQCSGL
+           500       510       520       530         540       550 
+
+             420       430       440       450       460       470 
+UBR4|N NKKIDAARRETRAEKKRMAMAMRQKALGTLGMTTNEKGQVVTKTALLKQMEELIEEPGLT
+       .:.. . ... .: ....   .:.:  . : .:  :  ::    .: :...:: .: .  
+sp|Q8B EKELKSEKEQRQALQREL---QREKDTSCLLQT--ELQQV---EGLKKELRELQDEKAEL
+             560          570       580            590       600   
+
+             480       490       500       510       520       530 
+UBR4|N CCICREGYKFQPTKVLGIYTFTKRVALEEMENKPRKQQGYSTVSHFNIVHYDCHLAAVRL
+         .:.:  . :  . .:..   ... .:....  .  .:.. ..  . .:         .
+sp|Q8B RKVCEE--QEQALQEMGLHLSQSKLKMEDIKEVNKALKGHTWLKDDEATHCKQCEKDFSI
+             610       620       630       640       650       660 
+
+             540       550       560       570       580       590 
+UBR4|N ARGREEWESAALQNANTKCNGLLPVWGPHVPESAFATCLARHNTYLQECTGQREPTYQLN
+       .: ... .. .    ::  .. : .  :  :. .  .: . :.  ::.:.          
+sp|Q8B SRRKHHCRNCGHIFCNTCSSNELAL--PSYPKPV-RVCDSCHTLLLQRCSSTAS      
+             670       680         690        700       710        
+
+             600       610       620       630       640       650 
+UBR4|N IHDIKLLFLRFAMEQSFSADTGGGGRESNIHLIPYIIHTVLYVLNTTRATSREEKNLQGF
+
+>>sp|Q8VC56|RNF8_MOUSE E3 ubiquitin-protein ligase RNF8   (488 aa)
+ s-w opt: 112  Z-score: 117.1  bits: 31.8 E(35806):  3.7
+Smith-Waterman score: 112; 24.4% identity (60.2% similar) in 123 aa overlap (383-504:325-437)
+
+            360       370       380       390       400       410  
+UBR4|N LPFILRLLRGLAIQHPGTQVLIGTDSIPNLHKLEQVSSDEGIGTLAENLLEALREHPDVN
+                                     : :. . ...:   : ..:..::.::  . 
+sp|Q8V LRNLQSQLYAEQAQQQARVEQLEKTFQEEAHYLQGLEKEQGECDLKQQLVQALQEHQALM
+          300       310       320       330       340       350    
+
+            420       430       440       450        460       470 
+UBR4|N KKIDAARRETRAEKKRMAMAMRQKALGTLGMTTNEKGQV-VTKTALLKQMEELIEEPGLT
+       .... ....     ... .:  ..    : .: .:: .: . :  .:..:..:.:.  : 
+sp|Q8V EELNCSKKDF----EKIIQAKNKE----LEQTKEEKDKVQAQKEEVLSHMNDLLENE-LQ
+          360           370           380       390       400      
+
+             480       490       500       510       520       530 
+UBR4|N CCICREGYKFQPTKVLGIYTFTKRVALEEMENKPRKQQGYSTVSHFNIVHYDCHLAAVRL
+       : :: : : .. . .   ..: .    : :. :                           
+sp|Q8V CIICSE-YFIEAVTLNCAHSFCSFCINEWMKRKVECPICRKDIESRTNSLVLDNCISKMV
+         410        420       430       440       450       460    
+
+             540       550       560       570       580       590 
+UBR4|N ARGREEWESAALQNANTKCNGLLPVWGPHVPESAFATCLARHNTYLQECTGQREPTYQLN
+                                                                   
+sp|Q8V DNLSSDVKERRSVLIRERRAKRLS                                    
+          470       480                                            
+
+>>tr|Q9Y0Y5|Q9Y0Y5_DROME Coatomer subunit epsilon OS=Dro  (306 aa)
+ s-w opt: 106  Z-score: 114.3  bits: 30.7 E(35806):  5.2
+Smith-Waterman score: 106; 27.8% identity (59.8% similar) in 97 aa overlap (86-180:89-181)
+
+          60        70        80        90       100       110     
+UBR4|N AEVYKKVWCTTNEGEPMRIVYRMRGLLGDATEEFIESLDSTTDEEEDEEEVYKMAGVMAQ
+                                     :::..:.: . .  :::: .....: ... 
+tr|Q9Y RIVASDIKEGNSTPLQALRLVHEAFEQPSRTEELLEKLTDKVAGEEDETNIWHLATAIVY
+       60        70        80        90       100       110        
+
+           120       130       140       150       160       170   
+UBR4|N C--GGLECMLNRLAGIRDFKQGRHLLTVLLKLFSYCVKVKVNRQQLVKLEMNTLNVMLGT
+       :  : .:  :. : :  ....    .  ::.:     .: . .: ..:..  . .. :  
+tr|Q9Y CHDGQFENALKILHGSTNLESMALSVQCLLRL----QRVDLAKQLVAKMQEISDDATLTQ
+      120       130       140       150           160       170    
+
+           180       190       200       210       220       230   
+UBR4|N LNLALVAEQESKDSGGAAVAEQVLSIMEIILDESNAEPLSEDKGNLLLTGDKDQLVMLLD
+       :  : ::                                                     
+tr|Q9Y LAQAWVALAQGTEQMQDAFHIYQEFCEKFKPTPALLNGQAVVHLGLERYEEADSVLRESL
+          180       190       200       210       220       230    
+
+>>sp|Q9D8Y0|EFHD2_MOUSE EF-hand domain-containing protei  (240 aa)
+ s-w opt: 104  Z-score: 114.3  bits: 30.3 E(35806):  5.3
+Smith-Waterman score: 104; 23.4% identity (54.5% similar) in 167 aa overlap (272-436:80-228)
+
+             250       260       270       280        290       300
+UBR4|N SNPSVLQGLLRIIPYLSFGEVEKMQILVERFKPYCNFDKYDEDHSGD-DKVFLDCFCKIA
+                                     :.:: .: .... .  : .:.:     .  
+sp|Q9D SADDELSAKLLRRADLNQGIGEPQSPSRRVFNPYTEFKEFSRKQIKDMEKMF----KQYD
+      50        60        70        80        90       100         
+
+              310       320       330       340       350       360
+UBR4|N AGIKNNSNGHQLKDLILQKGITQNALDYMKKHIPSAKNLDADIWKKFLSRPALPFILRLL
+       ::  .  .  .:: .. . :  :. :  .:. :   ...: :. .:.  :  : .. .  
+sp|Q9D AGRDGFIDLMELKLMMEKLGAPQTHLG-LKSMI---QEVDEDFDSKLSFREFLLIFRKAA
+         110       120       130           140       150       160 
+
+              370       380        390       400       410         
+UBR4|N RGLAIQHPGTQVLIGTDSIPNLHKLEQVS-SDEGIGTLAENLLEALREHPDVNKKIDAAR
+        :   .  : :::          .: ... : ::.   :.:..::  .  .:.....   
+sp|Q9D AGELQEDSGLQVLA---------RLSEIDVSTEGVKG-AKNFFEAKVQAINVSSRFEEEI
+             170                180        190       200       210 
+
+     420       430       440       450       460       470         
+UBR4|N RETRAEKKRMAMAMRQKALGTLGMTTNEKGQVVTKTALLKQMEELIEEPGLTCCICREGY
+       .  . :.:..:  ..:.                                           
+sp|Q9D KAEQEERKKQAEEVKQRKAAFKELQSTFK                               
+             220       230       240                               
+
+>>tr|Q9VJ86|Q9VJ86_DROME Bicoid stability factor OS=Dros  (1412 aa)
+ s-w opt: 118  Z-score: 114.0  bits: 32.8 E(35806):  5.5
+Smith-Waterman score: 118; 22.9% identity (51.0% similar) in 314 aa overlap (170-470:630-919)
+
+     140       150       160       170       180       190         
+UBR4|N TVLLKLFSYCVKVKVNRQQLVKLEMNTLNVMLGTLNLALVAEQESKDSGGAAVAEQVLSI
+                                     .:: :. . .      .::  ..  . :::
+tr|Q9V LVKQGLSISSDKATQLSEQLGSELTPKISELLGKLSSGELEPVPLPNSGKRSL--DSLSI
+     600       610       620       630       640       650         
+
+     200       210       220       230       240       250         
+UBR4|N MEIILDESNAEPLSEDKGNLLLTGDKDQLVMLLDQINSTFVRSNPSVLQGLLRIIPYLSF
+        :.     :.:  .:. .:.     : ::      .:. :  .:   :.  :..:  :  
+tr|Q9V NELERFIVNVEGKGENANNI-----KRQL------LNACFRSQN---LEKTLQVIEKL--
+       660       670            680             690          700   
+
+     260       270       280       290       300       310         
+UBR4|N GEVEKMQILVERFKPYCNFDKYDEDHSGDDKVFLDCFCKIAAGIKNNSNGHQLKDLILQK
+        :.::.:: :  .    ... . .  :   ...     : :.   .: .. .: ::.::.
+tr|Q9V -EAEKFQIPVGIYAQLIDLNTHHKKSSEALEIYGKLKAKDATFQLDNLKAVRLADLLLQE
+              710       720       730       740       750       760
+
+     320          330            340         350       360         
+UBR4|N GITQNA---LDYMKKHIPSAK-----NLDADIWKKF--LSRPALPFILRLLRGLAIQHPG
+         .. :   :.  ::..: :.     :  . .:. .  :.. . :  :: :  . .   :
+tr|Q9V ERVDAAFKILEENKKEVPVAEAEGSYNYMSTVWRILNSLAEAGQPERLRKLFDVLV---G
+              770       780       790       800       810          
+
+     370       380        390       400       410       420        
+UBR4|N TQVLIGTDSIPN-LHKLEQVSSDEGIGTLAENLLEALREHPDVNKKIDAARRETRAEKKR
+       .. .. :. . . : :.. :..:  :    : . :  ... ..  : . : :  . :   
+tr|Q9V ANYIVPTNVLLGPLIKVHLVKDD--IPKAIEAFEEICQKYKSTPWKNELACRLIQKEDAA
+       820       830       840         850       860       870     
+
+      430       440       450         460       470       480      
+UBR4|N MAMAMRQKALGTLGMTTNEKGQVVT--KTALLKQMEELIEEPGLTCCICREGYKFQPTKV
+         . . . . :  : ...    : .  . . ..: ....: :::                
+tr|Q9V NLQKLTDLSTGIHGEVNSLYDLVFSFVECGRVRQARKILETPGLRTRPQRINSACDRYKN
+         880       890       900       910       920       930     
+
+        490       500       510       520       530       540      
+UBR4|N LGIYTFTKRVALEEMENKPRKQQGYSTVSHFNIVHYDCHLAAVRLARGREEWESAALQNA
+                                                                   
+tr|Q9V EGLLQPLEGLIEATKDLGHIDRNKIYYTLLLSYDKADEAEKALGLWTKMQEENVTPNDAF
+         940       950       960       970       980       990     
+
+>>sp|Q80UF4|SDCG8_MOUSE Serologically defined colon canc  (717 aa)
+ s-w opt: 112  Z-score: 113.3  bits: 31.7 E(35806):    6
+Smith-Waterman score: 112; 22.0% identity (53.2% similar) in 282 aa overlap (2-273:5-269)
+
+                  10        20        30          40        50     
+UBR4|N    MPGNPYSSNEPGIGPLMRDIKNKICQDCDLV--ALLEDDSGMELLVNNKIISLDLPV
+           :::  :. : ..:  .:.....  ..   .  :: : :  .:  . .   :...  
+sp|Q80 MAKSPGN--STLEDSLGQYQRSLRERANRSIHQLKCALREVDVTVEEDALDPSTSINVE-
+                 10        20        30        40        50        
+
+          60        70        80        90       100       110     
+UBR4|N AEVYKKVWCTTNEGEPMRIVYRMRGLLGDATEEFIESLDSTTDEEEDEEEVYKMAGVM-A
+        :    .:   .: .  . : ....:: . :..         ..: .  .  :..    .
+sp|Q80 NEDTGVAW---HELQHSHAVNQLKALLRQQTNK---------ENETSPPRRRKLSPSRPS
+        60           70        80                 90       100     
+
+            120       130       140       150       160       170  
+UBR4|N QC--GGLECMLNRLAGIRDFKQGRHLLTVLLKLFSYCVKVKVNRQQLVKLEMNTLNVMLG
+       .:  :..  : : .  : : .:  : : . .:. .  ..   :: :.: :: . :.  : 
+sp|Q80 ECDDGSMPTMHNLVPIINDQSQYIHHLEAEVKFCKDELSGMKNRVQVVVLENERLQQELK
+         110       120       130       140       150       160     
+
+             180       190       200       210          220        
+UBR4|N TLN-LALVAEQESKDSGGAAVAEQVLSIMEIILDESNAEPLSE---DKGNLLLTGDKDQL
+       .      . ::   :..:      ...  .  .::.  .:.:.   . :.   ::: .. 
+sp|Q80 SQRPEETLREQTFLDASGNMQNSWIMTREDSRVDEAAKRPFSHGDAETGKTASTGDANKW
+         170       180       190       200       210       220     
+
+      230       240       250       260        270       280       
+UBR4|N VMLLDQINSTFVRSNPSVLQGLLRIIPYLSFGEVEKM-QILVERFKPYCNFDKYDEDHSG
+        . :.... :. ... ..:.. : ..   ...: .:  . : ::.:              
+sp|Q80 KLELERLKLTY-EAKTDLLESQLMLL-RKDLAEYQKTCEDLKERLKHKESLLAASASSRV
+         230        240       250        260       270       280   
+
+       290       300       310       320       330       340       
+UBR4|N DDKVFLDCFCKIAAGIKNNSNGHQLKDLILQKGITQNALDYMKKHIPSAKNLDADIWKKF
+                                                                   
+sp|Q80 GGLCLKCAQHEAVLSQTHSNVHIQTIERLTKERDDLMSVLVSVRSSLAEAQKRETSAYEQ
+           290       300       310       320       330       340   
+
+>>sp|Q925H0|ASIC2_MOUSE Acid-sensing ion channel 2 OS=Mu  (512 aa)
+ s-w opt: 108  Z-score: 111.8  bits: 30.9 E(35806):  7.3
+Smith-Waterman score: 108; 23.1% identity (49.9% similar) in 407 aa overlap (171-543:50-428)
+
+              150       160       170       180       190       200
+UBR4|N VLLKLFSYCVKVKVNRQQLVKLEMNTLNVMLGTLNLALVAEQESKDSGGAAVAEQVLSIM
+                                     .:.:.: ::   ::..  .   . : .. .
+sp|Q92 FANTSTLHGIRHIFVYGPLTIRRVLWAVAFVGSLGLLLV---ESSERVSYYFSYQHVTKV
+      20        30        40        50           60        70      
+
+              210             220          230          240        
+UBR4|N EIILDESNAEP---LSEDKG---NLLLTGD---KDQLVMLLD---QINSTFVRSNPSVLQ
+       . .. .: . :   : . .:   . : :.:     .:. :::   :: .  . ..:.::.
+sp|Q92 DEVVAQSLVFPAVTLCNLNGFRFSRLTTNDLYHAGELLALLDVNLQIPDPHL-ADPTVLE
+         80        90       100       110       120        130     
+
+      250            260       270          280       290       300
+UBR4|N GLLRIIPYL-----SFGEVEKMQILVERFKP---YCNFDKYDEDHSGDDKVFLDCFCKIA
+       .: .   .      .:. .: .. . . .:    ::.:   .  :.     :   : : .
+sp|Q92 ALRQKANFKHYKPKQFSMLEFLHRVGHDLKDMMLYCKFKGQECGHQD----FTTVFTKYG
+         140       150       160       170       180           190 
+
+              310        320            330            340         
+UBR4|N AGIKNNSNGHQLKDLILQ-KGITQNALDYM-----KKHIP-----SAKNLDADIWKKFLS
+            :: :.. : :.   :: : :.:. :      ...:        ...: .  .. :
+sp|Q92 KCYMFNS-GEDGKPLLTTVKGGTGNGLEIMLDIQQDEYLPIWGETEETTFEAGVKVQIHS
+              200       210       220       230       240       250
+
+     350       360       370       380       390       400         
+UBR4|N RPALPFILRLLRGLAIQHPGTQVLIGTDSIPNLHKLEQVSSDEGIGTLAENLLEALREHP
+       .   ::: .:  :.:   :: :....:.     ..:  .    :    .:  :. .  . 
+sp|Q92 QSEPPFIQELGFGVA---PGFQTFVATQE----QRLTYLPPPWGECRSSEMGLDFFPVYS
+              260          270           280       290       300   
+
+     410       420       430       440       450       460         
+UBR4|N DVNKKIDAARRETRAEKKRMAMAMRQKALGTLGMTTNEKGQVVTKTALLKQMEELIEEPG
+        .  .::    :::   .     : .   :   . : :. .  .. ::      :. :  
+sp|Q92 ITACRIDC---ETRYIVENCNCRMVHMP-GDAPFCTPEQHKECAEPAL-----GLLAEKD
+           310          320        330       340            350    
+
+     470       480        490       500       510       520        
+UBR4|N LTCCICREGYKF-QPTKVLGIYTFTKRVALEEMENKPRKQQGYSTVSHFNIVHYDCHLAA
+        . :.::   .. . .: :..  . .... . .:.:  :.. :  .:. ::.  :  . :
+sp|Q92 SNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKY--ISE-NILVLDIFFEA
+          360       370       380       390         400        410 
+
+        530       540       550       560       570       580      
+UBR4|N V--RLARGREEWESAALQNANTKCNGLLPVWGPHVPESAFATCLARHNTYLQECTGQREP
+       .  .  . .. .: :::                                           
+sp|Q92 LNYETIEQKKAYEVAALLGDIGGQMGLFIGASILTILELFDYIYELIKEKLLDLLGKEEE
+             420       430       440       450       460       470 
+
+>>sp|Q920F6|SMC1B_MOUSE Structural maintenance of chromo  (1248 aa)
+ s-w opt: 115  Z-score: 111.5  bits: 32.2 E(35806):  7.5
+Smith-Waterman score: 115; 24.3% identity (50.4% similar) in 268 aa overlap (218-466:709-952)
+
+       190       200       210       220       230       240       
+UBR4|N GGAAVAEQVLSIMEIILDESNAEPLSEDKGNLLLTGDKDQLVMLLDQINSTFVRSNPSVL
+                                     :  :  ....: :.  .  .:: : . .. 
+sp|Q92 SQLVQELKELMKTLRKETDLKQIQTLVQGTNTRLKYSQNELEMIKKKHLATFYREQSQLQ
+      680       690       700       710       720       730        
+
+       250          260       270       280       290       300    
+UBR4|N QGLLRI---IPYLSFGEVEKMQILVERFKPYCNFDKYDEDHSGDDKVFLDCFCKIAAGIK
+       . :: :     .:: : ..:.:  .:.:.     :: ::    .: .: : ::.   :..
+sp|Q92 SELLNIDSQCTMLSEG-INKQQQKIEEFQ-----DKIDE---VEDDIFQD-FCE-EIGVE
+      740       750        760            770           780        
+
+          310       320       330       340       350       360    
+UBR4|N NNSNGHQLKDLILQKGITQNALDYMKKHIPSAKNLDADIWKKFLSRPALPFILRLLRGLA
+       :  .  . : .  :.   :. :.. :..  .  :.. .      ::  :   :  .  : 
+sp|Q92 NIRE-FENKHVKQQQENDQKRLEFEKQK--TRLNIQLEY-----SRNQLKKKLNNIDTLK
+       790        800       810         820            830         
+
+          370       380                    390       400       410 
+UBR4|N IQHPGTQVLIGTDSIPNLHKLE-------------QVSSDEGIGTLAENLLEALREHPDV
+            : .  : ..: ::.: :             : .  : ..: . :. .   .  . 
+sp|Q92 -----TTIQKGKEDIDNLKKTEEECLKIVEELMVKQEQIKEVLATQSSNIEKIHIQIEEE
+          840       850       860       870       880       890    
+
+             420       430          440       450       460        
+UBR4|N NKKIDAARRETRAEKKRMAM---AMRQKALGTLGMTTNEKGQVVTKTALLKQMEELIEEP
+        ::. :. ::.   .:....   ...:: :   ..  . : : .  . .: ..:..::  
+sp|Q92 RKKVLAVDREVGKLQKEVVIIQGSLEQKLLEKHNLLLDCKVQDIDISLVLGSLEDIIEME
+          900       910       920       930       940       950    
+
+      470       480       490       500       510       520        
+UBR4|N GLTCCICREGYKFQPTKVLGIYTFTKRVALEEMENKPRKQQGYSTVSHFNIVHYDCHLAA
+                                                                   
+sp|Q92 LTETESTQATADIYEKEASIQIDYSPLREDLKALQSDKEVEAHLTLLLQQVASQENTLLK
+          960       970       980       990      1000      1010    
+
+>>sp|P12024|CHAO_DROME Chaoptin OS=Drosophila melanogast  (1315 aa)
+ s-w opt: 115  Z-score: 111.0  bits: 32.2 E(35806):    8
+Smith-Waterman score: 115; 26.4% identity (54.7% similar) in 265 aa overlap (219-458:405-653)
+
+      190       200       210       220       230       240        
+UBR4|N GAAVAEQVLSIMEIILDESNAEPLSEDKGNLLLTGDKDQLVMLLDQINSTFVRSNPSVL-
+                                     : :.::... . :    : : .:.  :.  
+sp|P12 VLRVISMRDNKIKIQKPTETFNAVHYTLLKLDLSGDRNDPTNLQTLRNMTRMRNMRSLSI
+          380       390       400       410       420       430    
+
+         250         260                270       280       290    
+UBR4|N --QGLLRIIP--YLSFG-EVEKMQIL--------VERFKPYCNFDKYDEDHSGDDKVFLD
+          :   . :  . .:: :.: .::          . ::   .. . : ...: ...  :
+sp|P12 SRLGSSSVGPEDFKDFGVELEDLQITRASLSGIQSHAFKHVRGLKRLDFSENGISSIEND
+          440       450       460       470       480       490    
+
+          300       310       320       330        340        350  
+UBR4|N CFCKIAAGIKNNSNGHQLKDLILQKGITQNALDYMK-KHIPSAKNLD-ADIWKKFLSRPA
+        : .:         ::.: .: ...: . .::     .:. : ..:: ..   . .:  .
+sp|P12 AFHEI---------GHSLISLKMSHGYSGSALPAEPLRHLTSLQELDFSNNHISSMSDTS
+                   500       510       520       530       540     
+
+            360       370         380        390        400        
+UBR4|N LPFILRLLRGLAIQHPGT--QVLIGTDSIPNLH-KLEQVSSD-EGIGTLAENL---LEAL
+       . : :. :: : . : .   ::: :: .  ..: :::..:   . . .....    ::::
+sp|P12 FHF-LKNLRLLEL-HDNRIEQVLKGTFQ-GDIHSKLEEISLRFNHLTSISQHTFFDLEAL
+          550        560       570        580       590       600  
+
+          410       420       430        440       450       460   
+UBR4|N RE-HPDVNKKIDAARRETRAEKKRMA-MAMRQKALGTLGMTTNEKGQVVTKTALLKQMEE
+       :. : : :: ::  .:..  .  ..  ...: . ...:.   .:. : . :  .:     
+sp|P12 RKLHLDDNK-IDKIERRAFMNLDELEYLSLRGNKINNLA---DESFQNLPKLEILDMAFN
+            610        620       630       640          650        
+
+           470       480       490       500       510       520   
+UBR4|N LIEEPGLTCCICREGYKFQPTKVLGIYTFTKRVALEEMENKPRKQQGYSTVSHFNIVHYD
+                                                                   
+sp|P12 QLPNFNFDYFDQVGTLSNLNVNVSHNQIRQLMYNSSWSGRNEHGGMYHSNIKILDLSHNN
+      660       670       680       690       700       710        
+
+>>tr|Q9VPH4|Q9VPH4_DROME FI03293p OS=Drosophila melanoga  (390 aa)
+ s-w opt: 105  Z-score: 110.8  bits: 30.4 E(35806):  8.3
+Smith-Waterman score: 105; 30.3% identity (52.9% similar) in 155 aa overlap (365-512:105-249)
+
+          340       350       360       370       380       390    
+UBR4|N SAKNLDADIWKKFLSRPALPFILRLLRGLAIQHPGTQVLIGTDSIPNLHKLEQVSSDEGI
+                                     :.  .:. :  .: .  : .  :: .::  
+tr|Q9V GYMELLRRRFGTKRTSANKIYQEYIAHKEHIHMNATRWLTLSDYVKWLGRTGQVIADE--
+           80        90       100       110       120       130    
+
+          400       410       420          430       440        450
+UBR4|N GTLAENLLEALREHPDVNKKIDAARRETRAEK---KRMAMAMRQKALGTLGMTTNE-KGQ
+        :    ..  . . :.. ..   : :. . ::   .:::  ..:.  .. .   .: .::
+tr|Q9V -TEKGWFVTYIDRSPEAMERQAKADRKEKMEKDDEERMADFIEQQIKNAKAKDGEEDEGQ
+             140       150       160       170       180       190 
+
+              460       470       480       490       500          
+UBR4|N VVTKTALLKQMEELIEEPGLTCCICREGYKFQPTKVLGIYTFTKRVALEEMEN---KPRK
+          : . ::. :   .:: :   : :   ::::  :::  ...:: : :  :.   ::..
+tr|Q9V --EKFTELKREE---NEP-LKLDI-RLEKKFQPDTVLGKSALAKRPAPEAEEKVFKKPKS
+               200            210       220       230       240    
+
+       510       520       530       540       550       560       
+UBR4|N QQGYSTVSHFNIVHYDCHLAAVRLARGREEWESAALQNANTKCNGLLPVWGPHVPESAFA
+         : :                                                       
+tr|Q9V VAGDSQTRSVLDEIIKQEESKKERANRKDYWLHKGIVVKFISKSMGEKFFKQKAVVLDVI
+          250       260       270       280       290       300    
+
+>>sp|Q8BWY9|CIP2A_MOUSE Protein CIP2A OS=Mus musculus OX  (907 aa)
+ s-w opt: 111  Z-score: 109.8  bits: 31.4 E(35806):  9.4
+Smith-Waterman score: 111; 22.7% identity (51.4% similar) in 321 aa overlap (185-486:613-903)
+
+          160       170       180       190       200              
+UBR4|N NRQQLVKLEMNTLNVMLGTLNLALVAEQESKDSGGAAVAEQVLSIMEIILD-----ESNA
+                                     ::. .     ......:. :.     ::  
+sp|Q8B KCLTPPPSKDNAPALNIEDLIEKLQAGVMVKDQISDIRISDIMDVYEMKLSTLASKESRL
+            590       600       610       620       630       640  
+
+     210       220       230       240       250           260     
+UBR4|N EPLSEDKGNLLLTGDKDQLVMLLDQINSTFVRSNPSVLQGLLRIIPY----LSFG-----
+       . : : :.  :  .. :.:.    . . : ....  .: :.:: .      ::       
+sp|Q8B QDLLEAKA--LALAQADRLIAQY-RCQRTQAETEARTLAGMLREVERKNEELSVLLKSQQ
+            650         660        670       680       690         
+
+               270        280       290       300       310        
+UBR4|N -EVEKMQILVER-FKPYCNFDKYDEDHSGDDKVFLDCFCKIAAGIKNNSNGHQLKDLILQ
+        : :. :  .:. :.   ....   .:    : ...   .  :  :.:.      ::   
+sp|Q8B LESERAQNDIEHLFQHSKKLESVAAEHEILTKSYMELVQRNEATEKKNT------DL---
+     700       710       720       730       740             750   
+
+      320       330       340       350       360       370        
+UBR4|N KGITQNALDYMKKHIPSAKNLDADIWKKFLSRPALPFILRLLRGLAIQHPGTQVLIGTDS
+           :.. . ..::: . :.:. .  :.   .    .: .  .   .:   .:.     .
+sp|Q8B ----QTTCESLNKHIETMKKLN-EALKQQNEKTIAQLIEKEEQRKEVQ---SQLADRECK
+                  760        770       780       790          800  
+
+      380       390       400       410       420        430       
+UBR4|N IPNLHKLEQVSSDEGIGTLAENLLEALREHPDVNKKIDAARRE-TRAEKKRMAMAMRQKA
+       . ::::. . :..: .     :.:.  .:. : .. ::  :.: .:.:. :  .... ..
+sp|Q8B LSNLHKIAK-SQEEKL-----NVLQ--KEKEDKQETIDILRKELSRTEQIRKELSIKASS
+            810             820         830       840       850    
+
+       440       450        460       470        480       490     
+UBR4|N LGTLGMTTNEKGQVVTKTALLK-QMEELIEEPGLTCCICR-EGYKFQPTKVLGIYTFTKR
+       :      .. .:..  : .::: :.::: ..  .   :    : :..:  :         
+sp|Q8B LEM--HKAQLEGRLEEKESLLKLQQEELNKHSHMIAMIHSLSGGKISPETVNLSI     
+            860       870       880       890       900            
+
+         500       510       520       530       540       550     
+UBR4|N VALEEMENKPRKQQGYSTVSHFNIVHYDCHLAAVRLARGREEWESAALQNANTKCNGLLP
+
+>>sp|Q9D4G2|HSF2B_MOUSE Heat shock factor 2-binding prot  (338 aa)
+ s-w opt: 103  Z-score: 109.8  bits: 30.0 E(35806):  9.4
+Smith-Waterman score: 103; 26.4% identity (61.8% similar) in 110 aa overlap (81-181:160-256)
+
+               60        70        80        90       100          
+UBR4|N LDLPVAEVYKKVWCTTNEGEPMRIVYRMRGLLGDATEEFIESLDSTTDEEEDEEE--VYK
+                                     . :.. : :..:::. . : ...:.  :. 
+sp|Q9D VTCTLLWGVSSSEEVVKTILGGDKALKFFNITGQTMESFVKSLDGDVKEVDSDENQFVFA
+     130       140       150       160       170       180         
+
+      110       120       130         140            150       160 
+UBR4|N MAGVMAQCGGLECMLNRLAGIRDF--KQGRHLLTVLLKLFS-----YCVKVKVNRQQLVK
+       .::.... ... :      : :.:  ...: :: ..:.:..      :.:.::       
+sp|Q9D LAGIVTNVAAIAC------G-REFLVNSSRVLLDTMLQLLGDLKPGQCTKLKV------L
+     190       200              210       220       230            
+
+             170       180       190       200       210       220 
+UBR4|N LEMNTLNVMLGTLNLALVAEQESKDSGGAAVAEQVLSIMEIILDESNAEPLSEDKGNLLL
+       . :.  :: ... .:  ..:                                        
+sp|Q9D MLMSLYNVSINSKGLKYITESPGFIPLLWWLLSDPDAEVCLHTLRLIQSVVLEPDVFSKV
+        240       250       260       270       280       290      
+
+
+
+817 residues in 1 query   sequences
+19141954 residues in 35806 library sequences
+ Tcomplib [36.3.8h May, 2020] (32 proc in memory [0G])
+ start: Mon Dec 13 22:11:07 2021 done: Mon Dec 13 22:11:17 2021
+ Total Scan time:  4.430 Total Display time:  0.330
+
+Function used was SSEARCH [36.3.8h May, 2020]
